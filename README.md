@@ -31,6 +31,12 @@ Fidel.apiKey = "pk_test_7ty6i7..."
 Fidel.programId = "3a7a169a-..."
 ```
 
+You can pass additional data:
+
+```swift
+Fidel.metaData = ["id": "this-is-the-metadata-id", "customKey1": "customValue1", "customKey2": "customValue2"]
+```
+
 To start card scanning automatically:
 
 ```swift
