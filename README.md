@@ -19,13 +19,13 @@ end
 Add the Fidel pod itself:
 
 ```ruby
-pod 'Fidel', :git => 'https://github.com/FidelLimited/ios-sdk', :tag => '1.1.0'
+pod 'Fidel', :git => 'https://github.com/FidelLimited/fidel-ios', :tag => '1.1.0'
 ```
 
 In case you're on **Swift < 3.2**, use `1.0.7` tag instead:
 
 ```ruby
-pod 'Fidel', :git => 'https://github.com/FidelLimited/ios-sdk', :tag => '1.0.7'
+pod 'Fidel', :git => 'https://github.com/FidelLimited/fidel-ios', :tag => '1.0.7'
 ```
 
 ### Usage
