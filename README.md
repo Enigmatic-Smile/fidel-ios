@@ -7,19 +7,25 @@ In addition to the SDK we've included an example app to show you how to use the 
 
 We recommend using [CocoaPods][642d6fa5] to integrate the FIDEL SDK with your project.
 
-  [642d6fa5]: https://cocoapods.org/ "CocoaPods"
+[642d6fa5]: https://cocoapods.org/ "CocoaPods"
 
 Add this [pre_install](https://guides.cocoapods.org/syntax/podfile.html#pre_install) hook to your Podfile:
 
 ```ruby
 pre_install do |installer|
-  def installer.verify_no_static_framework_transitive_dependencies; end
+def installer.verify_no_static_framework_transitive_dependencies; end
 end
 ```
 Add the Fidel pod itself:
 
 ```ruby
-pod 'Fidel', :git => 'https://github.com/FidelLimited/fidel-ios', :tag => '1.0.7'
+pod 'Fidel', :git => 'https://github.com/FidelLimited/ios-sdk', :tag => '1.1.0'
+```
+
+In case you're on **Swift < 3.2**, use `1.0.7` tag instead:
+
+```ruby
+pod 'Fidel', :git => 'https://github.com/FidelLimited/ios-sdk', :tag => '1.0.7'
 ```
 
 ### Usage
@@ -29,12 +35,6 @@ Set your public SDK Key (pk_test or pk_live) and the **programId** you want to l
 ```swift
 Fidel.apiKey = "pk_test_7ty6i7..."
 Fidel.programId = "3a7a169a-..."
-```
-
-You can pass additional data:
-
-```swift
-Fidel.metaData = ["id": "this-is-the-metadata-id", "customKey1": "customValue1", "customKey2": "customValue2"]
 ```
 
 To start card scanning automatically:
@@ -59,9 +59,9 @@ Optionally, you can pass callbacks to be notified if the card was linked:
 
 ```swift
 Fidel.present(self, onCardLinkedCallback: { (card: LinkResult) in
-  print(card.id)
+print(card.id)
 }, onCardLinkFailedCallback: { (err: LinkError) in
-  print(err.message)
+print(err.message)
 })
 ```
 
@@ -106,3 +106,4 @@ FIDEL Developers Slack Channel - [https://fidel-developers-slack-invites.herokua
 ### License
 
 The FIDEL iOS SDK is open source and available under the MIT license. See the LICENSE file for more info.
+

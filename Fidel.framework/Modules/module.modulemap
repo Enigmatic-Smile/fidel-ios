@@ -7,4 +7,5 @@ framework module Fidel {
 
 module Fidel.Swift {
     header "Fidel-Swift.h"
+    requires objc
 }

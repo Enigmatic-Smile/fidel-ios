@@ -1,3 +1,6 @@
+## 1.1.0
+Migrated to Swift 3.2.
+
 ## 1.0.4
 
 Features:
