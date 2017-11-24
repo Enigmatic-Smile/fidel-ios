@@ -16,13 +16,20 @@ pre_install do |installer|
 def installer.verify_no_static_framework_transitive_dependencies; end
 end
 ```
-Add the Fidel pod itself:
+
+Add Fidel pod (Swift 4):
+
+```ruby
+pod 'Fidel', :git => 'https://github.com/FidelLimited/fidel-ios', :tag => '1.2.0'
+```
+
+or if you're using Swift 3.2:
 
 ```ruby
 pod 'Fidel', :git => 'https://github.com/FidelLimited/fidel-ios', :tag => '1.1.0'
 ```
 
-In case you're on **Swift < 3.2**, use `1.0.7` tag instead:
+or in case you're on **Swift < 3.2**, use `1.0.7` tag instead:
 
 ```ruby
 pod 'Fidel', :git => 'https://github.com/FidelLimited/fidel-ios', :tag => '1.0.7'

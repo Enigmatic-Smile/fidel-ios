@@ -1,3 +1,7 @@
+## 1.2.0
+Migrated to Swift 4.0.
+
+
 ## 1.1.0
 Migrated to Swift 3.2.
 
