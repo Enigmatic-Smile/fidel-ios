@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://fidel.uk/"
   s.license      = "MIT"
   s.authors      = { "Cornel Chitanu" => "tap@dolfn.com" }
-  s.source       = { :git => "https://github.com/FidelLimited/fidel-ios", :tag => "#{s.version}"}
+  s.source       = { :git => "https://github.com/FidelLimited/fidel-ios.git", :tag => "#{s.version}"}
   s.requires_arc = true
   s.platform     = :ios, "9.1"
   s.ios.vendored_frameworks = 'Fidel.framework'
