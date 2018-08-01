@@ -1,7 +1,6 @@
 # FIDEL iOS SDK
 
 This SDK helps you to add card linking technology to your iOS apps in minutes. It captures credit/debit card numbers securely and links them to your programs.
-In addition to the SDK we've included an example app to show you how to use the SDK in real scenarios.
 
 ### Installation
 
@@ -9,67 +8,112 @@ We recommend using [CocoaPods][642d6fa5] to integrate the FIDEL SDK with your pr
 
 [642d6fa5]: https://cocoapods.org/ "CocoaPods"
 
-Add this [pre_install](https://guides.cocoapods.org/syntax/podfile.html#pre_install) hook to your Podfile:
+##### Step 1
+Add Fidel pod (for Swift 4.1.2):
 
 ```ruby
-pre_install do |installer|
-def installer.verify_no_static_framework_transitive_dependencies; end
-end
+pod 'Fidel'
 ```
 
-Add Fidel pod (Swift 4):
+or if you're using Swift 4.0.2:
 
 ```ruby
-pod 'Fidel', :git => 'https://github.com/FidelLimited/fidel-ios', :tag => '1.2.0'
+pod 'Fidel', :tag => '1.2.1'
 ```
 
-or if you're using Swift 3.2:
+or in case you're on **Swift < 3.0**, use the `1.1.1` tag instead:
 
 ```ruby
-pod 'Fidel', :git => 'https://github.com/FidelLimited/fidel-ios', :tag => '1.1.0'
+pod 'Fidel', :tag => '1.1.1'
 ```
 
-or in case you're on **Swift < 3.2**, use `1.0.7` tag instead:
+##### Step 2
+In order to allow scanning cards with the camera, make sure to add the key `NSCameraUsageDescription` to your app's `Info.plist` and set the value to be a string describing why your app needs to use the camera (e.g. "To scan credit cards."). This string will be displayed when the app initially requests permission to access the camera.
 
-```ruby
-pod 'Fidel', :git => 'https://github.com/FidelLimited/fidel-ios', :tag => '1.0.7'
-```
+##### Step 3 (skip, if you have a Swift project)
+If you have an Objective-C project and did add any Swift code yet, please set the `Always Embed Swift Standard Libraries` flag, in Build Settings, to `YES`. If you're interested to understand the reasons, please read this [Apple material](https://developer.apple.com/library/archive/qa/qa1881/_index.html).
 
 ### Usage
 
-Set your public SDK Key (pk_test or pk_live) and the **programId** you want to link cards to:
+Import the SDK in your code:
+##### Swift
+```swift
+import Fidel
+```
 
+##### Objective-C
+```objectivec
+#import <Fidel/Fidel-Swift.h>
+```
+
+Set your [Fidel](https://fidel.uk/) public SDK Key (pk_test or pk_live) and the [Fidel](https://fidel.uk/) **programId** you want to link cards to:
+
+##### Swift
 ```swift
 Fidel.apiKey = "pk_test_7ty6i7..."
 Fidel.programId = "3a7a169a-..."
 ```
 
+##### Objective-C
+```objectivec
+[FLFidel setApiKey:@"pk_test_7ty6i7..."];
+[FLFidel setProgramId:@"3a7a169a-..."];
+```
+
 To start card scanning automatically:
 
+##### Swift
 ```swift
 Fidel.autoScan = true
 ```
 
+##### Objective-C
+```objectivec
+[FLFidel setAutoScan:YES];
+```
+
 To customise the view with a custom banner:
 
+##### Swift
 ```swift
 Fidel.bannerImage = UIImage(named: "some_image_asset.png")
 ```
 
+##### Objective-C
+```objectivec
+[FLFidel setBannerImage:[UIImage imageNamed:@"myImage"]];
+```
+
 Then, present the Fidel view controller:
 
+##### Swift
 ```swift
 Fidel.present(presentingViewControllerInstance)
 ```
 
+##### Objective-C
+```objectivec
+[FLFidel present:self onCardLinkedCallback:nil onCardLinkFailedCallback:nil];
+```
+
 Optionally, you can pass callbacks to be notified if the card was linked:
 
+##### Swift
 ```swift
 Fidel.present(self, onCardLinkedCallback: { (card: LinkResult) in
-print(card.id)
+	print(card.id)
 }, onCardLinkFailedCallback: { (err: LinkError) in
-print(err.message)
+	print(err.message)
 })
+```
+
+##### Objective-C
+```objectivec
+[FLFidel present:self onCardLinkedCallback:^(FLLinkResult * _Nonnull result) {
+    NSLog(@"%@", result);
+} onCardLinkFailedCallback:^(FLLinkError * _Nonnull error) {
+    NSLog(@"%@", error);
+}];
 ```
 
 ### Documentation
