@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "CardIO.h"
-
 //! Project version number for Fidel.
 FOUNDATION_EXPORT double FidelVersionNumber;
 
