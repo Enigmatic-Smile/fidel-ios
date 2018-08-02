@@ -8,6 +8,8 @@ We recommend using [CocoaPods][642d6fa5] to integrate the FIDEL SDK with your pr
 
 [642d6fa5]: https://cocoapods.org/ "CocoaPods"
 
+Add a `Podfile` (if you don't have one already), by running the following command: `pod init`.
+
 ##### Step 1
 Add Fidel pod (for Swift 4.1.2):
 
@@ -32,6 +34,9 @@ In order to allow scanning cards with the camera, make sure to add the key `NSCa
 
 ##### Step 3 (skip, if you have a Swift project)
 If you have an Objective-C project and did add any Swift code yet, please set the `Always Embed Swift Standard Libraries` flag, in Build Settings, to `YES`. If you're interested to understand the reasons, please read this [Apple material](https://developer.apple.com/library/archive/qa/qa1881/_index.html).
+
+##### Troubleshooting
+In case Cocoapods doesnt find the Fidel specs or it finds older specs, try updating with `pod update`. After updating `pod install`.
 
 ### Usage
 
