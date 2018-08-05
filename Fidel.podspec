@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Fidel"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "Fidel iOS SDK."
   s.description  = "Fidel is an API platform that makes it easy for developers to link payment cards to loyalty and marketing services."
   s.homepage     = "https://fidel.uk/"
@@ -11,5 +11,4 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.1"
   s.ios.vendored_frameworks = 'Fidel.framework'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
-  s.dependency 'CardIO', '~> 5.4'
 end
