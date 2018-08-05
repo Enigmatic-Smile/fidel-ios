@@ -11,5 +11,4 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.1"
   s.ios.vendored_frameworks = 'Fidel.framework'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
-  s.dependency 'CardIO', '~> 5.4'
 end
