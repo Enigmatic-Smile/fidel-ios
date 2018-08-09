@@ -1,3 +1,6 @@
+## 1.3.2
+- Compiled the SDK with bitcode enabled
+
 ## 1.3.1
 - Removed the CardIO Pod from podspec dependencies of the Fidel SDK.
 
@@ -8,6 +11,9 @@ Compiled with Swift 4.1.2.
 - Made the Pod available for the public, through the Cocoapods trunk.
 - Made it easier to setup and use the Pod.
 - Made the CardIO Pod an external dependency of the Fidel SDK.
+
+## 1.2.3
+- Compiled the SDK with bitcode enabled
 
 ## 1.2.2
 - Removed the CardIO Pod from podspec dependencies of the Fidel SDK.
@@ -22,6 +28,9 @@ Compiled with Swift 4.0.2.
 
 ## 1.2.0
 Migrated to Swift 4.0.
+
+## 1.1.3
+- Compiled the SDK with bitcode enabled
 
 ## 1.1.2
 - Removed the CardIO Pod from podspec dependencies of the Fidel SDK.

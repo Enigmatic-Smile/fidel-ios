@@ -20,13 +20,13 @@ pod 'Fidel'
 or if you're using Swift 4.0.2:
 
 ```ruby
-pod 'Fidel', '~>1.2.2'
+pod 'Fidel', '~>1.2.3'
 ```
 
-or in case you're on **Swift < 3.0**, use the `1.1.2` tag instead:
+or in case you're on **Swift < 3.0**, use the `1.1.3` tag instead:
 
 ```ruby
-pod 'Fidel', '~>1.1.2'
+pod 'Fidel', '~>1.1.3'
 ```
 
 ##### Step 2
