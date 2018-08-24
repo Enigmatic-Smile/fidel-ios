@@ -1,10 +1,10 @@
 # FIDEL iOS SDK
 
-This SDK helps you to add card linking technology to your iOS apps in minutes. It captures credit/debit card numbers securely and links them to your programs.
+Our SDK helps you add card linking technology to your iOS apps in minutes. It captures credit/debit card numbers securely and links them to your programs.
 
 ### Installation
 
-We recommend using [CocoaPods][642d6fa5] to integrate the FIDEL SDK with your project.
+We recommend using [CocoaPods][642d6fa5] to integrate Fidel SDK with your project.
 
 [642d6fa5]: https://cocoapods.org/ "CocoaPods"
 
@@ -30,13 +30,13 @@ pod 'Fidel', '~>1.1.3'
 ```
 
 ##### Step 2
-In order to allow scanning cards with the camera, make sure to add the key `NSCameraUsageDescription` to your app's `Info.plist` and set the value to be a string describing why your app needs to use the camera (e.g. "To scan credit cards."). This string will be displayed when the app initially requests permission to access the camera.
+In order to allow scanning cards with the camera, make sure to add the key `NSCameraUsageDescription` to your app's `Info.plist` and set the value to a string describing why your app needs to use the camera (e.g. "To scan credit cards."). This string will be displayed when the app initially requests permission to access the camera.
 
-##### Step 3 (skip, if you have a Swift project)
-If you have an Objective-C project and did add any Swift code yet, please set the `Always Embed Swift Standard Libraries` flag, in Build Settings, to `YES`. If you're interested to understand the reasons, please read this [Apple material](https://developer.apple.com/library/archive/qa/qa1881/_index.html).
+##### Step 3 (skip if you have a Swift project)
+If you have an Objective-C project and did not add any Swift code yet, please set the `Always Embed Swift Standard Libraries` flag in Build Settings to `YES`. For more detailed information about this setting, please read this [Apple material](https://developer.apple.com/library/archive/qa/qa1881/_index.html).
 
 ##### Troubleshooting
-In case Cocoapods doesnt find the Fidel specs or it finds older specs, try updating with `pod update`. After updating `pod install`.
+In case Cocoapods doesn't find the Fidel specs or it finds older specs, try updating with `pod update`. After updating, run `pod install`.
 
 ### Usage
 
@@ -51,7 +51,7 @@ import Fidel
 #import <Fidel/Fidel-Swift.h>
 ```
 
-Set your [Fidel](https://fidel.uk/) public SDK Key (pk_test or pk_live) and the [Fidel](https://fidel.uk/) **programId** you want to link cards to:
+Set your public SDK Key (`pk_test` or `pk_live`) and the `programId` you want to link cards to:
 
 ##### Swift
 ```swift
@@ -152,14 +152,13 @@ var testCards = [
 
 ### Feedback
 
-The FIDEL iOS SDK is in active development, we welcome your feedback!
+The Fidel iOS SDK is in active development, we welcome your feedback!
 
 Get in touch:
 
-GitHub Issues - For SDK issues and feedback
-FIDEL Developers Slack Channel - [https://fidel-developers-slack-invites.herokuapp.com](https://fidel-developers-slack-invites.herokuapp.com) - for personal support at any phase of integration
+GitHub Issues - For SDK issues
+FIDEL Developers Slack Channel - [https://fidel-developers-slack-invites.herokuapp.com](https://fidel-developers-slack-invites.herokuapp.com) - for personal support and feedback at any phase of integration
 
 ### License
 
 The FIDEL iOS SDK is open source and available under the MIT license. See the LICENSE file for more info.
-
