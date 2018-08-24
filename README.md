@@ -156,7 +156,7 @@ The Fidel iOS SDK is in active development, we welcome your feedback!
 
 Get in touch:
 
-GitHub Issues - For SDK issues
+GitHub Issues - For SDK issues  
 FIDEL Developers Slack Channel - [https://fidel-developers-slack-invites.herokuapp.com](https://fidel-developers-slack-invites.herokuapp.com) - for personal support and feedback at any phase of integration
 
 ### License
