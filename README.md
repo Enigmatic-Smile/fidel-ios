@@ -155,10 +155,10 @@ var testCards = [
 The Fidel iOS SDK is in active development, we welcome your feedback!
 
 Get in touch:
+* GitHub Issues - For SDK issues
+* [Developers Slack Channel](https://fidel-developers-slack-invites.herokuapp.com) for personal support and feedback at any phase of integration
 
-GitHub Issues - For SDK issues  
-FIDEL Developers Slack Channel - [https://fidel-developers-slack-invites.herokuapp.com](https://fidel-developers-slack-invites.herokuapp.com) - for personal support and feedback at any phase of integration
 
-### License
+### License
 
 The FIDEL iOS SDK is open source and available under the MIT license. See the LICENSE file for more info.
