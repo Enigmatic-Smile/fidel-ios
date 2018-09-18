@@ -2,6 +2,8 @@
 
 Our SDK helps you add card linking technology to your iOS apps in minutes. It captures credit/debit card numbers securely and links them to your programs.
 
+![Alt Text](https://cl.ly/128f284fda4a/Screen%252520Recording%2525202018-09-18%252520at%25252004.25%252520PM.gif)
+
 ### Installation
 
 We recommend using [CocoaPods][642d6fa5] to integrate Fidel SDK with your project.
