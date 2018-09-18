@@ -2,7 +2,7 @@
 
 Our SDK helps you add card linking technology to your iOS apps in minutes. It captures credit/debit card numbers securely and links them to your programs.
 
-![Demo GIF](https://cl.ly/128f284fda4a/Screen%252520Recording%2525202018-09-18%252520at%25252004.25%252520PM.gif)
+![Demo GIF](https://cl.ly/84d481392da6/Screen%252520Recording%2525202018-09-18%252520at%25252004.49%252520PM.gif)
 
 ### Installation
 
