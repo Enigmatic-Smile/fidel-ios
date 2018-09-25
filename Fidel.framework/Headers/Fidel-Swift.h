@@ -386,11 +386,19 @@ SWIFT_CLASS("_TtC5Fidel13CardTextField")
 @property (nonatomic) UIKeyboardAppearance keyboardAppearance;
 @end
 
+typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country") {
+  FLCountryUnitedKingdom = 0,
+  FLCountryIreland = 1,
+  FLCountryUnitedStates = 2,
+  FLCountrySweden = 3,
+  FLCountryNoDefault = 4,
+};
+
 
 @class UIImage;
+@class UIViewController;
 @class FLLinkResult;
 @class FLLinkError;
-@class UIViewController;
 
 SWIFT_CLASS_NAMED("Fidel")
 @interface FLFidel : NSObject
@@ -409,7 +417,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable api
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSDictionary<NSString *, id> * _Nullable metaData;)
 + (NSDictionary<NSString *, id> * _Nullable)metaData SWIFT_WARN_UNUSED_RESULT;
 + (void)setMetaData:(NSDictionary<NSString *, id> * _Nullable)value;
-+ (void)linkCard:(NSString * _Nonnull)card expMonth:(NSUInteger)expMonth expYear:(NSUInteger)expYear countryCode:(NSString * _Nonnull)countryCode onCardLinkedCallback:(void (^ _Nullable)(FLLinkResult * _Nonnull))onCardLinkedCallback onCardLinkFailedCallback:(void (^ _Nullable)(FLLinkError * _Nonnull))onCardLinkFailedCallback;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum FLCountry country;)
++ (enum FLCountry)country SWIFT_WARN_UNUSED_RESULT;
++ (void)setCountry:(enum FLCountry)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull companyName;)
++ (NSString * _Nonnull)companyName SWIFT_WARN_UNUSED_RESULT;
++ (void)setCompanyName:(NSString * _Nonnull)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable privacyURL;)
++ (NSString * _Nullable)privacyURL SWIFT_WARN_UNUSED_RESULT;
++ (void)setPrivacyURL:(NSString * _Nullable)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull deleteInstructions;)
++ (NSString * _Nonnull)deleteInstructions SWIFT_WARN_UNUSED_RESULT;
++ (void)setDeleteInstructions:(NSString * _Nonnull)value;
 + (void)present:(UIViewController * _Nonnull)caller onCardLinkedCallback:(void (^ _Nullable)(FLLinkResult * _Nonnull))onCardLinkedCallback onCardLinkFailedCallback:(void (^ _Nullable)(FLLinkError * _Nonnull))onCardLinkFailedCallback;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
