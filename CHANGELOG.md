@@ -1,6 +1,135 @@
+## 1.4.1
+- Fix the Info.plist to include only one platform: `iPhoneOS`
+
+## 1.4.0
+- Add support for Swift 4.2
+- Added the Sweden country option
+- Now you can customize the final consent text with the following API:
+
+    `Fidel.companyName = "Your Company Name Inc."` (Maximum 60 characters)
+    
+    `Fidel.privacyURL = "https://yourcompany.com/privacyURL"` (must be a valid URL)
+    
+    `Fidel.deleteInstructions = "Your delete instructions"` (Maximum 60 characters)
+    
+- If the data above is not valid, the UI will not be displayed and you will get an error.
+- Set a default country the SDK should use with `Fidel.country = .unitedKingdom`. When you set a default country, the card linking screen will not show the country picker UI.
+- Add support for more test cards. Anything with the following format:
+
+    Visa: _4444000000004***_
+    
+    Mastercard: _5555000000005***_
+
+## 1.3.4
+- Fix the Info.plist to include only one platform: `iPhoneOS`
+
+## 1.3.3
+- Supported in Swift 4.1 projects
+- Added the Sweden country option
+- Now you can customize the final consent text with the following API:
+
+    `Fidel.companyName = "Your Company Name Inc."` (Maximum 60 characters)
+    
+    `Fidel.privacyURL = "https://yourcompany.com/privacyURL"` (must be a valid URL)
+    
+    `Fidel.deleteInstructions = "Your delete instructions"` (Maximum 60 characters)
+    
+- If the data above is not valid, the UI will not be displayed and you will get an error.
+- Set a default country the SDK should use with `Fidel.country = .unitedKingdom`. When you set a default country, the card linking screen will not show the country picker UI.
+- Add support for more test cards. Anything with the following format:
+
+    Visa: _4444000000004***_
+    
+    Mastercard: _5555000000005***_
+
+## 1.3.2
+- Compiled the SDK with bitcode enabled
+
+## 1.3.1
+- Removed the CardIO Pod from podspec dependencies of the Fidel SDK.
+
+## 1.3.0
+Compiled with Swift 4.1.2.
+- Added USA country option.
+- Made the SDK available for Objective-C projects.
+- Made the Pod available for the public, through the Cocoapods trunk.
+- Made it easier to setup and use the Pod.
+- Made the CardIO Pod an external dependency of the Fidel SDK.
+
+## 1.2.5
+- Fix the Info.plist to include only one platform: `iPhoneOS`
+
+## 1.2.4
+- Supported in Swift 4.0 projects
+- Added the Sweden country option
+- Now you can customize the final consent text with the following API:
+
+    `Fidel.companyName = "Your Company Name Inc."` (Maximum 60 characters)
+    
+    `Fidel.privacyURL = "https://yourcompany.com/privacyURL"` (must be a valid URL)
+    
+    `Fidel.deleteInstructions = "Your delete instructions"` (Maximum 60 characters)
+    
+- If the data above is not valid, the UI will not be displayed and you will get an error.
+- Set a default country the SDK should use with `Fidel.country = .unitedKingdom`. When you set a default country, the card linking screen will not show the country picker UI.
+- Add support for more test cards. Anything with the following format:
+
+    Visa: _4444000000004***_
+    
+    Mastercard: _5555000000005***_
+
+## 1.2.3
+- Compiled the SDK with bitcode enabled
+
+## 1.2.2
+- Removed the CardIO Pod from podspec dependencies of the Fidel SDK.
+
+## 1.2.1
+Compiled with Swift 4.0.2.
+- Added USA country option.
+- Made the SDK available for Objective-C projects.
+- Made the Pod available for the public, through the Cocoapods trunk.
+- Made it easier to setup and use the Pod.
+- Made the CardIO Pod an external dependency of the Fidel SDK.
+
 ## 1.2.0
 Migrated to Swift 4.0.
 
+## 1.1.5
+- Fix the Info.plist to include only one platform: `iPhoneOS`
+
+## 1.1.4
+- Supported in Swift 3.0 projects
+- Added the Sweden country option
+- Now you can customize the final consent text with the following API:
+
+    `Fidel.companyName = "Your Company Name Inc."` (Maximum 60 characters)
+    
+    `Fidel.privacyURL = "https://yourcompany.com/privacyURL"` (must be a valid URL)
+    
+    `Fidel.deleteInstructions = "Your delete instructions"` (Maximum 60 characters)
+    
+- If the data above is not valid, the UI will not be displayed and you will get an error.
+- Set a default country the SDK should use with `Fidel.country = .unitedKingdom`. When you set a default country, the card linking screen will not show the country picker UI.
+- Add support for more test cards. Anything with the following format:
+
+    Visa: _4444000000004***_
+    
+    Mastercard: _5555000000005***_
+
+## 1.1.3
+- Compiled the SDK with bitcode enabled
+
+## 1.1.2
+- Removed the CardIO Pod from podspec dependencies of the Fidel SDK.
+
+## 1.1.1
+Compiled with Swift 3.0.
+- Added USA country option.
+- Made the SDK available for Objective-C projects.
+- Made the Pod available for the public, through the Cocoapods trunk.
+- Made it easier to setup and use the Pod.
+- Made the CardIO Pod an external dependency of the Fidel SDK.
 
 ## 1.1.0
 Migrated to Swift 3.2.
