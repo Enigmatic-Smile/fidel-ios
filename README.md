@@ -13,22 +13,28 @@ We recommend using [CocoaPods][642d6fa5] to integrate Fidel SDK with your projec
 Add a `Podfile` (if you don't have one already), by running the following command: `pod init`.
 
 ##### Step 1
-Add Fidel pod (for Swift 4.1.2):
+Add Fidel pod (for Swift 4.2):
 
 ```ruby
 pod 'Fidel'
 ```
 
+or if you're using Swift 4.1:
+
+```ruby
+pod 'Fidel', '~>1.3.4'
+```
+
 or if you're using Swift 4.0.2:
 
 ```ruby
-pod 'Fidel', '~>1.2.3'
+pod 'Fidel', '~>1.2.5'
 ```
 
-or in case you're on **Swift < 3.0**, use the `1.1.3` tag instead:
+or in case you're on **Swift 3.0**, use the `1.1.5` tag instead:
 
 ```ruby
-pod 'Fidel', '~>1.1.3'
+pod 'Fidel', '~>1.1.5'
 ```
 
 ##### Step 2
@@ -123,34 +129,35 @@ Fidel.present(self, onCardLinkedCallback: { (card: LinkResult) in
 }];
 ```
 
+#### Customize checkbox consent text
+For customizing the checkbox consent, please use the following APIs:
+
+```swift
+Fidel.companyName = "Your Company Name Inc." //(Maximum 60 characters);
+Fidel.privacyURL = "https://yourcompany.com/privacyURL" //(must be a valid URL)
+Fidel.deleteInstructions = "Your delete instructions" //(Maximum 60 characters);
+```
+
+The default for `companyName` is `"Company Name"`.
+The default for `deleteInstructions` is `"going to your account settings"`.
+
+#### Default country
+
+Set a default country the SDK should use with 
+```swift
+Fidel.country = .unitedKingdom
+```
+When you set a default country, the card linking screen will not show the country picker UI. The other options, for now, are: `.unitedStates`, `.ireland`, `.sweden`, `.noDefault`.
+
+
+
 ### Documentation
 
 In test environment use our VISA and Mastercard test card numbers:
 
-```swift
-var testCards = [
-"5555000000005001",
-"5555000000005002",
-"5555000000005003",
-"5555000000005004",
-"5555000000005005",
-"5555000000005006",
-"5555000000005007",
-"5555000000005008",
-"5555000000005009",
-"5555000000005010",
-"4444000000004001",
-"4444000000004002",
-"4444000000004003",
-"4444000000004004",
-"4444000000004005",
-"4444000000004006",
-"4444000000004007",
-"4444000000004008",
-"4444000000004009",
-"4444000000004010"
-];
-```
+VISA: _4444000000004***_ (the last 3 numbers can be anything)
+
+Mastercard: _5555000000005***_ (the last 3 numbers can be anything)
 
 ### Feedback
 
