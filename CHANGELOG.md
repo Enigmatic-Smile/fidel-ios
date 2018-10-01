@@ -1,3 +1,6 @@
+## 1.4.1
+- Fix the Info.plist to include only one platform: `iPhoneOS`
+
 ## 1.4.0
 - Add support for Swift 4.2
 - Added the Sweden country option
@@ -16,6 +19,9 @@
     Visa: _4444000000004***_
     
     Mastercard: _5555000000005***_
+
+## 1.3.4
+- Fix the Info.plist to include only one platform: `iPhoneOS`
 
 ## 1.3.3
 - Supported in Swift 4.1 projects
@@ -49,6 +55,9 @@ Compiled with Swift 4.1.2.
 - Made the Pod available for the public, through the Cocoapods trunk.
 - Made it easier to setup and use the Pod.
 - Made the CardIO Pod an external dependency of the Fidel SDK.
+
+## 1.2.5
+- Fix the Info.plist to include only one platform: `iPhoneOS`
 
 ## 1.2.4
 - Supported in Swift 4.0 projects
@@ -85,6 +94,9 @@ Compiled with Swift 4.0.2.
 
 ## 1.2.0
 Migrated to Swift 4.0.
+
+## 1.1.5
+- Fix the Info.plist to include only one platform: `iPhoneOS`
 
 ## 1.1.4
 - Supported in Swift 3.0 projects

@@ -22,19 +22,19 @@ pod 'Fidel'
 or if you're using Swift 4.1:
 
 ```ruby
-pod 'Fidel', '~>1.3.3'
+pod 'Fidel', '~>1.3.4'
 ```
 
 or if you're using Swift 4.0.2:
 
 ```ruby
-pod 'Fidel', '~>1.2.4'
+pod 'Fidel', '~>1.2.5'
 ```
 
-or in case you're on **Swift 3.0**, use the `1.1.4` tag instead:
+or in case you're on **Swift 3.0**, use the `1.1.5` tag instead:
 
 ```ruby
-pod 'Fidel', '~>1.1.4'
+pod 'Fidel', '~>1.1.5'
 ```
 
 ##### Step 2
@@ -132,7 +132,7 @@ Fidel.present(self, onCardLinkedCallback: { (card: LinkResult) in
 #### Customize checkbox consent text
 For customizing the checkbox consent, please use the following APIs:
 
-```java
+```swift
 Fidel.companyName = "Your Company Name Inc." //(Maximum 60 characters);
 Fidel.privacyURL = "https://yourcompany.com/privacyURL" //(must be a valid URL)
 Fidel.deleteInstructions = "Your delete instructions" //(Maximum 60 characters);
