@@ -22,19 +22,19 @@ pod 'Fidel'
 or if you're using Swift 4.1:
 
 ```ruby
-pod 'Fidel', '~>1.3.4'
+pod 'Fidel', '~>1.3.5'
 ```
 
 or if you're using Swift 4.0.2:
 
 ```ruby
-pod 'Fidel', '~>1.2.5'
+pod 'Fidel', '~>1.2.6'
 ```
 
 or in case you're on **Swift 3.0**, use the `1.1.5` tag instead:
 
 ```ruby
-pod 'Fidel', '~>1.1.5'
+pod 'Fidel', '~>1.1.6'
 ```
 
 ##### Step 2
@@ -97,6 +97,8 @@ Fidel.bannerImage = UIImage(named: "some_image_asset.png")
 [FLFidel setBannerImage:[UIImage imageNamed:@"myImage"]];
 ```
 
+If you don't set a banner image, we'll just remove the top banner space entirely and card linking UI will stay on top.
+
 Then, present the Fidel view controller:
 
 ##### Swift
@@ -147,7 +149,7 @@ Set a default country the SDK should use with
 ```swift
 Fidel.country = .unitedKingdom
 ```
-When you set a default country, the card linking screen will not show the country picker UI. The other options, for now, are: `.unitedStates`, `.ireland`, `.sweden`, `.noDefault`.
+When you set a default country, the card linking screen will not show the country picker UI. The other options, for now, are: `.unitedStates`, `.ireland`, `.sweden`, `.japan`, `.noDefault`.
 
 
 
@@ -158,6 +160,10 @@ In test environment use our VISA and Mastercard test card numbers:
 VISA: _4444000000004***_ (the last 3 numbers can be anything)
 
 Mastercard: _5555000000005***_ (the last 3 numbers can be anything)
+
+#### Detect when user canceled card linking
+
+Check the `code` property of the error object you receive in the `onCardLinkFailedCallback` closure. When the user cancels card linking, the `code` is `user-canceled`. The error message is `User canceled card linking`.
 
 ### Feedback
 
