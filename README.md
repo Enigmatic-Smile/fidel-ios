@@ -13,7 +13,7 @@ We recommend using [CocoaPods][642d6fa5] to integrate Fidel SDK with your projec
 Add a `Podfile` (if you don't have one already), by running the following command: `pod init`.
 
 ##### Step 1
-Add Fidel pod (for Swift 4.2):
+Add Fidel pod (for Swift 4.2.1):
 
 ```ruby
 pod 'Fidel'

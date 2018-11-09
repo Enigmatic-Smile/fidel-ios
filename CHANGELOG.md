@@ -1,3 +1,15 @@
+## 1.4.2
+- Hidden the PayPal logo in the card scanning UI.
+- Notifying in the `onCardLinkFailedCallback` when the user cancels card linking. The `error.code` is `user-canceled`. The error message is `User canceled card linking.`
+- Hidden the "select country" bar on all-screen iPhones.
+- Added the Japan country option.
+- Disabled CardIO manual card details entry forms.
+- Improved testing mode user experience.
+- Allow the user to select the consent checkbox, even before filling in any information.
+- Tapping anywhere on the screen dismisses the keyboard
+- Now the user can scroll/bounce the card form when swiping vertically, because it's fun.
+- If you don't set a banner image, we'll hide the top space reserved for it.
+
 ## 1.4.1
 - Fix the Info.plist to include only one platform: `iPhoneOS`
 
@@ -19,6 +31,18 @@
     Visa: _4444000000004***_
     
     Mastercard: _5555000000005***_
+
+## 1.3.5
+- Hidden the PayPal logo in the card scanning UI.
+- Notifying in the `onCardLinkFailedCallback` when the user cancels card linking. The `error.code` is `user-canceled`. The error message is `User canceled card linking.`
+- Hidden the "select country" bar on all-screen iPhones.
+- Added the Japan country option.
+- Disabled CardIO manual card details entry forms.
+- Improved testing mode user experience.
+- Allow the user to select the consent checkbox, even before filling in any information.
+- Tapping anywhere on the screen dismisses the keyboard
+- Now the user can scroll/bounce the card form when swiping vertically, because it's fun.
+- If you don't set a banner image, we'll hide the top space reserved for it.
 
 ## 1.3.4
 - Fix the Info.plist to include only one platform: `iPhoneOS`
@@ -55,6 +79,18 @@ Compiled with Swift 4.1.2.
 - Made the Pod available for the public, through the Cocoapods trunk.
 - Made it easier to setup and use the Pod.
 - Made the CardIO Pod an external dependency of the Fidel SDK.
+
+## 1.2.6
+- Hidden the PayPal logo in the card scanning UI.
+- Notifying in the `onCardLinkFailedCallback` when the user cancels card linking. The `error.code` is `user-canceled`. The error message is `User canceled card linking.`
+- Hidden the "select country" bar on all-screen iPhones.
+- Added the Japan country option.
+- Disabled CardIO manual card details entry forms.
+- Improved testing mode user experience.
+- Allow the user to select the consent checkbox, even before filling in any information.
+- Tapping anywhere on the screen dismisses the keyboard
+- Now the user can scroll/bounce the card form when swiping vertically, because it's fun.
+- If you don't set a banner image, we'll hide the top space reserved for it.
 
 ## 1.2.5
 - Fix the Info.plist to include only one platform: `iPhoneOS`
@@ -94,6 +130,18 @@ Compiled with Swift 4.0.2.
 
 ## 1.2.0
 Migrated to Swift 4.0.
+
+## 1.1.6
+- Hidden the PayPal logo in the card scanning UI.
+- Notifying in the `onCardLinkFailedCallback` when the user cancels card linking. The `error.code` is `user-canceled`. The error message is `User canceled card linking.`
+- Hidden the "select country" bar on all-screen iPhones.
+- Added the Japan country option.
+- Disabled CardIO manual card details entry forms.
+- Improved testing mode user experience.
+- Allow the user to select the consent checkbox, even before filling in any information.
+- Tapping anywhere on the screen dismisses the keyboard
+- Now the user can scroll/bounce the card form when swiping vertically, because it's fun.
+- If you don't set a banner image, we'll hide the top space reserved for it.
 
 ## 1.1.5
 - Fix the Info.plist to include only one platform: `iPhoneOS`
