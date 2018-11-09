@@ -280,20 +280,24 @@ SWIFT_PROTOCOL("_TtP5Fidel28NumberInputTextFieldDelegate_")
 /// <ul>
 ///   <li>
 ///     _: UIView (in most cases with a transparent background in order to not hide the CardTextField)
-///     <ul>
-///       <li>
-///         cardImageView: UIImageView
-///       </li>
-///       <li>
-///         CardNumberInputTextField (for entering a card number)
-///       </li>
-///     </ul>
+///   </li>
+///   <li>
+///     cardImageView: UIImageView
+///   </li>
+///   <li>
+///     CardNumberInputTextField (for entering a card number)
 ///   </li>
 ///   <li>
 ///     cardInfoView: UIView (container for other views to enter additional information after entering a valid card number) with subviews ordered from left to right:
-///     - monthTextField: StylizedTextField
-///     - yearTextField: StylizedTextField
-///     - cvcTextField: StylizedTextField
+///   </li>
+///   <li>
+///     monthTextField: StylizedTextField
+///   </li>
+///   <li>
+///     yearTextField: StylizedTextField
+///   </li>
+///   <li>
+///     cvcTextField: StylizedTextField
 ///   </li>
 /// </ul>
 /// In order to create a custom CardTextField, you can create a subclass which overrides <code>getNibName()</code> and <code>getNibBundle()</code> in order to load a nib from a specific bundle, which follows this structure
@@ -391,7 +395,8 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country") {
   FLCountryIreland = 1,
   FLCountryUnitedStates = 2,
   FLCountrySweden = 3,
-  FLCountryNoDefault = 4,
+  FLCountryJapan = 4,
+  FLCountryNoDefault = 5,
 };
 
 
