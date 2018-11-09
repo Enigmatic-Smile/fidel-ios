@@ -394,7 +394,8 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country") {
   FLCountryIreland = 1,
   FLCountryUnitedStates = 2,
   FLCountrySweden = 3,
-  FLCountryNoDefault = 4,
+  FLCountryJapan = 4,
+  FLCountryNoDefault = 5,
 };
 
 
