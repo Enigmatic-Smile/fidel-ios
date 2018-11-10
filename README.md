@@ -31,7 +31,7 @@ or if you're using Swift 4.0.2:
 pod 'Fidel', '~>1.2.6'
 ```
 
-or in case you're on **Swift 3.0**, use the `1.1.5` tag instead:
+or in case you're on **Swift 3.0**, use the `1.1.6` tag instead:
 
 ```ruby
 pod 'Fidel', '~>1.1.6'
