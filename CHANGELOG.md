@@ -1,3 +1,6 @@
+## 1.4.3
+- Add support for American Express test cards
+
 ## 1.4.2
 - Hidden the PayPal logo in the card scanning UI.
 - Notifying in the `onCardLinkFailedCallback` when the user cancels card linking. The `error.code` is `user-canceled`. The error message is `User canceled card linking.`
@@ -31,6 +34,8 @@
     Visa: _4444000000004***_
     
     Mastercard: _5555000000005***_
+## 1.3.6
+- Add support for American Express test cards
 
 ## 1.3.5
 - Hidden the PayPal logo in the card scanning UI.
@@ -79,6 +84,9 @@ Compiled with Swift 4.1.2.
 - Made the Pod available for the public, through the Cocoapods trunk.
 - Made it easier to setup and use the Pod.
 - Made the CardIO Pod an external dependency of the Fidel SDK.
+
+## 1.2.7
+- Add support for American Express test cards
 
 ## 1.2.6
 - Hidden the PayPal logo in the card scanning UI.
@@ -130,6 +138,9 @@ Compiled with Swift 4.0.2.
 
 ## 1.2.0
 Migrated to Swift 4.0.
+
+## 1.1.7
+- Add support for American Express test cards
 
 ## 1.1.6
 - Hidden the PayPal logo in the card scanning UI.

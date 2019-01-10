@@ -22,19 +22,19 @@ pod 'Fidel'
 or if you're using Swift 4.1:
 
 ```ruby
-pod 'Fidel', '~>1.3.5'
+pod 'Fidel', '~>1.3.6'
 ```
 
 or if you're using Swift 4.0.2:
 
 ```ruby
-pod 'Fidel', '~>1.2.6'
+pod 'Fidel', '~>1.2.7'
 ```
 
-or in case you're on **Swift 3.0**, use the `1.1.6` tag instead:
+or in case you're on **Swift 3.0**, use the `1.1.7` tag instead:
 
 ```ruby
-pod 'Fidel', '~>1.1.6'
+pod 'Fidel', '~>1.1.7'
 ```
 
 ##### Step 2
@@ -155,11 +155,13 @@ When you set a default country, the card linking screen will not show the countr
 
 ### Documentation
 
-In test environment use our VISA and Mastercard test card numbers:
+In test environment use our VISA, Mastercard or American Express test card numbers:
 
 VISA: _4444000000004***_ (the last 3 numbers can be anything)
 
 Mastercard: _5555000000005***_ (the last 3 numbers can be anything)
+
+American Express: _3400000000003**_ or _3700000000003**_ (the last 2 numbers can be anything)
 
 #### Detect when user canceled card linking
 
