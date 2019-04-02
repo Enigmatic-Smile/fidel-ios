@@ -1,3 +1,6 @@
+## 1.5.0
+- The Fidel iOS SDK is now compiled with Swift 5
+
 ## 1.4.4
 - Added the Canada country option
 
