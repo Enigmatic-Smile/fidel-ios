@@ -1,4 +1,12 @@
+# Fidel iOS SDK Change log
+
+## 1.5.1
+
+- Added new property that lets you define the card schemes that you suppport (`supportedCardSchemes`).
+- Generated the Objective-C `Fidel-Swift.h` file with Xcode 10.2. Added the generated header file contents that provides support to run your Objective-C project on the simulator as well.
+
 ## 1.5.0
+
 - The Fidel iOS SDK is now compiled with Swift 5
 
 ## 1.4.4

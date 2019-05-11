@@ -150,15 +150,37 @@ Fidel.deleteInstructions = "Your delete instructions" //(Maximum 60 characters);
 The default for `companyName` is `"Company Name"`.
 The default for `deleteInstructions` is `"going to your account settings"`.
 
+#### Supported card schemes
+We currently support _Visa_, _Mastercard_ and _AmericanExpress_, but you can choose to support only one, two or all three. You can do that by using `supportedCardSchemes`. Please note that the value of this set cannot be an empty set.
+
+Check the example below:
+
+##### Swift
+
+```swift
+Fidel.supportedCardSchemes = [.visa, .mastercard, .americanExpress] //you can also add .amex
+```
+
+##### Objective-C
+
+```objectivec
+NSSet *supportedCardSchemes = [[NSSet alloc] initWithObjects:
+                                   @(FLCardSchemeVisa),
+                                   @(FLCardSchemeMastercard),
+                                   @(FLCardSchemeAmericanExpress),
+                                   nil];
+FLFidel.objc_supportedCardSchemes = supportedCardSchemes;
+```
+
 #### Default country
 
-Set a default country the SDK should use with 
+Set a default country the SDK should use with:
+
 ```swift
 Fidel.country = .unitedKingdom
 ```
+
 When you set a default country, the card linking screen will not show the country picker UI. The other options, for now, are: `.unitedStates`, `.ireland`, `.sweden`, `.japan`, `.canada`, `.noDefault`.
-
-
 
 ### Documentation
 
