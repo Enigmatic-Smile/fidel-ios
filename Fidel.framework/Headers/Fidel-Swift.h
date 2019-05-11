@@ -252,6 +252,12 @@ SWIFT_PROTOCOL("_TtP5Fidel25CardInfoTextFieldDelegate_")
 - (void)textField:(UITextField * _Nonnull)textField didEnterOverflowInfo:(NSString * _Nonnull)overFlowDigits;
 @end
 
+typedef SWIFT_ENUM_NAMED(NSInteger, FLCardScheme, "CardScheme", closed) {
+  FLCardSchemeVisa = 0,
+  FLCardSchemeMastercard = 1,
+  FLCardSchemeAmericanExpress = 2,
+};
+
 @class NumberInputTextField;
 
 SWIFT_PROTOCOL("_TtP5Fidel28NumberInputTextFieldDelegate_")
@@ -422,6 +428,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSDictionary<NSString *,
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum FLCountry country;)
 + (enum FLCountry)country SWIFT_WARN_UNUSED_RESULT;
 + (void)setCountry:(enum FLCountry)value;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSSet<NSNumber *> * _Nonnull objc_supportedCardSchemes;)
++ (NSSet<NSNumber *> * _Nonnull)objc_supportedCardSchemes SWIFT_WARN_UNUSED_RESULT;
++ (void)setObjc_supportedCardSchemes:(NSSet<NSNumber *> * _Nonnull)newValue;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull companyName;)
 + (NSString * _Nonnull)companyName SWIFT_WARN_UNUSED_RESULT;
 + (void)setCompanyName:(NSString * _Nonnull)value;
