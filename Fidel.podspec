@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "Fidel"
-  s.version      = "1.3.7"
+  s.version      = "1.3.8"
   s.summary      = "Fidel iOS SDK."
   s.description  = "Fidel is an API platform that makes it easy for developers to link payment cards to loyalty and marketing services."
   s.homepage     = "https://fidel.uk/"
   s.license      = "MIT"
-  s.authors      = { "Cornel Chitanu" => "tap@dolfn.com" }
+  s.authors      = { "Fidel" => "developer@fidel.uk" }
   s.source       = { :git => "https://github.com/FidelLimited/fidel-ios.git", :tag => "#{s.version}"}
   s.requires_arc = true
   s.platform     = :ios, "9.1"
