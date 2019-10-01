@@ -1,5 +1,11 @@
 # Fidel iOS SDK Change log
 
+## 1.6.0
+
+- Compiled with Swift 5.1.
+- Supports Xcode 11 and iOS 13.
+- Has a Dark Appearance.
+
 ## 1.5.1
 
 - Added new property that lets you define the card schemes that you suppport (`supportedCardSchemes`).
