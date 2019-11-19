@@ -14,7 +14,7 @@ Add a `Podfile` (if you don't have one already), by running the following comman
 
 ##### Step 1
 
-Add Fidel pod (for Swift 5.1, XCode 11):
+Add Fidel pod (for Swift 5.1, XCode 11.2):
 
 ```ruby
 pod 'Fidel'

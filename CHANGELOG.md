@@ -1,5 +1,11 @@
 # Fidel iOS SDK Change log
 
+## 1.6.1
+
+- Compiled with Swift 5.1.2.
+- Supports Xcode 11.2.1 and iOS 13.2.
+- Fixed the bug that deleted the `metaData` object after the first card linking request.
+
 ## 1.6.0
 
 - Compiled with Swift 5.1.
