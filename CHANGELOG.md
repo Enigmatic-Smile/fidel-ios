@@ -1,5 +1,9 @@
 # Fidel iOS SDK Change log
 
+## 1.7.1
+
+- The Swift 5.2.2 compiled SDK now has simulator support from Objective-C projects.
+
 ## 1.7.0
 
 - The SDK compiled for Swift 5.2.2
