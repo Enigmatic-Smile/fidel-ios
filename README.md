@@ -14,13 +14,19 @@ Add a `Podfile` (if you don't have one already), by running the following comman
 
 ##### Step 1
 
-Add Fidel pod (for Swift 5.1, XCode 11.2):
+Add Fidel pod (for Swift 5.2, XCode 11.4):
 
 ```ruby
 pod 'Fidel'
 ```
 
-or if you're still using Xcode 10.3, with Swift 5:
+or if you're still using Xcode 11.2, with Swift 5.1:
+
+```ruby
+pod 'Fidel', '~>1.6.2'
+```
+
+or if you're using Xcode 10.3, with Swift 5:
 
 ```ruby
 pod 'Fidel', '~>1.5.1'

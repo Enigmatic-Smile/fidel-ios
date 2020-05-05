@@ -1,5 +1,9 @@
 # Fidel iOS SDK Change log
 
+## 1.7.0
+
+- The SDK compiled for Swift 5.2.2
+
 ## 1.6.2
 
 - Fixed a small bug related to the country property of the SDK.
