@@ -1,5 +1,10 @@
 # Fidel iOS SDK Change log
 
+## 1.8.1
+
+- Fixed bug that did not set and highlight the privacy policy link for countries outside of North-America.
+- The SDK compiles for simulators from Objective-C projects too.
+
 ## 1.8.0
 
 - Localised the SDK for French and Swedish users.
