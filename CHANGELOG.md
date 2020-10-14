@@ -1,5 +1,15 @@
 # Fidel iOS SDK Change log
 
+## 1.8.2
+
+- Compiled the SDK for Swift 5.3
+- Objective-C projects (which includes React Native projects) with this version of the Fidel SDK integrated will:
+  - work fine if you build for a **Simulator**, with the `Debug` configuration.
+  - work fine if you build for a **real device**, with both `Debug` and `Release` configurations.
+  - not build on **Simulators**, with the `Release` configuration. We're working on eliminating this inconvenience.
+  - You can confidently launch your apps to the AppStore, because when you archive your app, you'll do it with the Release configuration and on a device or with the `Any iOS Device` configuration.
+- In Swift projects this version works as expected, on both Simulators and on real devices, with both Debug and Release configurations.
+
 ## 1.8.1
 
 - Fixed bug that did not set and highlight the privacy policy link for countries outside of North-America.

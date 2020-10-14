@@ -4,6 +4,18 @@ Our SDK helps you add card linking technology to your iOS apps in minutes. It ca
 
 ![Demo GIF](https://cl.ly/84d481392da6/Screen%252520Recording%2525202018-09-18%252520at%25252004.49%252520PM.gif)
 
+## Temporary announcement about the latest version of the SDK (1.8.2)
+
+Objective-C projects (which includes React Native projects) with this version of the Fidel SDK integrated will:
+
+- work fine if you build for a **Simulator**, with the `Debug` configuration.
+- work fine if you build for a **real device**, with both `Debug` and `Release` configurations.
+- not build on **Simulators**, with the `Release` configuration (we're working on eliminating this inconvenience).
+
+You can confidently launch your apps to the AppStore, because when you archive your app, you'll do it with the Release configuration and on a device or with the `Any iOS Device` configuration.
+
+In Swift projects this version works as expected, on both Simulators and on real devices, with both Debug and Release configurations.
+
 ## Installation
 
 We recommend using [CocoaPods][642d6fa5] to integrate Fidel SDK with your project.
