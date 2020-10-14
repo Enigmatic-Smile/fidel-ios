@@ -2,19 +2,24 @@
 
 Our SDK helps you add card linking technology to your iOS apps in minutes. It captures credit/debit card numbers securely and links them to your programs.
 
-![Demo GIF](https://cl.ly/84d481392da6/Screen%252520Recording%2525202018-09-18%252520at%25252004.49%252520PM.gif)
-
 ## Temporary announcement about the latest version of the SDK (1.8.2)
 
-Objective-C projects (which includes React Native projects) with this version of the Fidel SDK integrated will:
+Projects with this version of the Fidel SDK integrated will:
 
-- work fine if you build for a **Simulator**, with the `Debug` configuration.
-- work fine if you build for a **real device**, with both `Debug` and `Release` configurations.
-- not build on **Simulators**, with the `Release` configuration (we're working on eliminating this inconvenience).
+- work fine if you build for a **real device**, with both `Debug` and `Release` configurations. It works on all architectures.
+- not build on **Simulators**, with the `arm64` architecture. We're working on eliminating this inconvenience.
+- To avoid this incovenience, when installing this version with Cocoapods, the following build settings will be added to your project:
 
-You can confidently launch your apps to the AppStore, because when you archive your app, you'll do it with the Release configuration and on a device or with the `Any iOS Device` configuration.
+```ruby
+s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+```
 
-In Swift projects this version works as expected, on both Simulators and on real devices, with both Debug and Release configurations.
+So if you install this version with Cocoapods, you'll be able to build on both Simulators and real devices.
+
+You can confidently launch your apps to the AppStore. We only excluded the architecture for Simulators.
+
+![Demo GIF](https://cl.ly/84d481392da6/Screen%252520Recording%2525202018-09-18%252520at%25252004.49%252520PM.gif)
 
 ## Installation
 

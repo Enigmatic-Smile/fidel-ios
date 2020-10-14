@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform     = :ios, "9.1"
   s.ios.vendored_frameworks = 'Fidel.framework'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.3' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.3', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
