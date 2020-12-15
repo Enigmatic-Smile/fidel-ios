@@ -182,11 +182,13 @@ The default for `deleteInstructions` is `"going to your account settings"`.
 
 ### Consent text for United States and Canada
 
-When you set United States or Canada as the default country **or** don't set a default country (meaning that the user is free to select United States or Canada as their country), a different consent text will be applied. In addition to the parameters described above, you can set the following parameters in this consent text:
+United States or Canada will be available for card linking, if they are added to the `Fidel.allowedCountries` array **or** if you don't set a value for this property (which makes US and Canada available for the user to select, by default, along with all the other allowed countries).
+
+When the user selects United States or Canada, a different consent text will be applied. In addition to the parameters described above, you can set the following parameters for the consent text:
 
 ```java
 Fidel.programName = "your program name"; // (Maximum 60 characters);
-Fidel.termsConditionsURL = "https://yourcompany.com/termsConditions"; // (must be a valid URL)
+Fidel.termsConditionsURL = "https://yourcompany.com/termsConditions"; // (cannot be nil, in this situation, and be a valid URL)
 ```
 
 The default replacement value for `programName` is `"our"` (in  English; for other languages, the words adjust to make sense).
@@ -231,15 +233,25 @@ NSSet *supportedCardSchemes = [[NSSet alloc] initWithObjects:
 FLFidel.objc_supportedCardSchemes = supportedCardSchemes;
 ```
 
-#### Default country
+#### Allowed countries
 
-Set a default country the SDK should use with:
+Set the allowed countries by using the following property:
 
 ```swift
-Fidel.country = .unitedKingdom
+Fidel.allowedCountries = [.unitedKingdom, .ireland]
 ```
 
-When you set a default country, the card linking screen will not show the country picker UI. The other options, for now, are: `.unitedStates`, `.ireland`, `.sweden`, `.japan`, `.canada`, `.noDefault`.
+in Objective-C, it would look like the following:
+
+```objectivec
+FLFidel.objc_allowedCountries = @[@(FLCountryIreland), @(FLCountryUnitedKingdom)];
+```
+
+The allowed countries are: `.unitedKingdom`, `.unitedStates`, `.ireland`, `.sweden`, `.japan`, `.canada`. By default the `allowedCountries` array includes all countries allowed by Fidel.
+
+When you set **a single country** in the array, the card linking screen will not show the country picker UI. It will use the set country for linking the card.
+
+When more than one country is set in the array, the UI selects the first one as the default country, but the user can between the values that you set.
 
 ### Documentation
 

@@ -1,5 +1,12 @@
 # Fidel iOS SDK Change log
 
+## 1.8.3
+
+- Compiled the SDK for Swift 5.3.1
+- Now the SDK allows you to select multiple allowed countries from which the user can pick. Please check the docs for the new `allowedCountries` property. If your project is an Objective-C project, check the `objc_allowedCountries` property.
+- Removed the `Fidel.country` property. To set a default country and not allow the user to pick the country, set a single country in the new `Fidel.allowedCountries` array.
+- Removed the `.noDefault` option from the `Country` enum.
+
 ## 1.8.2
 
 - Compiled the SDK for Swift 5.3
