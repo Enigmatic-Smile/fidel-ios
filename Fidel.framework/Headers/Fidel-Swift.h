@@ -517,6 +517,7 @@ SWIFT_CLASS_NAMED("LinkResult")
 @property (nonatomic, copy) NSString * _Nullable programId;
 @property (nonatomic) BOOL mapped;
 @property (nonatomic) BOOL live;
+@property (nonatomic, copy) NSString * _Nullable firstNumbers;
 @property (nonatomic, copy) NSString * _Nullable lastNumbers;
 @property (nonatomic) NSInteger expYear;
 @property (nonatomic) NSInteger expMonth;
@@ -1083,6 +1084,7 @@ SWIFT_CLASS_NAMED("LinkResult")
 @property (nonatomic, copy) NSString * _Nullable programId;
 @property (nonatomic) BOOL mapped;
 @property (nonatomic) BOOL live;
+@property (nonatomic, copy) NSString * _Nullable firstNumbers;
 @property (nonatomic, copy) NSString * _Nullable lastNumbers;
 @property (nonatomic) NSInteger expYear;
 @property (nonatomic) NSInteger expMonth;
@@ -1653,6 +1655,7 @@ SWIFT_CLASS_NAMED("LinkResult")
 @property (nonatomic, copy) NSString * _Nullable programId;
 @property (nonatomic) BOOL mapped;
 @property (nonatomic) BOOL live;
+@property (nonatomic, copy) NSString * _Nullable firstNumbers;
 @property (nonatomic, copy) NSString * _Nullable lastNumbers;
 @property (nonatomic) NSInteger expYear;
 @property (nonatomic) NSInteger expMonth;
@@ -2219,6 +2222,7 @@ SWIFT_CLASS_NAMED("LinkResult")
 @property (nonatomic, copy) NSString * _Nullable programId;
 @property (nonatomic) BOOL mapped;
 @property (nonatomic) BOOL live;
+@property (nonatomic, copy) NSString * _Nullable firstNumbers;
 @property (nonatomic, copy) NSString * _Nullable lastNumbers;
 @property (nonatomic) NSInteger expYear;
 @property (nonatomic) NSInteger expMonth;

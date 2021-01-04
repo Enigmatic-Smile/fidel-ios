@@ -1,5 +1,9 @@
 # Fidel iOS SDK Change log
 
+## 1.8.4
+
+- If available, the LinkResult object now includes the `firstNumbers` field. So, if in the Fidel Dashboard, under the your security settings, you allow showing the first numbers of the linked card numbers, the information will be available in the LinkResult object too. If you do not allow showing the first numbers in the linking result, the `firstNumbers` field will return `"******"` (just like the object which the Fidel API returns).
+
 ## 1.8.3
 
 - Compiled the SDK for Swift 5.3.1

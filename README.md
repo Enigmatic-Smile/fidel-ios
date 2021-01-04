@@ -138,11 +138,13 @@ If you don't set a banner image, we'll just remove the top banner space entirely
 Then, present the Fidel view controller:
 
 ##### Swift
+
 ```swift
 Fidel.present(presentingViewControllerInstance)
 ```
 
 ##### Objective-C
+
 ```objectivec
 [FLFidel present:self onCardLinkedCallback:nil onCardLinkFailedCallback:nil];
 ```
@@ -150,9 +152,10 @@ Fidel.present(presentingViewControllerInstance)
 Optionally, you can pass callbacks to be notified if the card was linked:
 
 ##### Swift
+
 ```swift
-Fidel.present(self, onCardLinkedCallback: { (card: LinkResult) in
-	print(card.id)
+Fidel.present(self, onCardLinkedCallback: { (linkResult: LinkResult) in
+	print(linkResult.id)
 }, onCardLinkFailedCallback: { (err: LinkError) in
 	print(err.message)
 })

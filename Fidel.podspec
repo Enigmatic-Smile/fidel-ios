@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Fidel"
-  s.version      = "1.8.3"
+  s.version      = "1.8.4"
   s.summary      = "Fidel iOS SDK."
   s.description  = "Fidel is an API platform that makes it easy for developers to link payment cards to loyalty and marketing services."
   s.homepage     = "https://fidel.uk/"
