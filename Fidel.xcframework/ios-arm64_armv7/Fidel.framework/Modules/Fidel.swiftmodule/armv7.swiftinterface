@@ -1,0 +1,98 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target armv7-apple-ios9.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Fidel
+@_exported import Fidel
+import Foundation
+import Swift
+import UIKit
+@_hasMissingDesignatedInitializers @objc(FLLinkError) public class LinkError : ObjectiveC.NSObject {
+  @objc public var message: Swift.String
+  @objc public var date: Swift.String?
+  @objc public var code: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc(FLCardScheme) public enum CardScheme : Swift.Int {
+  case visa = 0
+  case mastercard = 1
+  case americanExpress = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc(FLLinkResult) public class LinkResult : ObjectiveC.NSObject {
+  @objc public var id: Swift.String
+  @objc public var created: Swift.String?
+  @objc public var updated: Swift.String?
+  @objc public var type: Swift.String?
+  @objc public var scheme: Swift.String?
+  @objc public var programId: Swift.String?
+  @objc public var mapped: Swift.Bool
+  @objc public var live: Swift.Bool
+  @objc public var firstNumbers: Swift.String?
+  @objc public var lastNumbers: Swift.String?
+  @objc public var expYear: Swift.Int
+  @objc public var expMonth: Swift.Int
+  @objc public var expDate: Swift.String?
+  @objc public var countryCode: Swift.String?
+  @objc public var accountId: Swift.String?
+  @objc public var metaData: [Swift.String : Any]?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(FLFidel) public class Fidel : ObjectiveC.NSObject {
+  @objc public static var programId: Swift.String?
+  @objc public static var apiKey: Swift.String?
+  @objc public static var bannerImage: UIKit.UIImage?
+  @objc public static var autoScan: Swift.Bool
+  @objc public static var metaData: [Swift.String : Any]?
+  public static var allowedCountries: [Country] {
+    get
+    set
+  }
+  @objc public static var objc_allowedCountries: Swift.Array<Country.RawValue> {
+    @objc get
+    @objc set
+  }
+  public static var defaultSupportedCardSchemes: Swift.Set<CardScheme>
+  public static var supportedCardSchemes: Swift.Set<CardScheme> {
+    get
+    set
+  }
+  @objc public static var objc_supportedCardSchemes: Swift.Set<CardScheme.RawValue> {
+    @objc get
+    @objc set
+  }
+  @objc public static var programName: Swift.String
+  @objc public static var companyName: Swift.String
+  @objc public static var termsConditionsURL: Swift.String?
+  @objc public static var privacyURL: Swift.String?
+  @objc public static var deleteInstructions: Swift.String
+  public typealias OnCardLinked = (LinkResult) -> Swift.Void
+  public typealias OnCardLinkFailed = (LinkError) -> Swift.Void
+  @objc(present:onCardLinkedCallback:onCardLinkFailedCallback:) public static func present(_ caller: UIKit.UIViewController, onCardLinkedCallback: OnCardLinked? = nil, onCardLinkFailedCallback: OnCardLinkFailed? = nil)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc(FLCountry) public enum Country : Swift.Int {
+  case unitedKingdom
+  case ireland
+  case unitedStates
+  case sweden
+  case japan
+  case canada
+  public static var allCountries: [Country]
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension CardScheme : Swift.Equatable {}
+extension CardScheme : Swift.Hashable {}
+extension CardScheme : Swift.RawRepresentable {}
+extension Country : Swift.Equatable {}
+extension Country : Swift.Hashable {}
+extension Country : Swift.RawRepresentable {}
