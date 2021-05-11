@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@import CardIO;
+#import "CardIO.h"
 
 //! Project version number for Fidel.
 FOUNDATION_EXPORT double FidelVersionNumber;
@@ -16,3 +16,5 @@ FOUNDATION_EXPORT double FidelVersionNumber;
 FOUNDATION_EXPORT const unsigned char FidelVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Fidel/PublicHeader.h>
+
+
