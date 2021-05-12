@@ -2,23 +2,6 @@
 
 Our SDK helps you add card linking technology to your iOS apps in minutes. It captures credit/debit card numbers securely and links them to your programs.
 
-## Temporary announcement about the latest version of the SDK (1.8.2)
-
-Projects with this version of the Fidel SDK integrated will:
-
-- work fine if you build for a **real device**, with both `Debug` and `Release` configurations. It works on all architectures.
-- not build on **Simulators**, with the `arm64` architecture. We're working on eliminating this inconvenience.
-- To avoid this incovenience, when installing this version with Cocoapods, the following build settings will be added to your project:
-
-```ruby
-s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-```
-
-So if you install this version with Cocoapods, you'll be able to build on both Simulators and real devices.
-
-You can confidently launch your apps to the AppStore. We only excluded the architecture for Simulators.
-
 ![Demo GIF](https://cl.ly/84d481392da6/Screen%252520Recording%2525202018-09-18%252520at%25252004.49%252520PM.gif)
 
 ## Installation
@@ -77,6 +60,7 @@ pod 'Fidel', '~>1.1.8'
 In order to allow scanning cards with the camera, make sure to add the key `NSCameraUsageDescription` to your app's `Info.plist` and set the value to a string describing why your app needs to use the camera (e.g. "To scan credit cards."). This string will be displayed when the app initially requests permission to access the camera.
 
 ##### Step 3 (skip if you have a Swift project)
+
 If you have an Objective-C project and did not add any Swift code yet, please set the `Always Embed Swift Standard Libraries` flag in Build Settings to `YES`. For more detailed information about this setting, please read this [Apple material](https://developer.apple.com/library/archive/qa/qa1881/_index.html).
 
 ##### Troubleshooting

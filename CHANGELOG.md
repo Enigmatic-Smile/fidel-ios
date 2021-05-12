@@ -1,5 +1,17 @@
 # Fidel iOS SDK Change log
 
+## 1.8.5
+
+- Use the XCFramework package format for the Fidel SDK
+- Compile the package with Swift 5.4
+- Can run the SDK in simulators on M1 machines.
+
+## 1.8.5-rc2
+
+- Use the XCFramework package format for the Fidel SDK
+- Compile the package with Swift 5.4
+- Can run the SDK in simulators on M1 machines.
+
 ## 1.8.5-rc1
 
 - Use the XCFramework package format for the Fidel SDK
