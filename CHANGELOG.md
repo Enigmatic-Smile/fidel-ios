@@ -1,5 +1,23 @@
 # Fidel iOS SDK Change log
 
+## 1.8.5
+
+- Use the XCFramework package format for the Fidel SDK
+- Compile the package with Swift 5.4
+- Can run the SDK in simulators on M1 machines.
+
+## 1.8.5-rc2
+
+- Use the XCFramework package format for the Fidel SDK
+- Compile the package with Swift 5.4
+- Can run the SDK in simulators on M1 machines.
+
+## 1.8.5-rc1
+
+- Use the XCFramework package format for the Fidel SDK
+- Compile the package with Swift 5.4
+- Does not yet support running on Simulators with the most common `Release` configurations.
+
 ## 1.8.4
 
 - If available, the LinkResult object now includes the `firstNumbers` field. So, if in the Fidel Dashboard, under the your security settings, you allow showing the first numbers of the linked card numbers, the information will be available in the LinkResult object too. If you do not allow showing the first numbers in the linking result, the `firstNumbers` field will return `"******"` (just like the object which the Fidel API returns).
