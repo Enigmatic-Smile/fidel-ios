@@ -1,6 +1,6 @@
 //
 //  FidelExampleViewController.m
-//  ObjCCocoapodsExample
+//  ObjCExample
 //
 //  Created by Corneliu on 13.05.2021.
 //
@@ -46,3 +46,4 @@
 }
 
 @end
+
