@@ -1,0 +1,16 @@
+PODS:
+  - Fidel (1.8.5)
+
+DEPENDENCIES:
+  - Fidel (from `../../`)
+
+EXTERNAL SOURCES:
+  Fidel:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Fidel: c61ea8295ea75e5f0a13bf10e750d349ddf07fb1
+
+PODFILE CHECKSUM: 933f2a69172c71cf6590ed35e78c7ec5f8053eb5
+
+COCOAPODS: 1.10.1
