@@ -1,0 +1,12 @@
+platform :ios, '9.1'
+
+target 'SwiftCocoapodsExample' do
+  use_frameworks!
+
+  # For this example, we'll take the Fidel Cocoapods library from the local folder
+  pod 'Fidel', :path => '../../'
+
+  # Use the following line, in your project, to get it from the public Cocoapods Specs repo.
+  # pod 'Fidel'
+
+end
