@@ -1,5 +1,10 @@
 # Fidel iOS SDK Change log
 
+## 1.8.6
+
+- Add more documentation for the Fidel SDK APIs
+- Deprecate `mapped`, `type`, `updated` fields from the `LinkResult` class.
+
 ## 1.8.5
 
 - Use the XCFramework package format for the Fidel SDK
