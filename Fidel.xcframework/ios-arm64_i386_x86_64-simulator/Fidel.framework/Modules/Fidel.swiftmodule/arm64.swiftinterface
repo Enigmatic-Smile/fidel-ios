@@ -1,10 +1,24 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios9.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Fidel
 @_exported import Fidel
 import Foundation
 import Swift
 import UIKit
+@objc(FLProgramType) public enum ProgramType : Swift.Int {
+  case transactionSelect
+  case transactionStream
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc(FLFidelHostApplication) public protocol FidelHostApplication {
+  @objc var windows: [UIKit.UIWindow] { get }
+}
+extension UIApplication : FidelHostApplication {
+}
 @_hasMissingDesignatedInitializers @objc(FLLinkError) public class LinkError : ObjectiveC.NSObject {
   @objc public var message: Swift.String
   @objc public var date: Swift.String?
@@ -25,14 +39,8 @@ import UIKit
 @_hasMissingDesignatedInitializers @objc(FLLinkResult) public class LinkResult : ObjectiveC.NSObject {
   @objc public var id: Swift.String
   @objc public var created: Swift.String?
-  @available(*, deprecated, renamed: "created", message: "Please use the `created` property instead.")
-  @objc public var updated: Swift.String?
-  @available(*, deprecated, renamed: "scheme", message: "Please use the `scheme` property instead.")
-  @objc public var type: Swift.String?
   @objc public var scheme: Swift.String?
   @objc public var programId: Swift.String?
-  @available(*, deprecated)
-  @objc public var mapped: Swift.Bool
   @objc public var live: Swift.Bool
   @objc public var firstNumbers: Swift.String?
   @objc public var lastNumbers: Swift.String?
@@ -48,8 +56,9 @@ import UIKit
 @_inheritsConvenienceInitializers @objc(FLFidel) public class Fidel : ObjectiveC.NSObject {
   public typealias OnCardLinked = (LinkResult) -> Swift.Void
   public typealias OnCardLinkFailed = (LinkError) -> Swift.Void
-  @objc public static var apiKey: Swift.String?
+  @objc public static var sdkKey: Swift.String?
   @objc public static var programId: Swift.String?
+  @objc public static var programType: ProgramType
   @objc public static var bannerImage: UIKit.UIImage?
   @objc public static var autoScan: Swift.Bool
   @objc public static var metaData: [Swift.String : Any]?
@@ -97,6 +106,14 @@ import UIKit
     get
   }
 }
+@_hasMissingDesignatedInitializers public class FidelAppDelegate {
+  public static let shared: FidelAppDelegate
+  @objc(applicationDidBecomeActive:) public func applicationDidBecomeActive(_ application: FidelHostApplication)
+  @objc deinit
+}
+extension ProgramType : Swift.Equatable {}
+extension ProgramType : Swift.Hashable {}
+extension ProgramType : Swift.RawRepresentable {}
 extension CardScheme : Swift.Equatable {}
 extension CardScheme : Swift.Hashable {}
 extension CardScheme : Swift.RawRepresentable {}
