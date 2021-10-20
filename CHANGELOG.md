@@ -1,5 +1,9 @@
 # Fidel iOS SDK Change log
 
+## 1.8.7
+
+- Add the United Arab Emirates country of issuance option
+
 ## 1.8.6
 
 - Add more documentation for the Fidel SDK APIs

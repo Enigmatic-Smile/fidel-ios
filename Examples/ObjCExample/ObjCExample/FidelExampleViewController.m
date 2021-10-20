@@ -19,7 +19,7 @@
     FLFidel.bannerImage = [UIImage imageNamed:@"fdl_test_banner"];
     // The countries that you will allow users to pick from.
     // If only one country is set, users will not need to pick a country.
-    FLFidel.objc_allowedCountries = @[@(FLCountryIreland), @(FLCountryUnitedKingdom), @(FLCountryJapan), @(FLCountryUnitedStates), @(FLCountrySweden)];
+    FLFidel.objc_allowedCountries = @[@(FLCountryIreland), @(FLCountryUnitedKingdom), @(FLCountryUnitedArabEmirates), @(FLCountryJapan), @(FLCountryUnitedStates), @(FLCountrySweden)];
     // The company name will be mentioned in the card linking consent text
     FLFidel.companyName = @"Cashback Inc.";
     // The privacy URL used in the card linking consent text
