@@ -1,5 +1,9 @@
 # Fidel iOS SDK Change log
 
+## 1.8.8
+
+- Fixed the bug that does not allow enrollment for cards that expire in the current month.
+
 ## 1.8.7
 
 - Add the United Arab Emirates country of issuance option

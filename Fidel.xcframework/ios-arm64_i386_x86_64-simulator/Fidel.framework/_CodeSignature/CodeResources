@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		6oCNSSgHDGLnoqSjIbid/SnRMQQ=
+		FbezdZUdSiyY5q1hXJtXL2z1ZxY=
 		</data>
 		<key>CardView.nib</key>
 		<data>
-		jytKJK0zP1mGyIjeaKLXE7vw7sk=
+		BNNu3R26yjYgAPWEiCv9jT/vYoU=
 		</data>
 		<key>FidelMain.storyboardc/817-LM-003-view-b0n-CC-zc5.nib</key>
 		<data>
-		SxOq5oarDO9+7gfI6gmbmqhV+2E=
+		a02/atxDZciwo/AsGDXT67I0QRY=
 		</data>
 		<key>FidelMain.storyboardc/Info.plist</key>
 		<data>
@@ -22,15 +22,15 @@
 		</data>
 		<key>FidelMain.storyboardc/UIViewController-817-LM-003.nib</key>
 		<data>
-		hMSjselsZId2mR1rP93HBo5RmOI=
+		gan8R3nBkwjGrAHTkrM4DxlW55E=
 		</data>
 		<key>FidelMain.storyboardc/UIViewController-Vde-gH-TSC.nib</key>
 		<data>
-		4911bEd9Pf3JQo3lqT0lyqa5Ixo=
+		VPoppKf22nl4KRp+23+Ju7tj10w=
 		</data>
 		<key>FidelMain.storyboardc/Vde-gH-TSC-view-Xfe-Xn-2C9.nib</key>
 		<data>
-		KipIY1YbYO3L8TybM/89/fXg85I=
+		YIfTUDrLS+WIP9/Ik+FRncjN06E=
 		</data>
 		<key>Headers/CardIO.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9xQfZ0srcneuehCUSPQEghFkKSI=
+		yFkeDGs1+yLuUtoFr6neqR5SPfU=
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -195,33 +195,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6oCNSSgHDGLnoqSjIbid/SnRMQQ=
+			FbezdZUdSiyY5q1hXJtXL2z1ZxY=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ig89qgEYQ2GP+WkFT5R1iJkIJOoOfBImt7uiEhOgzY=
+			e9EbxGhf/RHn6VHsqWp1bCw6ckKPbIeaDtY+Qmj6yNM=
 			</data>
 		</dict>
 		<key>CardView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jytKJK0zP1mGyIjeaKLXE7vw7sk=
+			BNNu3R26yjYgAPWEiCv9jT/vYoU=
 			</data>
 			<key>hash2</key>
 			<data>
-			pMqSsKULYIaGBmllYlVqm2JrBibBgsCUM7CnDbLTPWw=
+			1+R3tgeK0CwQG0b0whMZ2m0KWHNLXGGKqP69cQdl0Ks=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/817-LM-003-view-b0n-CC-zc5.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SxOq5oarDO9+7gfI6gmbmqhV+2E=
+			a02/atxDZciwo/AsGDXT67I0QRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			+zJhxwr3s0F4wjZajCILmcW9aGo2k/WKrfDgyHhHq3M=
+			FNSR3/8ysXNue3t/XwUP4IHA+6IknNlK+x6pLzhfxQU=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/Info.plist</key>
@@ -239,33 +239,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hMSjselsZId2mR1rP93HBo5RmOI=
+			gan8R3nBkwjGrAHTkrM4DxlW55E=
 			</data>
 			<key>hash2</key>
 			<data>
-			2R3a/NI73sh1q0C/9bbo6zwGu3bnw2iVgtBrv1gAaB4=
+			0qOBwRv5Twypt8b0+r4iUFyJZOaylrvg4XAZFIluBj8=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/UIViewController-Vde-gH-TSC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4911bEd9Pf3JQo3lqT0lyqa5Ixo=
+			VPoppKf22nl4KRp+23+Ju7tj10w=
 			</data>
 			<key>hash2</key>
 			<data>
-			iOoC7ZN/dYbT2ZY9Cw3ibaj4FUU8KH+a59l2AYQA68M=
+			UfdymBx5u2/zq58CUi9yg80m27Wu13GHYEW8s0Ry3Uo=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/Vde-gH-TSC-view-Xfe-Xn-2C9.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KipIY1YbYO3L8TybM/89/fXg85I=
+			YIfTUDrLS+WIP9/Ik+FRncjN06E=
 			</data>
 			<key>hash2</key>
 			<data>
-			ehsU4ZBI5vQ/bWVGxokySyIEFbeEJcSPxM0zuW0XfrA=
+			Iyh2ylKDQKbghIJ1N1+lRXsdiz/OnTc+FOcZlRh5KUE=
 			</data>
 		</dict>
 		<key>Headers/CardIO.h</key>
