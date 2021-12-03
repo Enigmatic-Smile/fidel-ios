@@ -296,7 +296,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
 ///   </li>
 /// </ul>
 /// version:
-/// 1.8.6
+/// 1.9.0
 /// since:
 /// 1.0
 SWIFT_CLASS_NAMED("Fidel")
@@ -1121,7 +1121,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
 ///   </li>
 /// </ul>
 /// version:
-/// 1.8.6
+/// 1.9.0
 /// since:
 /// 1.0
 SWIFT_CLASS_NAMED("Fidel")
@@ -1946,7 +1946,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
 ///   </li>
 /// </ul>
 /// version:
-/// 1.8.6
+/// 1.9.0
 /// since:
 /// 1.0
 SWIFT_CLASS_NAMED("Fidel")
