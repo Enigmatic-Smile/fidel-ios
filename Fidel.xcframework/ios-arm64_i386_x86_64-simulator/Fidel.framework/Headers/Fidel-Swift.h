@@ -296,7 +296,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
 ///   </li>
 /// </ul>
 /// version:
-/// 1.9.0
+/// 1.10.0
 /// since:
 /// 1.0
 SWIFT_CLASS_NAMED("Fidel")
@@ -397,6 +397,26 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL autoScan;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSDictionary<NSString *, id> * _Nullable metaData;)
 + (NSDictionary<NSString *, id> * _Nullable)metaData SWIFT_WARN_UNUSED_RESULT;
 + (void)setMetaData:(NSDictionary<NSString *, id> * _Nullable)value;
+/// Sets the <code>Country</code> that will be selected by default when the user opens the card linking screen.
+/// If the <code>defaultSelectedCountry</code> is not part of the <code>allowedCountries</code> list,
+/// then the first country in the <code>allowedCountries</code> list will be selected.
+/// <h2>See also:</h2>
+/// <ul>
+///   <li>
+///     <a href="x-source-tag://Fidel.Country">Country</a>
+///   </li>
+///   <li>
+///     <a href="x-source-tag://allowedCountries">allowedCountries</a>
+///   </li>
+/// </ul>
+/// note:
+///
+/// The default value is <code>.unitedKingdom</code>.
+/// since:
+/// 1.10.0
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum FLCountry defaultSelectedCountry;)
++ (enum FLCountry)defaultSelectedCountry SWIFT_WARN_UNUSED_RESULT;
++ (void)setDefaultSelectedCountry:(enum FLCountry)value;
 /// Sets the list of countries that a user can pick to be the card issuing country.
 /// When 2 or more countries are set, users will be able to select the card issuing country with our country selection UI.
 /// The SDK will send the appropriate country code, depending on the country the user selects.
@@ -1121,7 +1141,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
 ///   </li>
 /// </ul>
 /// version:
-/// 1.9.0
+/// 1.10.0
 /// since:
 /// 1.0
 SWIFT_CLASS_NAMED("Fidel")
@@ -1222,6 +1242,26 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL autoScan;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSDictionary<NSString *, id> * _Nullable metaData;)
 + (NSDictionary<NSString *, id> * _Nullable)metaData SWIFT_WARN_UNUSED_RESULT;
 + (void)setMetaData:(NSDictionary<NSString *, id> * _Nullable)value;
+/// Sets the <code>Country</code> that will be selected by default when the user opens the card linking screen.
+/// If the <code>defaultSelectedCountry</code> is not part of the <code>allowedCountries</code> list,
+/// then the first country in the <code>allowedCountries</code> list will be selected.
+/// <h2>See also:</h2>
+/// <ul>
+///   <li>
+///     <a href="x-source-tag://Fidel.Country">Country</a>
+///   </li>
+///   <li>
+///     <a href="x-source-tag://allowedCountries">allowedCountries</a>
+///   </li>
+/// </ul>
+/// note:
+///
+/// The default value is <code>.unitedKingdom</code>.
+/// since:
+/// 1.10.0
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum FLCountry defaultSelectedCountry;)
++ (enum FLCountry)defaultSelectedCountry SWIFT_WARN_UNUSED_RESULT;
++ (void)setDefaultSelectedCountry:(enum FLCountry)value;
 /// Sets the list of countries that a user can pick to be the card issuing country.
 /// When 2 or more countries are set, users will be able to select the card issuing country with our country selection UI.
 /// The SDK will send the appropriate country code, depending on the country the user selects.
@@ -1946,7 +1986,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
 ///   </li>
 /// </ul>
 /// version:
-/// 1.9.0
+/// 1.10.0
 /// since:
 /// 1.0
 SWIFT_CLASS_NAMED("Fidel")
@@ -2047,6 +2087,26 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL autoScan;)
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSDictionary<NSString *, id> * _Nullable metaData;)
 + (NSDictionary<NSString *, id> * _Nullable)metaData SWIFT_WARN_UNUSED_RESULT;
 + (void)setMetaData:(NSDictionary<NSString *, id> * _Nullable)value;
+/// Sets the <code>Country</code> that will be selected by default when the user opens the card linking screen.
+/// If the <code>defaultSelectedCountry</code> is not part of the <code>allowedCountries</code> list,
+/// then the first country in the <code>allowedCountries</code> list will be selected.
+/// <h2>See also:</h2>
+/// <ul>
+///   <li>
+///     <a href="x-source-tag://Fidel.Country">Country</a>
+///   </li>
+///   <li>
+///     <a href="x-source-tag://allowedCountries">allowedCountries</a>
+///   </li>
+/// </ul>
+/// note:
+///
+/// The default value is <code>.unitedKingdom</code>.
+/// since:
+/// 1.10.0
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum FLCountry defaultSelectedCountry;)
++ (enum FLCountry)defaultSelectedCountry SWIFT_WARN_UNUSED_RESULT;
++ (void)setDefaultSelectedCountry:(enum FLCountry)value;
 /// Sets the list of countries that a user can pick to be the card issuing country.
 /// When 2 or more countries are set, users will be able to select the card issuing country with our country selection UI.
 /// The SDK will send the appropriate country code, depending on the country the user selects.

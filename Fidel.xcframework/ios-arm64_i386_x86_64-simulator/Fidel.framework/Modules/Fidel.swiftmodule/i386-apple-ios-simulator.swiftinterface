@@ -58,6 +58,7 @@ import UIKit
     get
     set
   }
+  @objc public static var defaultSelectedCountry: Country
   @objc public static var objc_allowedCountries: Swift.Array<Country.RawValue> {
     @objc get
     @objc set
