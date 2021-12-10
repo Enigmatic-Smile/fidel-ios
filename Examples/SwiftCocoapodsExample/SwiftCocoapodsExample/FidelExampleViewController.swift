@@ -21,6 +21,8 @@ class FidelExampleViewController: UIViewController {
         // The countries that you will allow users to pick from.
         // If only one country is set, users will not need to pick a country.
         Fidel.allowedCountries = Country.allCountries
+        // Sets the country that will be selected by default when the card linking screen is opened
+        Fidel.defaultSelectedCountry = .unitedStates
         // The company name will be mentioned in the card linking consent text
         Fidel.companyName = "Cashback Inc."
         // The privacy URL used in the card linking consent text

@@ -20,6 +20,8 @@
     // The countries that you will allow users to pick from.
     // If only one country is set, users will not need to pick a country.
     FLFidel.objc_allowedCountries = @[@(FLCountryIreland), @(FLCountryUnitedKingdom), @(FLCountryUnitedArabEmirates), @(FLCountryJapan), @(FLCountryUnitedStates), @(FLCountrySweden)];
+    // Sets the country that will be selected by default when the card linking screen is opened
+    FLFidel.defaultSelectedCountry = FLCountrySweden;
     // The company name will be mentioned in the card linking consent text
     FLFidel.companyName = @"Cashback Inc.";
     // The privacy URL used in the card linking consent text
