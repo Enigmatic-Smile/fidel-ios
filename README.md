@@ -240,6 +240,23 @@ When you set **a single country** in the array, the card linking screen will not
 
 When more than one country is set in the array, the UI selects the first one as the default country, but the user can between the values that you set.
 
+#### Default selected country
+
+```swift
+Fidel.defaultSelectedCountry = .unitedKingdom
+```
+
+or, if using Objective-C
+
+```objectivec
+FLFidel.defaultSelectedCountry = FLCountryUnitedKingdom;
+```
+
+Use this parameter to set the country that will be selected by default when opening the card enrollment screen.
+
+The default value is `.unitedKingdom`.
+
+
 ### Documentation
 
 In test environment use our VISA, Mastercard or American Express test card numbers:
