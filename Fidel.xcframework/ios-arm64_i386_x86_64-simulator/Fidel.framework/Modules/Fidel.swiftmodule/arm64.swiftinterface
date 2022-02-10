@@ -1,89 +1,126 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios9.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Fidel
-import AVKit
 @_exported import Fidel
 import Foundation
 import Swift
 import UIKit
-@_hasMissingDesignatedInitializers @objc(FLLinkError) public class LinkError : ObjectiveC.NSObject {
-  @objc public var message: Swift.String
-  @objc public var date: Swift.String?
-  @objc public var code: Swift.String?
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc(FLCardScheme) public enum CardScheme : Swift.Int {
-  case visa = 0
-  case mastercard = 1
-  case americanExpress = 2
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
+public enum ProgramType : Swift.Equatable {
+  case transactionSelect
+  case transactionStream
+  public static func == (a: ProgramType, b: ProgramType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
-@_hasMissingDesignatedInitializers @objc(FLLinkResult) public class LinkResult : ObjectiveC.NSObject {
-  @objc public var id: Swift.String
-  @objc public var created: Swift.String?
-  @available(*, deprecated, renamed: "created", message: "Please use the `created` property instead.")
-  @objc public var updated: Swift.String?
-  @available(*, deprecated, renamed: "scheme", message: "Please use the `scheme` property instead.")
-  @objc public var type: Swift.String?
-  @objc public var scheme: Swift.String?
-  @objc public var programId: Swift.String?
-  @available(*, deprecated)
-  @objc public var mapped: Swift.Bool
-  @objc public var live: Swift.Bool
-  @objc public var firstNumbers: Swift.String?
-  @objc public var lastNumbers: Swift.String?
-  @objc public var expYear: Swift.Int
-  @objc public var expMonth: Swift.Int
-  @objc public var expDate: Swift.String?
-  @objc public var countryCode: Swift.String?
-  @objc public var accountId: Swift.String?
-  @objc public var metaData: [Swift.String : Any]?
-  @objc override dynamic public init()
-  @objc deinit
+public struct FidelError : Swift.Equatable, Swift.Decodable {
+  public let message: Swift.String
+  public let date: Foundation.Date
+  public let type: FidelErrorType
+  public init(from decoder: Swift.Decoder) throws
+  public static func == (a: FidelError, b: FidelError) -> Swift.Bool
 }
-@_inheritsConvenienceInitializers @objc(FLFidel) public class Fidel : ObjectiveC.NSObject {
-  public typealias OnCardLinked = (LinkResult) -> Swift.Void
-  public typealias OnCardLinkFailed = (LinkError) -> Swift.Void
-  @objc public static var apiKey: Swift.String?
-  @objc public static var programId: Swift.String?
-  @objc public static var bannerImage: UIKit.UIImage?
-  @objc public static var autoScan: Swift.Bool
-  @objc public static var metaData: [Swift.String : Any]?
-  public static var allowedCountries: [Country] {
+public enum CardScheme : Swift.Equatable {
+  case visa
+  case mastercard
+  case americanExpress
+  public static var allSupportedCardSchemes: Swift.Set<CardScheme> {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: CardScheme, b: CardScheme) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum FidelErrorType : Swift.Error, Swift.Equatable {
+  case sdkConfigurationError
+  case userCanceled
+  case enrollmentError(EnrollmentError)
+  case verificationError(VerificationError)
+  public static func == (a: FidelErrorType, b: FidelErrorType) -> Swift.Bool
+}
+public enum EnrollmentError : Swift.String, Swift.Equatable, Swift.Error, Swift.Decodable {
+  case cardAlreadyExists
+  case invalidProgramID
+  case invalidSDKKey
+  case inexistentProgram
+  case unexpected
+  public init(from decoder: Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct EnrollmentResult : Swift.Equatable, Swift.Decodable {
+  public let cardID: Swift.String
+  public let accountID: Swift.String
+  public let programID: Swift.String
+  public let enrollmentDate: Foundation.Date
+  public let scheme: CardScheme
+  public let isLive: Swift.Bool
+  public let cardFirstNumbers: Swift.String?
+  public let cardLastNumbers: Swift.String?
+  public let cardExpirationYear: Swift.Int
+  public let cardExpirationMonth: Swift.Int
+  public let cardIssuingCountry: Country
+  public let metaData: [Swift.String : Any]?
+  public init(from decoder: Swift.Decoder) throws
+  public static func == (lhs: EnrollmentResult, rhs: EnrollmentResult) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers public class Fidel {
+  public typealias OnFidelResult = (FidelResult) -> Swift.Void
+  public static var sdkKey: Swift.String! {
     get
     set
   }
-  @objc public static var defaultSelectedCountry: Country
-  @objc public static var objc_allowedCountries: Swift.Array<Country.RawValue> {
-    @objc get
-    @objc set
-  }
-  public static var defaultSupportedCardSchemes: Swift.Set<CardScheme> {
-    get
-  }
-  public static var supportedCardSchemes: Swift.Set<CardScheme> {
-    get
-    set
-  }
-  @objc public static var objc_supportedCardSchemes: Swift.Set<CardScheme.RawValue> {
-    @objc get
-    @objc set
-  }
-  @objc public static var companyName: Swift.String
-  @objc public static var programName: Swift.String
-  @objc public static var termsConditionsURL: Swift.String?
-  @objc public static var privacyURL: Swift.String?
-  @objc public static var deleteInstructions: Swift.String
-  @objc(present:onCardLinkedCallback:onCardLinkFailedCallback:) public static func present(_ presentingViewController: UIKit.UIViewController, onCardLinkedCallback: OnCardLinked? = nil, onCardLinkFailedCallback: OnCardLinkFailed? = nil)
-  @objc override dynamic public init()
+  public static var programID: Swift.String!
+  public static var programType: ProgramType
+  public static var bannerImage: UIKit.UIImage?
+  public static var shouldAutoScanCard: Swift.Bool
+  public static var metaData: [Swift.String : Any]?
+  public static var allowedCountries: Swift.Set<Country>
+  public static var supportedCardSchemes: Swift.Set<CardScheme>
+  public static var companyName: Swift.String!
+  public static var programName: Swift.String
+  public static var termsAndConditionsURL: Swift.String?
+  public static var privacyPolicyURL: Swift.String?
+  public static var deleteInstructions: Swift.String
+  public static var onResult: OnFidelResult?
+  public static func start(from startingViewController: UIKit.UIViewController)
   @objc deinit
 }
-@objc(FLCountry) public enum Country : Swift.Int {
+extension KeyedDecodingContainer {
+  public func decode(_ type: [Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Any]
+  public func decode(_ type: [Swift.String : Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Swift.String : Any]
+  public func decodeIfPresent(_ type: [Swift.String : Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Swift.String : Any]?
+}
+public enum FidelResult : Swift.Equatable {
+  case enrollmentResult(EnrollmentResult)
+  case verificationSuccessful
+  case error(FidelError)
+  public static func == (a: FidelResult, b: FidelResult) -> Swift.Bool
+}
+public enum VerificationError : Swift.String, Swift.Equatable, Swift.Error, Swift.Decodable {
+  case unexpected
+  case unauthorized
+  case invalidSDKKey
+  case incorrectAmount
+  case maximumAttemptsReached
+  case cardAlreadyVerified
+  case cardNotFound
+  case verificationNotFound
+  case genericError
+  public init(from decoder: Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Country {
   case canada
   case ireland
   case japan
@@ -91,18 +128,20 @@ import UIKit
   case unitedArabEmirates
   case unitedKingdom
   case unitedStates
-  public static var allCountries: [Country] {
+  public static var allCountries: Swift.Set<Country> {
     get
   }
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
+  public static func == (a: Country, b: Country) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
     get
   }
 }
-extension CardScheme : Swift.Equatable {}
+extension ProgramType : Swift.Hashable {}
 extension CardScheme : Swift.Hashable {}
-extension CardScheme : Swift.RawRepresentable {}
+extension EnrollmentError : Swift.Hashable {}
+extension EnrollmentError : Swift.RawRepresentable {}
+extension VerificationError : Swift.Hashable {}
+extension VerificationError : Swift.RawRepresentable {}
 extension Country : Swift.Equatable {}
 extension Country : Swift.Hashable {}
-extension Country : Swift.RawRepresentable {}
