@@ -240,7 +240,6 @@ When you set **a single country** in the array, the card linking screen will not
 
 When more than one country is set in the array, the UI selects the first one as the default country, but the user can between the values that you set.
 
-#### Default selected country
 ### Documentation
 
 In test environment use our VISA, Mastercard or American Express test card numbers:
