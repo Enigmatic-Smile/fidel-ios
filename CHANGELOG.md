@@ -1,5 +1,20 @@
 # Fidel iOS SDK Change log
 
+## 1.10.0
+- Added the `defaultSelectedCountry` property which sets the country that will be selected by default, when opening the card enrollment screen.
+
+## 1.9.0
+
+- Removed the card scanning confirmation screen. Users can confirm their card information by checking the information in the Fidel card enrollment screen.
+
+## 1.8.8
+
+- Fixed the bug that does not allow enrollment for cards that expire in the current month.
+
+## 1.8.7
+
+- Add the United Arab Emirates country of issuance option
+
 ## 1.8.6
 
 - Add more documentation for the Fidel SDK APIs

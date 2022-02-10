@@ -234,7 +234,7 @@ in Objective-C, it would look like the following:
 FLFidel.objc_allowedCountries = @[@(FLCountryIreland), @(FLCountryUnitedKingdom)];
 ```
 
-The allowed countries are: `.unitedKingdom`, `.unitedStates`, `.ireland`, `.sweden`, `.japan`, `.canada`. By default the `allowedCountries` array includes all countries allowed by Fidel.
+The allowed countries are: `.canada`, `.ireland`, `.japan`, `.sweden`, `.unitedArabEmirates`, `.unitedKingdom`, `.unitedStates`. By default the `allowedCountries` array includes all countries allowed by Fidel.
 
 When you set **a single country** in the array, the card linking screen will not show the country picker UI. It will use the set country for linking the card.
 
