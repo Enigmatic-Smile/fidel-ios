@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target i386-apple-ios9.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Fidel
+import AVKit
 @_exported import Fidel
 import Foundation
 import Swift
@@ -82,6 +83,7 @@ public struct EnrollmentResult : Swift.Equatable, Swift.Decodable {
   public static var shouldAutoScanCard: Swift.Bool
   public static var metaData: [Swift.String : Any]?
   public static var allowedCountries: Swift.Set<Country>
+  public static var defaultSelectedCountry: Country
   public static var supportedCardSchemes: Swift.Set<CardScheme>
   public static var companyName: Swift.String!
   public static var programName: Swift.String

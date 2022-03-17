@@ -24,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // The countries that you will allow users to pick from.
         // If only one country is set, users will not need to pick a country.
         Fidel.allowedCountries = Country.allCountries
+        // Sets the country that will be selected by default in the card enrolling screen.
+        Fidel.defaultSelectedCountry = Country.unitedStates
         // The company name will be mentioned in the card linking consent text
         Fidel.companyName = "Cashback Inc."
         // The privacy URL used in the card linking consent text
