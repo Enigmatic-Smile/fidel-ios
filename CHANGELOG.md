@@ -1,5 +1,8 @@
 # Fidel iOS SDK Change log
 
+## 1.10.1
+- Update Fidel API logo
+
 ## 1.10.0
 - Added the `defaultSelectedCountry` property which sets the country that will be selected by default, when opening the card enrollment screen.
 
