@@ -6,23 +6,23 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		FbezdZUdSiyY5q1hXJtXL2z1ZxY=
+		pYjQDWYods234AaQ6Nye9++9mjg=
 		</data>
 		<key>CardView.nib</key>
 		<data>
-		5Zyg/hrEYlN0HUPNSO+f6nQaxfc=
+		BCJOJPuOxQ/GOvfk1RMcCqu5hqs=
 		</data>
 		<key>FidelMain.storyboardc/817-LM-003-view-b0n-CC-zc5.nib</key>
 		<data>
-		zg5wIxY9zbcVQ0W23AyxWQz6eJI=
+		g22s6w/kmhmMsskpFklzBcRj6eQ=
 		</data>
 		<key>FidelMain.storyboardc/CardVerificationViewController.nib</key>
 		<data>
-		aUAGoZkCFyydgYUW3rKzAGTlozs=
+		00Ip2LCxK/io27UrInRiVh73NsY=
 		</data>
 		<key>FidelMain.storyboardc/FidelCardDetailsScreen.nib</key>
 		<data>
-		1yzbrvzFfOWkRww1QVE3NaoybBc=
+		wqcPhaJ4iZfUuTxUobhu3Ukx6LY=
 		</data>
 		<key>FidelMain.storyboardc/Info.plist</key>
 		<data>
@@ -30,23 +30,23 @@
 		</data>
 		<key>FidelMain.storyboardc/IntroViewController.nib</key>
 		<data>
-		+bdIxhL62QOy+iO8KqGmfJmKkXY=
+		KEBcRzk3otDueJKgkM5yCosZAsw=
 		</data>
 		<key>FidelMain.storyboardc/UIViewController-Vde-gH-TSC.nib</key>
 		<data>
-		yOqmq6mw4JqxRooSN6j3ZRpYByg=
+		5iCeGJRRSINHdmBTpLERsrXHIWA=
 		</data>
 		<key>FidelMain.storyboardc/Vde-gH-TSC-view-Xfe-Xn-2C9.nib</key>
 		<data>
-		9NBPBYgmRcA/bBQxoU7O73P18b4=
+		mvxkEISc89uutTVRHNC5NHulJPc=
 		</data>
 		<key>FidelMain.storyboardc/Z5e-kP-3iO-view-GB2-zQ-oE4.nib</key>
 		<data>
-		l/cxrUZtgWzGNLFsWn4T6jj0by4=
+		Rg9OuaXqo3QcUjD4L/v+wPAN0yw=
 		</data>
 		<key>FidelMain.storyboardc/ZPw-F5-nWk-view-pxP-fg-kBr.nib</key>
 		<data>
-		moF4vSCAFb1NV5F9fAB8/mKm3Ks=
+		EQIHMJP7Ja3KevbjcBq0DlKwFVc=
 		</data>
 		<key>Headers/CardIO.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		V6jvyrKL+Tj1axKWK/CZwGmTZ9A=
+		izR8cY6eN1I1xHj0zrtfXk6OV2M=
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -211,55 +211,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FbezdZUdSiyY5q1hXJtXL2z1ZxY=
+			pYjQDWYods234AaQ6Nye9++9mjg=
 			</data>
 			<key>hash2</key>
 			<data>
-			e9EbxGhf/RHn6VHsqWp1bCw6ckKPbIeaDtY+Qmj6yNM=
+			6HGqX+f/EIZ3kseQNBrpMmx9UmAoE/SqE+oU4F9diao=
 			</data>
 		</dict>
 		<key>CardView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5Zyg/hrEYlN0HUPNSO+f6nQaxfc=
+			BCJOJPuOxQ/GOvfk1RMcCqu5hqs=
 			</data>
 			<key>hash2</key>
 			<data>
-			hykl+HqDF4CGJaNj6nLlOeHFtLOI9K/WBUt63DSXvvs=
+			9V/NrY5PZawzJITJRE/rEgQZcqtcmStM15suxIoH0wk=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/817-LM-003-view-b0n-CC-zc5.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zg5wIxY9zbcVQ0W23AyxWQz6eJI=
+			g22s6w/kmhmMsskpFklzBcRj6eQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			oT6d0XCa48YCppF2Fi3KXZGG6Za/WHcmJSZxAMNTkWk=
+			Pt4QigHZ56CrWA3Pc0xtT/sbVZLms33wZEg2bVGgLXU=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/CardVerificationViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aUAGoZkCFyydgYUW3rKzAGTlozs=
+			00Ip2LCxK/io27UrInRiVh73NsY=
 			</data>
 			<key>hash2</key>
 			<data>
-			BKO6hdmDPdZOS4g8ftH0UBSOAwSj3CRwL+YG5aK/gJI=
+			BJIg8eeqG608AWM5fTLQi5MeG/Ou44N83NecpEBuRg0=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/FidelCardDetailsScreen.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1yzbrvzFfOWkRww1QVE3NaoybBc=
+			wqcPhaJ4iZfUuTxUobhu3Ukx6LY=
 			</data>
 			<key>hash2</key>
 			<data>
-			oIbo2n84/nWgD73DPGYv/fQ61zGWINrS4fKZM2U7tC4=
+			F7ORp/VKlZ4aUtwrOb0/u/G2osoQ+Zmy7jJeTi+epsw=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/Info.plist</key>
@@ -277,55 +277,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+bdIxhL62QOy+iO8KqGmfJmKkXY=
+			KEBcRzk3otDueJKgkM5yCosZAsw=
 			</data>
 			<key>hash2</key>
 			<data>
-			jxZYq8gbSERwb3WLvgKclw1zgtEYOU6xBKl0PXakv8k=
+			U0QgT/haVOfx3dpEgjoPrl2uvuobjgTHzGzSPO1ssbA=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/UIViewController-Vde-gH-TSC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yOqmq6mw4JqxRooSN6j3ZRpYByg=
+			5iCeGJRRSINHdmBTpLERsrXHIWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			i3wkA/SfC+HNQLQ/bO06FPeRH5aNyVK3zgpmwxpgSkk=
+			DsdGCaYfWij9Zi/PrNmERQ5HkiR03OIteJ5bu3dxZlE=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/Vde-gH-TSC-view-Xfe-Xn-2C9.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9NBPBYgmRcA/bBQxoU7O73P18b4=
+			mvxkEISc89uutTVRHNC5NHulJPc=
 			</data>
 			<key>hash2</key>
 			<data>
-			dw6wu1kC2fi++uQQIJyVfzSkzQh5qc/fb6iqzhewbJw=
+			azp6V9yMK1ycMkS/RPNRCBtivrnigtv94jmPxs2kXXk=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/Z5e-kP-3iO-view-GB2-zQ-oE4.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			l/cxrUZtgWzGNLFsWn4T6jj0by4=
+			Rg9OuaXqo3QcUjD4L/v+wPAN0yw=
 			</data>
 			<key>hash2</key>
 			<data>
-			SNN++YM/ljBI4WlEMFQVCD/lJwjhVjFMwWgHulmjoM4=
+			sawhJgP4VDdCtL0D/I5ud4DFTyfWIxC/sAgJQIpBKdw=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/ZPw-F5-nWk-view-pxP-fg-kBr.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			moF4vSCAFb1NV5F9fAB8/mKm3Ks=
+			EQIHMJP7Ja3KevbjcBq0DlKwFVc=
 			</data>
 			<key>hash2</key>
 			<data>
-			t3cTdP6Hf4lDWpKaz9Z76/YwNnrCMa8aeV5WzmIA4O0=
+			IFyU8dtl4XC+gbeUXHET/mqS36+2iwKOGZWtNqbglJw=
 			</data>
 		</dict>
 		<key>Headers/CardIO.h</key>
