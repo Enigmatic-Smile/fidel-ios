@@ -1,5 +1,8 @@
 # Fidel iOS SDK Change log
 
+## 1.10.2
+- Update "Fidel" with "Fidel API" in the consent text and in the code documentation.
+
 ## 1.10.1
 - Update Fidel API logo
 
