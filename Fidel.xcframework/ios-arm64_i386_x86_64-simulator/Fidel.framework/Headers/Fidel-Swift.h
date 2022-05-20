@@ -210,7 +210,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-/// Enum with supported card schemes to be used for linking with Fidel programs.
+/// Enum with supported card schemes to be used for linking with Fidel API programs.
 /// <h2>See also:</h2>
 /// <ul>
 ///   <li>
@@ -220,21 +220,21 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 /// since:
 /// 1.0
 typedef SWIFT_ENUM_NAMED(NSInteger, FLCardScheme, "CardScheme", open) {
-/// Visa card scheme available for Fidel programs.
+/// Visa card scheme available for Fidel API programs.
 /// since:
 /// 1.0
   FLCardSchemeVisa = 0,
-/// Mastercard card scheme available for Fidel programs.
+/// Mastercard card scheme available for Fidel API programs.
 /// since:
 /// 1.0
   FLCardSchemeMastercard = 1,
-/// American Express card scheme available for Fidel programs.
+/// American Express card scheme available for Fidel API programs.
 /// since:
 /// 1.0
   FLCardSchemeAmericanExpress = 2,
 };
 
-/// The country of issue for a card linked with a Fidel program.
+/// The country of issue for a card linked with a Fidel API program.
 /// <h2>See also:</h2>
 /// <ul>
 ///   <li>
@@ -244,31 +244,31 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCardScheme, "CardScheme", open) {
 /// since:
 /// 1.4.0
 typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
-/// Canada is a country of issue for a card linked with a Fidel program.
+/// Canada is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.4
   FLCountryCanada = 0,
-/// Ireland is a country of issue for a card linked with a Fidel program.
+/// Ireland is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.0
   FLCountryIreland = 1,
-/// Japan is a country of issue for a card linked with a Fidel program.
+/// Japan is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.2
   FLCountryJapan = 2,
-/// Sweden is a country of issue for a card linked with a Fidel program.
+/// Sweden is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.0
   FLCountrySweden = 3,
-/// United Arab Emirates is a country of issue for a card linked with a Fidel program.
+/// United Arab Emirates is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.8.7
   FLCountryUnitedArabEmirates = 4,
-/// United Kingdom is a country of issue for a card linked with a Fidel program.
+/// United Kingdom is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.0
   FLCountryUnitedKingdom = 5,
-/// United States is a country of issue for a card linked with a Fidel program.
+/// United States is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.0
   FLCountryUnitedStates = 6,
@@ -281,7 +281,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
 @class FLLinkResult;
 @class FLLinkError;
 
-/// Use this facade class to initialise and start a Fidel card linking experience.
+/// Use this facade class to initialise and start a Fidel SDK card linking experience.
 /// It has many static properties which you can set to configure and customize the experience.
 /// <h2>See also:</h2>
 /// <ul>
@@ -301,7 +301,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
 /// 1.0
 SWIFT_CLASS_NAMED("Fidel")
 @interface FLFidel : NSObject
-/// <em>Required</em> for card linking. Get it from your Fidel dashboard, Account Settings, SDK Keys section.
+/// <em>Required</em> for card linking. Get it from your Fidel API dashboard, Account Settings, SDK Keys section.
 /// note:
 /// If you use a <em>test SDK Key</em>, please use the following test card numbers:
 /// <ul>
@@ -326,7 +326,7 @@ SWIFT_CLASS_NAMED("Fidel")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable apiKey;)
 + (NSString * _Nullable)apiKey SWIFT_WARN_UNUSED_RESULT;
 + (void)setApiKey:(NSString * _Nullable)value;
-/// <em>Required</em> for card linking. Get it from your Fidel dashboard.
+/// <em>Required</em> for card linking. Get it from your Fidel API dashboard.
 /// <h2>See also:</h2>
 /// <ul>
 ///   <li>
@@ -422,8 +422,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum FLCountry defaultSelected
 /// The SDK will send the appropriate country code, depending on the country the user selects.
 /// If you set an array with only one country (<code>count</code> of this array == 1), the country selection UI will not be displayed in
 /// the card details form. The country that you set will be considered the card issuing country for all cards linked with your
-/// Fidel program.
-/// If you set an empty array value, you will not be able to present the Fidel card linking UI.
+/// Fidel API program.
+/// If you set an empty array value, you will not be able to present the Fidel SDK card linking UI.
 /// Immediately after attempting to present the UI with an empty value set to this parameter,
 /// you will receive a <code>FLLinkError</code> in your <a href="x-source-tag://present">present function</a> error callback.
 /// <h2>Example:</h2>
@@ -454,7 +454,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum FLCountry defaultSelected
 /// note:
 ///
 /// This parameter is <em>optional</em> to set, but it’s a <em>mandatory</em> property.
-/// The default value is the array of all countries supported by Fidel.
+/// The default value is the array of all countries supported by Fidel API.
 /// since:
 /// 1.8.3
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSArray<NSNumber *> * _Nonnull objc_allowedCountries;)
@@ -463,7 +463,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSArray<NSNumber *> * _N
 /// Sets a list of supported card schemes. If a card scheme is supported, users will be able to submit the card linking form
 /// with the supported card. If a card scheme is not in the list, then the user will receive an error message while typing
 /// the unsupported card number.
-/// If you set a <code>nil</code> value, you will not be able to present the Fidel card linking UI.
+/// If you set a <code>nil</code> value, you will not be able to present the Fidel SDK card linking UI.
 /// Immediately after attempting to present the UI with a <code>nil</code> value set to this parameter, you will receive a
 /// <code>FLLinkError</code> in your <a href="x-source-tag://present">present function</a> error callback.
 /// <h2>Example:</h2>
@@ -661,7 +661,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull dele
 /// </ul>
 /// since:
 /// 1.0
-/// \param presentingViewController the <code>ViewController</code> that will present the Fidel card linking <code>ViewController</code>. This is a <em>mandatory</em> parameter.
+/// \param presentingViewController the <code>ViewController</code> that will present the Fidel SDK card linking experience. This is a <em>mandatory</em> parameter.
 ///
 /// \param onCardLinkedCallback Will be called when card linking succeeds. It will send a <code>LinkResult</code> as a parameter. This is an <em>optional</em> parameter. Default value is <code>nil</code>.
 ///
@@ -723,7 +723,7 @@ SWIFT_CLASS_NAMED("LinkError")
 /// 1.0.2
 SWIFT_CLASS_NAMED("LinkResult")
 @interface FLLinkResult : NSObject
-/// The identifier of the card linked with your Fidel program.
+/// The identifier of the card linked with your Fidel API program.
 /// since:
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nonnull id;
@@ -764,20 +764,20 @@ SWIFT_CLASS_NAMED("LinkResult")
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nullable programId;
 @property (nonatomic) BOOL mapped SWIFT_DEPRECATED;
-/// This property will be <code>true</code> when your Fidel account is live. If your account is not
+/// This property will be <code>true</code> when your Fidel API account is live. If your account is not
 /// live then this property will be <code>false</code>.
 /// since:
 /// 1.0.2
 @property (nonatomic) BOOL live;
 /// If available, this property will be populated with the first 6 numbers of the linked card. To
 /// turn on or off receiving these numbers in the card linking result object, please check your
-/// Fidel account’s Security settings.
+/// Fidel API account’s Security settings.
 /// since:
 /// 1.8.4
 @property (nonatomic, copy) NSString * _Nullable firstNumbers;
 /// If available, this property will be populated with the last 4 numbers of the linked card. To
 /// turn on or off receiving these numbers in the card linking result object, please check your
-/// Fidel account’s Security settings.
+/// Fidel API account’s Security settings.
 /// since:
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nullable lastNumbers;
@@ -809,7 +809,7 @@ SWIFT_CLASS_NAMED("LinkResult")
 /// since:
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nullable countryCode;
-/// The Fidel account identifier under which the card was linked to.
+/// The Fidel API account identifier under which the card was linked to.
 /// since:
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nullable accountId;
@@ -836,6 +836,7 @@ SWIFT_CLASS_NAMED("LinkResult")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 #if __has_attribute(external_source_symbol)
@@ -1055,7 +1056,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-/// Enum with supported card schemes to be used for linking with Fidel programs.
+/// Enum with supported card schemes to be used for linking with Fidel API programs.
 /// <h2>See also:</h2>
 /// <ul>
 ///   <li>
@@ -1065,21 +1066,21 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 /// since:
 /// 1.0
 typedef SWIFT_ENUM_NAMED(NSInteger, FLCardScheme, "CardScheme", open) {
-/// Visa card scheme available for Fidel programs.
+/// Visa card scheme available for Fidel API programs.
 /// since:
 /// 1.0
   FLCardSchemeVisa = 0,
-/// Mastercard card scheme available for Fidel programs.
+/// Mastercard card scheme available for Fidel API programs.
 /// since:
 /// 1.0
   FLCardSchemeMastercard = 1,
-/// American Express card scheme available for Fidel programs.
+/// American Express card scheme available for Fidel API programs.
 /// since:
 /// 1.0
   FLCardSchemeAmericanExpress = 2,
 };
 
-/// The country of issue for a card linked with a Fidel program.
+/// The country of issue for a card linked with a Fidel API program.
 /// <h2>See also:</h2>
 /// <ul>
 ///   <li>
@@ -1089,31 +1090,31 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCardScheme, "CardScheme", open) {
 /// since:
 /// 1.4.0
 typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
-/// Canada is a country of issue for a card linked with a Fidel program.
+/// Canada is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.4
   FLCountryCanada = 0,
-/// Ireland is a country of issue for a card linked with a Fidel program.
+/// Ireland is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.0
   FLCountryIreland = 1,
-/// Japan is a country of issue for a card linked with a Fidel program.
+/// Japan is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.2
   FLCountryJapan = 2,
-/// Sweden is a country of issue for a card linked with a Fidel program.
+/// Sweden is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.0
   FLCountrySweden = 3,
-/// United Arab Emirates is a country of issue for a card linked with a Fidel program.
+/// United Arab Emirates is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.8.7
   FLCountryUnitedArabEmirates = 4,
-/// United Kingdom is a country of issue for a card linked with a Fidel program.
+/// United Kingdom is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.0
   FLCountryUnitedKingdom = 5,
-/// United States is a country of issue for a card linked with a Fidel program.
+/// United States is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.0
   FLCountryUnitedStates = 6,
@@ -1126,7 +1127,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
 @class FLLinkResult;
 @class FLLinkError;
 
-/// Use this facade class to initialise and start a Fidel card linking experience.
+/// Use this facade class to initialise and start a Fidel SDK card linking experience.
 /// It has many static properties which you can set to configure and customize the experience.
 /// <h2>See also:</h2>
 /// <ul>
@@ -1146,7 +1147,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
 /// 1.0
 SWIFT_CLASS_NAMED("Fidel")
 @interface FLFidel : NSObject
-/// <em>Required</em> for card linking. Get it from your Fidel dashboard, Account Settings, SDK Keys section.
+/// <em>Required</em> for card linking. Get it from your Fidel API dashboard, Account Settings, SDK Keys section.
 /// note:
 /// If you use a <em>test SDK Key</em>, please use the following test card numbers:
 /// <ul>
@@ -1171,7 +1172,7 @@ SWIFT_CLASS_NAMED("Fidel")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable apiKey;)
 + (NSString * _Nullable)apiKey SWIFT_WARN_UNUSED_RESULT;
 + (void)setApiKey:(NSString * _Nullable)value;
-/// <em>Required</em> for card linking. Get it from your Fidel dashboard.
+/// <em>Required</em> for card linking. Get it from your Fidel API dashboard.
 /// <h2>See also:</h2>
 /// <ul>
 ///   <li>
@@ -1267,8 +1268,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum FLCountry defaultSelected
 /// The SDK will send the appropriate country code, depending on the country the user selects.
 /// If you set an array with only one country (<code>count</code> of this array == 1), the country selection UI will not be displayed in
 /// the card details form. The country that you set will be considered the card issuing country for all cards linked with your
-/// Fidel program.
-/// If you set an empty array value, you will not be able to present the Fidel card linking UI.
+/// Fidel API program.
+/// If you set an empty array value, you will not be able to present the Fidel SDK card linking UI.
 /// Immediately after attempting to present the UI with an empty value set to this parameter,
 /// you will receive a <code>FLLinkError</code> in your <a href="x-source-tag://present">present function</a> error callback.
 /// <h2>Example:</h2>
@@ -1299,7 +1300,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum FLCountry defaultSelected
 /// note:
 ///
 /// This parameter is <em>optional</em> to set, but it’s a <em>mandatory</em> property.
-/// The default value is the array of all countries supported by Fidel.
+/// The default value is the array of all countries supported by Fidel API.
 /// since:
 /// 1.8.3
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSArray<NSNumber *> * _Nonnull objc_allowedCountries;)
@@ -1308,7 +1309,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSArray<NSNumber *> * _N
 /// Sets a list of supported card schemes. If a card scheme is supported, users will be able to submit the card linking form
 /// with the supported card. If a card scheme is not in the list, then the user will receive an error message while typing
 /// the unsupported card number.
-/// If you set a <code>nil</code> value, you will not be able to present the Fidel card linking UI.
+/// If you set a <code>nil</code> value, you will not be able to present the Fidel SDK card linking UI.
 /// Immediately after attempting to present the UI with a <code>nil</code> value set to this parameter, you will receive a
 /// <code>FLLinkError</code> in your <a href="x-source-tag://present">present function</a> error callback.
 /// <h2>Example:</h2>
@@ -1506,7 +1507,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull dele
 /// </ul>
 /// since:
 /// 1.0
-/// \param presentingViewController the <code>ViewController</code> that will present the Fidel card linking <code>ViewController</code>. This is a <em>mandatory</em> parameter.
+/// \param presentingViewController the <code>ViewController</code> that will present the Fidel SDK card linking experience. This is a <em>mandatory</em> parameter.
 ///
 /// \param onCardLinkedCallback Will be called when card linking succeeds. It will send a <code>LinkResult</code> as a parameter. This is an <em>optional</em> parameter. Default value is <code>nil</code>.
 ///
@@ -1568,7 +1569,7 @@ SWIFT_CLASS_NAMED("LinkError")
 /// 1.0.2
 SWIFT_CLASS_NAMED("LinkResult")
 @interface FLLinkResult : NSObject
-/// The identifier of the card linked with your Fidel program.
+/// The identifier of the card linked with your Fidel API program.
 /// since:
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nonnull id;
@@ -1609,20 +1610,20 @@ SWIFT_CLASS_NAMED("LinkResult")
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nullable programId;
 @property (nonatomic) BOOL mapped SWIFT_DEPRECATED;
-/// This property will be <code>true</code> when your Fidel account is live. If your account is not
+/// This property will be <code>true</code> when your Fidel API account is live. If your account is not
 /// live then this property will be <code>false</code>.
 /// since:
 /// 1.0.2
 @property (nonatomic) BOOL live;
 /// If available, this property will be populated with the first 6 numbers of the linked card. To
 /// turn on or off receiving these numbers in the card linking result object, please check your
-/// Fidel account’s Security settings.
+/// Fidel API account’s Security settings.
 /// since:
 /// 1.8.4
 @property (nonatomic, copy) NSString * _Nullable firstNumbers;
 /// If available, this property will be populated with the last 4 numbers of the linked card. To
 /// turn on or off receiving these numbers in the card linking result object, please check your
-/// Fidel account’s Security settings.
+/// Fidel API account’s Security settings.
 /// since:
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nullable lastNumbers;
@@ -1654,7 +1655,7 @@ SWIFT_CLASS_NAMED("LinkResult")
 /// since:
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nullable countryCode;
-/// The Fidel account identifier under which the card was linked to.
+/// The Fidel API account identifier under which the card was linked to.
 /// since:
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nullable accountId;
@@ -1681,6 +1682,7 @@ SWIFT_CLASS_NAMED("LinkResult")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 #if __has_attribute(external_source_symbol)
@@ -1900,7 +1902,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-/// Enum with supported card schemes to be used for linking with Fidel programs.
+/// Enum with supported card schemes to be used for linking with Fidel API programs.
 /// <h2>See also:</h2>
 /// <ul>
 ///   <li>
@@ -1910,21 +1912,21 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 /// since:
 /// 1.0
 typedef SWIFT_ENUM_NAMED(NSInteger, FLCardScheme, "CardScheme", open) {
-/// Visa card scheme available for Fidel programs.
+/// Visa card scheme available for Fidel API programs.
 /// since:
 /// 1.0
   FLCardSchemeVisa = 0,
-/// Mastercard card scheme available for Fidel programs.
+/// Mastercard card scheme available for Fidel API programs.
 /// since:
 /// 1.0
   FLCardSchemeMastercard = 1,
-/// American Express card scheme available for Fidel programs.
+/// American Express card scheme available for Fidel API programs.
 /// since:
 /// 1.0
   FLCardSchemeAmericanExpress = 2,
 };
 
-/// The country of issue for a card linked with a Fidel program.
+/// The country of issue for a card linked with a Fidel API program.
 /// <h2>See also:</h2>
 /// <ul>
 ///   <li>
@@ -1934,31 +1936,31 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCardScheme, "CardScheme", open) {
 /// since:
 /// 1.4.0
 typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
-/// Canada is a country of issue for a card linked with a Fidel program.
+/// Canada is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.4
   FLCountryCanada = 0,
-/// Ireland is a country of issue for a card linked with a Fidel program.
+/// Ireland is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.0
   FLCountryIreland = 1,
-/// Japan is a country of issue for a card linked with a Fidel program.
+/// Japan is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.2
   FLCountryJapan = 2,
-/// Sweden is a country of issue for a card linked with a Fidel program.
+/// Sweden is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.0
   FLCountrySweden = 3,
-/// United Arab Emirates is a country of issue for a card linked with a Fidel program.
+/// United Arab Emirates is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.8.7
   FLCountryUnitedArabEmirates = 4,
-/// United Kingdom is a country of issue for a card linked with a Fidel program.
+/// United Kingdom is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.0
   FLCountryUnitedKingdom = 5,
-/// United States is a country of issue for a card linked with a Fidel program.
+/// United States is a country of issue for a card linked with a Fidel API program.
 /// since:
 /// 1.4.0
   FLCountryUnitedStates = 6,
@@ -1971,7 +1973,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
 @class FLLinkResult;
 @class FLLinkError;
 
-/// Use this facade class to initialise and start a Fidel card linking experience.
+/// Use this facade class to initialise and start a Fidel SDK card linking experience.
 /// It has many static properties which you can set to configure and customize the experience.
 /// <h2>See also:</h2>
 /// <ul>
@@ -1991,7 +1993,7 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FLCountry, "Country", open) {
 /// 1.0
 SWIFT_CLASS_NAMED("Fidel")
 @interface FLFidel : NSObject
-/// <em>Required</em> for card linking. Get it from your Fidel dashboard, Account Settings, SDK Keys section.
+/// <em>Required</em> for card linking. Get it from your Fidel API dashboard, Account Settings, SDK Keys section.
 /// note:
 /// If you use a <em>test SDK Key</em>, please use the following test card numbers:
 /// <ul>
@@ -2016,7 +2018,7 @@ SWIFT_CLASS_NAMED("Fidel")
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nullable apiKey;)
 + (NSString * _Nullable)apiKey SWIFT_WARN_UNUSED_RESULT;
 + (void)setApiKey:(NSString * _Nullable)value;
-/// <em>Required</em> for card linking. Get it from your Fidel dashboard.
+/// <em>Required</em> for card linking. Get it from your Fidel API dashboard.
 /// <h2>See also:</h2>
 /// <ul>
 ///   <li>
@@ -2112,8 +2114,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum FLCountry defaultSelected
 /// The SDK will send the appropriate country code, depending on the country the user selects.
 /// If you set an array with only one country (<code>count</code> of this array == 1), the country selection UI will not be displayed in
 /// the card details form. The country that you set will be considered the card issuing country for all cards linked with your
-/// Fidel program.
-/// If you set an empty array value, you will not be able to present the Fidel card linking UI.
+/// Fidel API program.
+/// If you set an empty array value, you will not be able to present the Fidel SDK card linking UI.
 /// Immediately after attempting to present the UI with an empty value set to this parameter,
 /// you will receive a <code>FLLinkError</code> in your <a href="x-source-tag://present">present function</a> error callback.
 /// <h2>Example:</h2>
@@ -2144,7 +2146,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class) enum FLCountry defaultSelected
 /// note:
 ///
 /// This parameter is <em>optional</em> to set, but it’s a <em>mandatory</em> property.
-/// The default value is the array of all countries supported by Fidel.
+/// The default value is the array of all countries supported by Fidel API.
 /// since:
 /// 1.8.3
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSArray<NSNumber *> * _Nonnull objc_allowedCountries;)
@@ -2153,7 +2155,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSArray<NSNumber *> * _N
 /// Sets a list of supported card schemes. If a card scheme is supported, users will be able to submit the card linking form
 /// with the supported card. If a card scheme is not in the list, then the user will receive an error message while typing
 /// the unsupported card number.
-/// If you set a <code>nil</code> value, you will not be able to present the Fidel card linking UI.
+/// If you set a <code>nil</code> value, you will not be able to present the Fidel SDK card linking UI.
 /// Immediately after attempting to present the UI with a <code>nil</code> value set to this parameter, you will receive a
 /// <code>FLLinkError</code> in your <a href="x-source-tag://present">present function</a> error callback.
 /// <h2>Example:</h2>
@@ -2351,7 +2353,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, copy) NSString * _Nonnull dele
 /// </ul>
 /// since:
 /// 1.0
-/// \param presentingViewController the <code>ViewController</code> that will present the Fidel card linking <code>ViewController</code>. This is a <em>mandatory</em> parameter.
+/// \param presentingViewController the <code>ViewController</code> that will present the Fidel SDK card linking experience. This is a <em>mandatory</em> parameter.
 ///
 /// \param onCardLinkedCallback Will be called when card linking succeeds. It will send a <code>LinkResult</code> as a parameter. This is an <em>optional</em> parameter. Default value is <code>nil</code>.
 ///
@@ -2413,7 +2415,7 @@ SWIFT_CLASS_NAMED("LinkError")
 /// 1.0.2
 SWIFT_CLASS_NAMED("LinkResult")
 @interface FLLinkResult : NSObject
-/// The identifier of the card linked with your Fidel program.
+/// The identifier of the card linked with your Fidel API program.
 /// since:
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nonnull id;
@@ -2454,20 +2456,20 @@ SWIFT_CLASS_NAMED("LinkResult")
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nullable programId;
 @property (nonatomic) BOOL mapped SWIFT_DEPRECATED;
-/// This property will be <code>true</code> when your Fidel account is live. If your account is not
+/// This property will be <code>true</code> when your Fidel API account is live. If your account is not
 /// live then this property will be <code>false</code>.
 /// since:
 /// 1.0.2
 @property (nonatomic) BOOL live;
 /// If available, this property will be populated with the first 6 numbers of the linked card. To
 /// turn on or off receiving these numbers in the card linking result object, please check your
-/// Fidel account’s Security settings.
+/// Fidel API account’s Security settings.
 /// since:
 /// 1.8.4
 @property (nonatomic, copy) NSString * _Nullable firstNumbers;
 /// If available, this property will be populated with the last 4 numbers of the linked card. To
 /// turn on or off receiving these numbers in the card linking result object, please check your
-/// Fidel account’s Security settings.
+/// Fidel API account’s Security settings.
 /// since:
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nullable lastNumbers;
@@ -2499,7 +2501,7 @@ SWIFT_CLASS_NAMED("LinkResult")
 /// since:
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nullable countryCode;
-/// The Fidel account identifier under which the card was linked to.
+/// The Fidel API account identifier under which the card was linked to.
 /// since:
 /// 1.0.2
 @property (nonatomic, copy) NSString * _Nullable accountId;
@@ -2526,6 +2528,7 @@ SWIFT_CLASS_NAMED("LinkResult")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 #if __has_attribute(external_source_symbol)
