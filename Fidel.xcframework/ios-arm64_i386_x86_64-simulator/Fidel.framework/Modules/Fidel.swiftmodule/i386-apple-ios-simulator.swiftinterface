@@ -1,11 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target i386-apple-ios9.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Fidel
 import AVKit
 @_exported import Fidel
 import Foundation
 import Swift
 import UIKit
+import _Concurrency
 public enum ProgramType : Swift.Equatable {
   case transactionSelect
   case transactionStream
@@ -72,7 +73,7 @@ public struct EnrollmentResult : Swift.Equatable, Swift.Decodable {
   public static func == (lhs: EnrollmentResult, rhs: EnrollmentResult) -> Swift.Bool
 }
 @_hasMissingDesignatedInitializers public class Fidel {
-  public typealias OnFidelResult = (FidelResult) -> Swift.Void
+  public typealias OnFidelResult = (_ result: FidelResult) -> Swift.Void
   public static var sdkKey: Swift.String! {
     get
     set
@@ -94,7 +95,7 @@ public struct EnrollmentResult : Swift.Equatable, Swift.Decodable {
   public static func start(from startingViewController: UIKit.UIViewController)
   @objc deinit
 }
-extension KeyedDecodingContainer {
+extension Swift.KeyedDecodingContainer {
   public func decode(_ type: [Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Any]
   public func decode(_ type: [Swift.String : Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Swift.String : Any]
   public func decodeIfPresent(_ type: [Swift.String : Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Swift.String : Any]?

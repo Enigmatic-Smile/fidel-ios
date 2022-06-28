@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Fidel.bannerImage = UIImage(named: "fdl_test_banner")
         // The countries that you will allow users to pick from.
         // If only one country is set, users will not need to pick a country.
-        Fidel.allowedCountries = Country.allCountries
+        Fidel.allowedCountries = [.unitedStates, .unitedKingdom, .canada]
         // The countries that you will allow users to pick from.
         // If only one country is set, users will not need to pick a country.
         Fidel.defaultSelectedCountry = Country.unitedStates
