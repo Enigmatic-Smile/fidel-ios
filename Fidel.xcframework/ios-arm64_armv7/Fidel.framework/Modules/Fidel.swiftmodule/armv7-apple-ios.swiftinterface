@@ -41,6 +41,7 @@ public enum FidelErrorType : Swift.Error, Swift.Equatable {
   case userCanceled
   case enrollmentError(EnrollmentError)
   case verificationError(VerificationError)
+  case deviceNotSecure
   public static func == (a: FidelErrorType, b: FidelErrorType) -> Swift.Bool
 }
 public enum EnrollmentError : Swift.String, Swift.Equatable, Swift.Error, Swift.Decodable {
