@@ -36,6 +36,10 @@ public enum CardScheme : Swift.Equatable {
     get
   }
 }
+public struct VerificationResult : Swift.Equatable {
+  public let cardID: Swift.String
+  public static func == (a: VerificationResult, b: VerificationResult) -> Swift.Bool
+}
 public enum FidelErrorType : Swift.Error, Swift.Equatable {
   case sdkConfigurationError
   case userCanceled
@@ -103,7 +107,7 @@ extension Swift.KeyedDecodingContainer {
 }
 public enum FidelResult : Swift.Equatable {
   case enrollmentResult(EnrollmentResult)
-  case verificationSuccessful
+  case verificationResult(VerificationResult)
   case error(FidelError)
   public static func == (a: FidelResult, b: FidelResult) -> Swift.Bool
 }

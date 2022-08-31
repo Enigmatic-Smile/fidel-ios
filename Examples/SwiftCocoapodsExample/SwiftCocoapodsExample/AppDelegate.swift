@@ -52,8 +52,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         switch result {
         case .enrollmentResult(let enrollmentResult):
             print(enrollmentResult.cardID)
-        case .verificationSuccessful:
-            print("card was verified 🎉")
+        case .verificationResult(let verificationResult):
+            print(verificationResult.cardID)
         case .error(let fidelError):
             switch fidelError.type {
             case .enrollmentError(let enrollmentError):
