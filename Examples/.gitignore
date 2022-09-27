@@ -1,0 +1,10 @@
+ObjCExample/ObjCExample.xcodeproj/project.xcworkspace/xcuserdata/
+ObjCExample/ObjCExample.xcodeproj/xcuserdata/
+SwiftExample/SwiftExample.xcodeproj/project.xcworkspace/xcuserdata/
+SwiftExample/SwiftExample.xcodeproj/xcuserdata/
+SwiftCocoapodsExample/Podfile.lock
+SwiftCocoapodsExample/Pods/
+SwiftCocoapodsExample/*.xcworkspace
+ObjCCocoapodsExample/Podfile.lock
+ObjCCocoapodsExample/Pods/
+ObjCCocoapodsExample/*.xcworkspace
