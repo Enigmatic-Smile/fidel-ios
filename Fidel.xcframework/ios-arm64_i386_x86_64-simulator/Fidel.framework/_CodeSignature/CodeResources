@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		pYjQDWYods234AaQ6Nye9++9mjg=
+		Rk4+goYYD1XER4daRaqUIBXTUfE=
 		</data>
 		<key>CardView.nib</key>
 		<data>
-		5o4FIdDStXbXLWHITsTfbpw30Uw=
+		p/ek0IKka+43F6Pa3WUyMs8aSFE=
 		</data>
 		<key>FidelMain.storyboardc/817-LM-003-view-b0n-CC-zc5.nib</key>
 		<data>
-		hqUminadq7izrDChmMWxUizoa8Q=
+		z+xIqcEs2kvpS6VScRhTE9PAHkc=
 		</data>
 		<key>FidelMain.storyboardc/Info.plist</key>
 		<data>
@@ -22,15 +22,15 @@
 		</data>
 		<key>FidelMain.storyboardc/UIViewController-817-LM-003.nib</key>
 		<data>
-		1xYebOk26QcQq7GtdB3birrL4HE=
+		5xhffOnAt9c7UfaFzFqNEDbdNPo=
 		</data>
 		<key>FidelMain.storyboardc/UIViewController-Vde-gH-TSC.nib</key>
 		<data>
-		BYpoxiBPFwJU4xPyiNZA0KA+2yI=
+		66VwU7LLifv3JEgGUReJ3SqJgEo=
 		</data>
 		<key>FidelMain.storyboardc/Vde-gH-TSC-view-Xfe-Xn-2C9.nib</key>
 		<data>
-		8p7G4jCCoBSLM8pDzINHX/jdM4A=
+		B+DLlWQnNNUPbXpFudRaQTnnWUo=
 		</data>
 		<key>Headers/CardIO.h</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/Fidel-Swift.h</key>
 		<data>
-		dH9fhHej1MWSCK+KthW36HjOf8c=
+		gB/8tHcuvgjbRteMeu/Ovsb6f+0=
 		</data>
 		<key>Headers/Fidel.h</key>
 		<data>
@@ -74,79 +74,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EKQjBAHBopOILGiwfSNy0plZVc0=
+		tNZwLfok3ehvESQHZFuiHt2lZhI=
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		takqKDVbavpNh740gu2HbF6iGhk=
+		/mQnB2eiRRrFcEGgKlYkDiv8tNU=
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NqLzUjFF6jW0eultVLpanAz37H8=
+		ArFsAMHpCQAM4sP4OuAVKKVseJI=
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7puw3VDGmVRx2smWkfUbuwbhwQU=
-		</data>
-		<key>Modules/Fidel.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		takqKDVbavpNh740gu2HbF6iGhk=
-		</data>
-		<key>Modules/Fidel.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		NqLzUjFF6jW0eultVLpanAz37H8=
-		</data>
-		<key>Modules/Fidel.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		7puw3VDGmVRx2smWkfUbuwbhwQU=
+		PUNEkp16cKUt9fBzH9tmmroelAg=
 		</data>
 		<key>Modules/Fidel.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FqvajKo3NG+eqsjiJWCkUKlrgco=
+		B9mmLinJ/yaAxDvOE8GkLxVXibs=
 		</data>
 		<key>Modules/Fidel.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		d1djpg37ZW21XngwlxGyRY6eSfI=
+		7PW7wtitFGv9UgqCa6tgnGVbzh0=
 		</data>
 		<key>Modules/Fidel.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		D8jBiP8LClsuf0utwbk65tTLGlw=
-		</data>
-		<key>Modules/Fidel.swiftmodule/i386.swiftdoc</key>
-		<data>
-		FqvajKo3NG+eqsjiJWCkUKlrgco=
-		</data>
-		<key>Modules/Fidel.swiftmodule/i386.swiftinterface</key>
-		<data>
-		d1djpg37ZW21XngwlxGyRY6eSfI=
-		</data>
-		<key>Modules/Fidel.swiftmodule/i386.swiftmodule</key>
-		<data>
-		D8jBiP8LClsuf0utwbk65tTLGlw=
+		GzT1gGBXVxTyA9HOuU/YTWMmLMY=
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		OOQ6e08KI5UEQ3+/bR5Bhz78DdQ=
+		67OFD4PmZAQqUbnKHY4PwmoJXDA=
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		M0MK7EoBsRJDkyCmeQlJf9fxgMQ=
+		dXQkm4KHqz7EvLAOM2uGl4v9KQg=
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		I8lT5yaGAKZ6EkdzDPdgPI5Q/M4=
-		</data>
-		<key>Modules/Fidel.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		OOQ6e08KI5UEQ3+/bR5Bhz78DdQ=
-		</data>
-		<key>Modules/Fidel.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		M0MK7EoBsRJDkyCmeQlJf9fxgMQ=
-		</data>
-		<key>Modules/Fidel.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		I8lT5yaGAKZ6EkdzDPdgPI5Q/M4=
+		eDLANzqfwv0qWxXJzUfDfhHT/DY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -156,7 +120,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oU7tvzPgzRkWgUzBAGmM3F1Odak=
+			z9OyB1YthqTjQd3PuxlvEjzfGRw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -174,7 +138,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4HRDI7Bn+V1ZPF2r0w2qHiC0VOQ=
+			CukjuRO8ECMp++wyiw6esybv3NI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -183,7 +147,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/sTFO1Ot6fcv0XauKwQbGzSy1aY=
+			w70UB7354BwY99qu4O7NYuJByyw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -195,33 +159,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pYjQDWYods234AaQ6Nye9++9mjg=
+			Rk4+goYYD1XER4daRaqUIBXTUfE=
 			</data>
 			<key>hash2</key>
 			<data>
-			6HGqX+f/EIZ3kseQNBrpMmx9UmAoE/SqE+oU4F9diao=
+			3dNLJZUEVahDppr0WEx/MKjfsIWekTyRciXFW/4Q96k=
 			</data>
 		</dict>
 		<key>CardView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5o4FIdDStXbXLWHITsTfbpw30Uw=
+			p/ek0IKka+43F6Pa3WUyMs8aSFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			soE9tLnD7GL2lf/Z33vw3UMk192FZl0Tv+0FGGiOCXc=
+			rSSEly79s6BhGAPJbBIVqEsNlt2AxOB83Mrzd8kDIkM=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/817-LM-003-view-b0n-CC-zc5.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hqUminadq7izrDChmMWxUizoa8Q=
+			z+xIqcEs2kvpS6VScRhTE9PAHkc=
 			</data>
 			<key>hash2</key>
 			<data>
-			svXrxU0rji8gJmEEHf+OeWJA+4CMulK83ImSiXwO44g=
+			IzgaHbm5eR/plRca9ESUjJ/4xedP+7a3brA7an7RF3s=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/Info.plist</key>
@@ -239,33 +203,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1xYebOk26QcQq7GtdB3birrL4HE=
+			5xhffOnAt9c7UfaFzFqNEDbdNPo=
 			</data>
 			<key>hash2</key>
 			<data>
-			RMcsk1Z/EF8N7z48qNk1dUuQpGBVOJvtyTDRAe2tfvg=
+			hriBLgcil2rgaWNLpaJEoq1zb2lnJelbDQt2XhtHGQQ=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/UIViewController-Vde-gH-TSC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BYpoxiBPFwJU4xPyiNZA0KA+2yI=
+			66VwU7LLifv3JEgGUReJ3SqJgEo=
 			</data>
 			<key>hash2</key>
 			<data>
-			xIAyh9h+UwVauKxfvwFcRL9o10UKNzvoeRr8JfYEk8c=
+			ePTHaMhY8RxAmWwhjwlS2CMMDc+50wYUwQD1xvDPxV8=
 			</data>
 		</dict>
 		<key>FidelMain.storyboardc/Vde-gH-TSC-view-Xfe-Xn-2C9.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8p7G4jCCoBSLM8pDzINHX/jdM4A=
+			B+DLlWQnNNUPbXpFudRaQTnnWUo=
 			</data>
 			<key>hash2</key>
 			<data>
-			07cFDSlCBGgUuv5odZWcutPWYccp43MhprnT5Zq1wwU=
+			jttPjPi9LtnfuJdUESj80Iqle77J+mbQDAk4W0ZiEew=
 			</data>
 		</dict>
 		<key>Headers/CardIO.h</key>
@@ -360,11 +324,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dH9fhHej1MWSCK+KthW36HjOf8c=
+			gB/8tHcuvgjbRteMeu/Ovsb6f+0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ljTKS6DwJy1WEYp9ZnhJSdIPQojjoEZ0MrgqAqjjBPk=
+			TCcMBaf3AKoFkb3Ke5iH1RglK4rgvLP5abLxuTEdQ6k=
 			</data>
 		</dict>
 		<key>Headers/Fidel.h</key>
@@ -382,198 +346,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			takqKDVbavpNh740gu2HbF6iGhk=
+			/mQnB2eiRRrFcEGgKlYkDiv8tNU=
 			</data>
 			<key>hash2</key>
 			<data>
-			U/iOgRHKROItu0XOTgR8CGb2hT0tGttp9pI9/ppSCYY=
+			YYyXE6SavqW1OFqOJHwUyLT5ptFQNMgEblRfZ/TS3DQ=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NqLzUjFF6jW0eultVLpanAz37H8=
+			ArFsAMHpCQAM4sP4OuAVKKVseJI=
 			</data>
 			<key>hash2</key>
 			<data>
-			IKYL7pfDHvg337lrv2Ofz7+koOOmr7G4sVfgBxXt19E=
+			xED0oW3KLRv2+1mfgno02HKG27slkWPQwiOejY8JeMY=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7puw3VDGmVRx2smWkfUbuwbhwQU=
+			PUNEkp16cKUt9fBzH9tmmroelAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			vOeyg12VE6kVxRMZ/W/dU/zcxPFjhrZvkM2Oe9rsoOE=
-			</data>
-		</dict>
-		<key>Modules/Fidel.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			takqKDVbavpNh740gu2HbF6iGhk=
-			</data>
-			<key>hash2</key>
-			<data>
-			U/iOgRHKROItu0XOTgR8CGb2hT0tGttp9pI9/ppSCYY=
-			</data>
-		</dict>
-		<key>Modules/Fidel.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NqLzUjFF6jW0eultVLpanAz37H8=
-			</data>
-			<key>hash2</key>
-			<data>
-			IKYL7pfDHvg337lrv2Ofz7+koOOmr7G4sVfgBxXt19E=
-			</data>
-		</dict>
-		<key>Modules/Fidel.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7puw3VDGmVRx2smWkfUbuwbhwQU=
-			</data>
-			<key>hash2</key>
-			<data>
-			vOeyg12VE6kVxRMZ/W/dU/zcxPFjhrZvkM2Oe9rsoOE=
+			YJgGDrWJEB3sAyoz3T2HOKNlwfC/wHUVTBmXYe4imSE=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FqvajKo3NG+eqsjiJWCkUKlrgco=
+			B9mmLinJ/yaAxDvOE8GkLxVXibs=
 			</data>
 			<key>hash2</key>
 			<data>
-			AnjUMDOBnlncJBOJlP4V7ehtu2n5mKJ6dv513gB41k0=
+			pSqWMsm3fQnWbuY951biuponG+uFbVnjY5aOg8VPkjk=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d1djpg37ZW21XngwlxGyRY6eSfI=
+			7PW7wtitFGv9UgqCa6tgnGVbzh0=
 			</data>
 			<key>hash2</key>
 			<data>
-			vfi54NySqzxbQwzJx8kYbu4LgTPBAk447v+y1CnVQ3A=
+			ugNtg2Uuaw19dmItga5ahs/hRApGYf1tovfcV1mBki8=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D8jBiP8LClsuf0utwbk65tTLGlw=
+			GzT1gGBXVxTyA9HOuU/YTWMmLMY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ji+bZwY/TBA3IsM7KfV8twLTK0DiyeHZI89zb4uNqOY=
-			</data>
-		</dict>
-		<key>Modules/Fidel.swiftmodule/i386.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FqvajKo3NG+eqsjiJWCkUKlrgco=
-			</data>
-			<key>hash2</key>
-			<data>
-			AnjUMDOBnlncJBOJlP4V7ehtu2n5mKJ6dv513gB41k0=
-			</data>
-		</dict>
-		<key>Modules/Fidel.swiftmodule/i386.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			d1djpg37ZW21XngwlxGyRY6eSfI=
-			</data>
-			<key>hash2</key>
-			<data>
-			vfi54NySqzxbQwzJx8kYbu4LgTPBAk447v+y1CnVQ3A=
-			</data>
-		</dict>
-		<key>Modules/Fidel.swiftmodule/i386.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			D8jBiP8LClsuf0utwbk65tTLGlw=
-			</data>
-			<key>hash2</key>
-			<data>
-			ji+bZwY/TBA3IsM7KfV8twLTK0DiyeHZI89zb4uNqOY=
+			7BkVHr+GhQHXqywpn5GlzwCpKxwLxkqMUktVI8c/yRM=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OOQ6e08KI5UEQ3+/bR5Bhz78DdQ=
+			67OFD4PmZAQqUbnKHY4PwmoJXDA=
 			</data>
 			<key>hash2</key>
 			<data>
-			NtOu5skXyAKAaLdc76eATwaC9es5Bkqjj5+Lvz2t5W4=
+			XDUpNnqWZwGD9CX1TK/MNtKdbW+T7S3c+pTxuvpu2eY=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M0MK7EoBsRJDkyCmeQlJf9fxgMQ=
+			dXQkm4KHqz7EvLAOM2uGl4v9KQg=
 			</data>
 			<key>hash2</key>
 			<data>
-			O1TQXLWdHQ/Zv5dN4IidlfxBRgNM6frjMsmUR8ihyvw=
+			Ick53VM0ZwrabO0IkCcYXjT9v0/Bji7xczudhq7i5xw=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I8lT5yaGAKZ6EkdzDPdgPI5Q/M4=
+			eDLANzqfwv0qWxXJzUfDfhHT/DY=
 			</data>
 			<key>hash2</key>
 			<data>
-			wVC7m6CveB6cDXKhqptuCvmMxWTs61zdSKmx8LHEQvQ=
-			</data>
-		</dict>
-		<key>Modules/Fidel.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OOQ6e08KI5UEQ3+/bR5Bhz78DdQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			NtOu5skXyAKAaLdc76eATwaC9es5Bkqjj5+Lvz2t5W4=
-			</data>
-		</dict>
-		<key>Modules/Fidel.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			M0MK7EoBsRJDkyCmeQlJf9fxgMQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			O1TQXLWdHQ/Zv5dN4IidlfxBRgNM6frjMsmUR8ihyvw=
-			</data>
-		</dict>
-		<key>Modules/Fidel.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			I8lT5yaGAKZ6EkdzDPdgPI5Q/M4=
-			</data>
-			<key>hash2</key>
-			<data>
-			wVC7m6CveB6cDXKhqptuCvmMxWTs61zdSKmx8LHEQvQ=
+			RpxlkqCfc/TkN+d6KV3bS07906HrtVi5TTf8lzP7JE0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -591,11 +456,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oU7tvzPgzRkWgUzBAGmM3F1Odak=
+			z9OyB1YthqTjQd3PuxlvEjzfGRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			pq7vq4IbEo5ceNA7D3+tfWME73yOQ+D1yU2kdLLDOSI=
+			MS2JNP04nzXKx5pFxV4R8HCJTCRweZLbcl06ulcZjW4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -617,11 +482,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4HRDI7Bn+V1ZPF2r0w2qHiC0VOQ=
+			CukjuRO8ECMp++wyiw6esybv3NI=
 			</data>
 			<key>hash2</key>
 			<data>
-			pFmLLvkzwhzx8IsRCuvHqnYgnXcUsoFArOm+zZXNLFw=
+			gspI/pFxwq3+a922hHw/EnahOQ69F5zJ0wzF2I6LNL8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -630,11 +495,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/sTFO1Ot6fcv0XauKwQbGzSy1aY=
+			w70UB7354BwY99qu4O7NYuJByyw=
 			</data>
 			<key>hash2</key>
 			<data>
-			VTmn8PKDIPDf0YVbM8DNeIAimTcgAt26w/DiTCq+2Ro=
+			94J0JKccJmKIxuBxFvdMLPmoFhBxIg5Vofb3a0Ks2Lk=
 			</data>
 			<key>optional</key>
 			<true/>

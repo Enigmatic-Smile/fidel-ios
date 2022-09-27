@@ -1,16 +1,16 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios9.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Fidel
 import AVKit
 @_exported import Fidel
 import Foundation
 import Swift
 import UIKit
+import _Concurrency
 @_hasMissingDesignatedInitializers @objc(FLLinkError) public class LinkError : ObjectiveC.NSObject {
   @objc public var message: Swift.String
   @objc public var date: Swift.String?
   @objc public var code: Swift.String?
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc(FLCardScheme) public enum CardScheme : Swift.Int {
@@ -43,12 +43,11 @@ import UIKit
   @objc public var countryCode: Swift.String?
   @objc public var accountId: Swift.String?
   @objc public var metaData: [Swift.String : Any]?
-  @objc override dynamic public init()
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(FLFidel) public class Fidel : ObjectiveC.NSObject {
-  public typealias OnCardLinked = (LinkResult) -> Swift.Void
-  public typealias OnCardLinkFailed = (LinkError) -> Swift.Void
+  public typealias OnCardLinked = (_ cardResult: LinkResult) -> Swift.Void
+  public typealias OnCardLinkFailed = (_ error: LinkError) -> Swift.Void
   @objc public static var apiKey: Swift.String?
   @objc public static var programId: Swift.String?
   @objc public static var bannerImage: UIKit.UIImage?
