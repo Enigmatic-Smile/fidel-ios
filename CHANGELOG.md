@@ -1,5 +1,8 @@
 # Fidel iOS SDK Change log
 
+## 1.10.3
+- Updated the consent text for United States and Canadian issued cards.
+
 ## 1.10.2
 - Update "Fidel" with "Fidel API" in the consent text and in the code documentation.
 
