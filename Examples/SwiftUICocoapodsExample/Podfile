@@ -1,6 +1,6 @@
-platform :ios, '9.1'
+platform :ios, '14'
 
-target 'SwiftCocoapodsExample' do
+target 'SwiftUICocoapodsExample' do
   use_frameworks!
 
   # For this example, we'll take the Fidel Cocoapods library from the local folder

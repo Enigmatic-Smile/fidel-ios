@@ -1,19 +1,17 @@
 //
-//  AppDelegate.swift
-//  SwiftCocoapodsExample
+//  SwiftUICocoapodsExampleApp.swift
+//  SwiftUICocoapodsExample
 //
-//  Created by Corneliu on 13.05.2021.
+//  Created by Corneliu Chitanu on 25/10/22.
 //
 
-import UIKit
+import SwiftUI
 import Fidel
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+struct SwiftUICocoapodsExampleApp: App {
+    
+    init() {
         // Override point for customization after application launch.
         Fidel.programID = "Your program ID. Please copy it from your Fidel dashboard."
         Fidel.sdkKey = "pk_test_your_sdk_key"
@@ -44,8 +42,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Fidel.metaData = ["id": "esdgfhgjg123", "custom0": "custom0key", "custom1": "firstKey"]
         // Handle the results during the card connection processes
         Fidel.onResult = self.onResult
-        
-        return true
+    }
+    
+    var body: some Scene {
+        WindowGroup {
+            MainView()
+        }
     }
     
     func onResult(_ result: FidelResult) {
@@ -74,6 +76,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("the SDK should be provided with all the information")
             case .userCanceled:
                 print("the user cancelled the flow")
+            case .deviceNotSecure:
+                print("the device is not secure for connecting cards with your program")
             @unknown default:
                 print("unknown error")
             }
@@ -81,6 +85,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("unknown result")
         }
     }
-
+    
+    
 }
-
