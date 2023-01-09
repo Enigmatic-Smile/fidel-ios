@@ -53,10 +53,11 @@ struct SwiftUICocoapodsExampleApp: App {
     func onResult(_ result: FidelResult) {
         switch result {
         case .enrollmentResult(let enrollmentResult):
-            print(enrollmentResult.cardID)
+            print("Card enrolled \(enrollmentResult.cardID)")
         case .verificationResult(let verificationResult):
-            print(verificationResult.cardID)
+            print("Card verified \(verificationResult.cardID)")
         case .error(let fidelError):
+            print("error: type: \(fidelError.type), message: \(fidelError.message)")
             switch fidelError.type {
             case .enrollmentError(let enrollmentError):
                 switch enrollmentError {
@@ -67,8 +68,8 @@ struct SwiftUICocoapodsExampleApp: App {
                 }
             case .verificationError(let verificationError):
                 switch verificationError {
-                case .incorrectAmount:
-                    print("network connection error")
+                case .incorrectAmount, .incorrectAmountCode:
+                    print("Incorrect amount")
                 default:
                     print("other verification error")
                 }
@@ -85,6 +86,4 @@ struct SwiftUICocoapodsExampleApp: App {
             print("unknown result")
         }
     }
-    
-    
 }

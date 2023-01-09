@@ -50,10 +50,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func onResult(_ result: FidelResult) {
         switch result {
         case .enrollmentResult(let enrollmentResult):
-            print(enrollmentResult.cardID)
+            print("Card enrolled \(enrollmentResult.cardID)")
         case .verificationResult(let verificationResult):
-            print(verificationResult.cardID)
+            print("Card verified \(verificationResult.cardID)")
         case .error(let fidelError):
+            print("error: type: \(fidelError.type), message: \(fidelError.message)")
             switch fidelError.type {
             case .enrollmentError(let enrollmentError):
                 switch enrollmentError {
@@ -64,8 +65,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 }
             case .verificationError(let verificationError):
                 switch verificationError {
-                case .incorrectAmount:
-                    print("network connection error")
+                case .incorrectAmount, .incorrectAmountCode:
+                    print("Incorrect amount")
                 default:
                     print("other verification error")
                 }
@@ -73,6 +74,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 print("the SDK should be provided with all the information")
             case .userCanceled:
                 print("the user cancelled the flow")
+            case .deviceNotSecure:
+                print("the device is not secure for connecting cards with your program")
             @unknown default:
                 print("unknown error")
             }
