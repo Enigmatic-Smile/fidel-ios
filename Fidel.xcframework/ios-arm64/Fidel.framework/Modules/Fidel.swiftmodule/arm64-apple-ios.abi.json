@@ -339,6 +339,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Fidel",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "DefaultSplitClient",
         "printedName": "DefaultSplitClient",
@@ -16902,6 +16912,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Fidel",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -18668,6 +18688,16 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Fidel",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -28074,35 +28104,35 @@
     {
       "filePath": "\/Users\/valeria\/src\/ios-sdk\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1709,
+      "offset": 1763,
       "length": 10,
       "value": "\"linkInfo\""
     },
     {
       "filePath": "\/Users\/valeria\/src\/ios-sdk\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1770,
+      "offset": 1824,
       "length": 3,
       "value": "256"
     },
     {
       "filePath": "\/Users\/valeria\/src\/ios-sdk\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1814,
+      "offset": 1868,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/valeria\/src\/ios-sdk\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1884,
+      "offset": 1938,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/valeria\/src\/ios-sdk\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3583,
+      "offset": 3637,
       "length": 5,
       "value": "false"
     },
