@@ -13,8 +13,8 @@ struct SwiftUICocoapodsExampleApp: App {
     
     init() {
         // Override point for customization after application launch.
-        Fidel.programID = "Your program ID. Please copy it from your Fidel dashboard."
-        Fidel.sdkKey = "pk_test_your_sdk_key"
+        Fidel.programID = "ac00adee-f219-46d4-b523-c1ed47261a6f"
+        Fidel.sdkKey = "pk_test_9d8393cf-ab27-418b-913c-aa998019a8c5"
         // Set the type of program that's useful for you
         Fidel.programType = .transactionStream
         // Show your banner image on top of the card linking UI
@@ -40,8 +40,34 @@ struct SwiftUICocoapodsExampleApp: App {
         Fidel.deleteInstructions = "going to your account settings"
         // Meta data associated with the linked card.
         Fidel.metaData = ["id": "esdgfhgjg123", "custom0": "custom0key", "custom1": "firstKey"]
+        // Set it to provide a choice for the cardholder to verify the card
+        // on the spot or express the choice to delegate card verification
+        // to a third-party entity
+        Fidel.thirdPartyVerificationChoice = true
+
         // Handle the results during the card connection processes
         Fidel.onResult = self.onResult
+        
+        // This callback is called when card verification starts;
+        // might be useful to get the card ID and consent ID,
+        // the information needed to verify a card via the Fidel.verifyCard function.
+        // However we recommend using the `card.verification.started` webhook whenever possible.
+        Fidel.onCardVerificationStarted = {
+            print("Card verification started: \($0.consentID)")
+        }
+        
+        // When `thirdPartyVerificationChoice` parameter is `true`,
+        // you will receive updates in this callback about the choice expressed by the cardholder
+        Fidel.onCardVerificationChoiceSelected = {
+            switch ($0) {
+            case .onTheSpot:
+                print("Cardholder chose to verify the card on the spot")
+            case .delegatedToThirdParty:
+                print("Cardholder expressed the choice to delegate card verification to a third-party entity")
+            @unknown default:
+                print("Cardholder expressed an unknown choice")
+            }
+        }
     }
     
     var body: some Scene {
