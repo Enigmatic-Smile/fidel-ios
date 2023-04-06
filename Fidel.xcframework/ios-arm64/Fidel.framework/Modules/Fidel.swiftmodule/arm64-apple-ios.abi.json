@@ -28826,92 +28826,99 @@
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1055,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1131,
+      "offset": 1177,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1363,
+      "offset": 1409,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2363,
+      "offset": 2409,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2484,
+      "offset": 2530,
       "length": 18,
       "value": "\"SF Pro Text Bold\""
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2510,
+      "offset": 2556,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2681,
+      "offset": 2727,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3136,
+      "offset": 3182,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3202,
+      "offset": 3248,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3436,
+      "offset": 3482,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3444,
+      "offset": 3490,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3727,
+      "offset": 3773,
       "length": 10,
       "value": "\"fdl_Amex\""
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3796,
+      "offset": 3842,
       "length": 10,
       "value": "\"fdl_Visa\""
     },
     {
       "filePath": "\/Users\/cornel\/code\/ios-sdk\/Fidel\/CardVerificationRequestedViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3871,
+      "offset": 3917,
       "length": 16,
       "value": "\"fdl_MasterCard\""
     },
