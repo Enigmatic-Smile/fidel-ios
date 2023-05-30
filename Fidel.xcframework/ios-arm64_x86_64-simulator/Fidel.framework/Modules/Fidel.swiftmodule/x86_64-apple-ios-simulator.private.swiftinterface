@@ -438,6 +438,7 @@ public enum Country {
   case unitedArabEmirates
   case unitedKingdom
   case unitedStates
+  case norway
   public static var allCountries: Swift.Set<Country> {
     get
   }
