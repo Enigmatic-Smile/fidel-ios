@@ -13,8 +13,8 @@ struct SwiftUICocoapodsExampleApp: App {
     
     init() {
         // Override point for customization after application launch.
-        Fidel.programID = "ac00adee-f219-46d4-b523-c1ed47261a6f"
-        Fidel.sdkKey = "pk_test_9d8393cf-ab27-418b-913c-aa998019a8c5"
+        Fidel.programID = "Your program ID. Please copy it from your Fidel dashboard."
+        Fidel.sdkKey = "pk_test_your_sdk_key"
         // Set the type of program that's useful for you
         Fidel.programType = .transactionStream
         // Show your banner image on top of the card linking UI
