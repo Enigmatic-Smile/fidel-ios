@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		vtlwDjNfPrWc8dvBMZ9Y33eH1to=
+		C0S+WbB1KMXZOWzhfyRfGxIuiJk=
 		</data>
 		<key>CardView.nib</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>FidelMain.storyboardc/t4z-5h-Sje-view-lB1-ad-JJl.nib</key>
 		<data>
-		ynhA/ssvoWJZlfLl/dIDY1EqcTE=
+		qYvl3yzAA/xBdSMCuBn74+0az68=
 		</data>
 		<key>Headers/CardIO.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mtcPu+VRxL3biW4rEB2AZGqdSHM=
+		ghJlEf76cTsqQQjEV5w+pRczgjU=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0ATWOrEhwND38dESJjLWOUWHR0c=
+		zDWDytdOEXKGsmCHPZqG5P00ec0=
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -134,11 +134,11 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WNEF0+X+csJ8USk9Lj9uDPTj8wE=
+		w/8dnbjVw2lYYpzvoSnzTYPDNFs=
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		0ATWOrEhwND38dESJjLWOUWHR0c=
+		zDWDytdOEXKGsmCHPZqG5P00ec0=
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Tm2LaV5Qcn+rRj6PW3YnYxAOXjU=
+		JuA0DeZ/0OWsPx9zA1wd0+JZ6Zw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -164,7 +164,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0QeGLda+bfpkZPuJyYx7pHqDJmM=
+			l/FzzFbTqAm2evomRYXyo2Hv8AA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -182,14 +182,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nOafW/Uqs0h773G3ivQnYzVOFDs=
+			y7MBGZqwPYMdhuYlGPl/GcpBqGM=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>split_cache.momd/VersionInfo.plist</key>
 		<data>
-		gJtx0OieoFl1Qfhxow+8me+/aoU=
+		5e/efTuWwvr5qE3gFE26eKNm5vY=
 		</data>
 		<key>split_cache.momd/split_cache.mom</key>
 		<data>
@@ -215,7 +215,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bg4WuPPG7kaP52VhTB9fvZoMO58=
+			8Ghn7EaqKfMYlb3CwWBrET1V0+Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -238,11 +238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vtlwDjNfPrWc8dvBMZ9Y33eH1to=
+			C0S+WbB1KMXZOWzhfyRfGxIuiJk=
 			</data>
 			<key>hash2</key>
 			<data>
-			DG6Qq4taEqmZStfu6DjPCdkn7tPvWZy7qYJyJZv7MHQ=
+			j8A5syAszR29yCYSZVRDWuVR8t9V2CzVwSovMLjq+mE=
 			</data>
 		</dict>
 		<key>CardView.nib</key>
@@ -392,11 +392,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ynhA/ssvoWJZlfLl/dIDY1EqcTE=
+			qYvl3yzAA/xBdSMCuBn74+0az68=
 			</data>
 			<key>hash2</key>
 			<data>
-			4Wh2YbdtsFBCABIJUzpGiYZR8Ca54Bo71lFSid/zum4=
+			MZEBfjif7w3+krp2LckyPQK1KFk4ATgjaM006+iFAkI=
 			</data>
 		</dict>
 		<key>Headers/CardIO.h</key>
@@ -524,11 +524,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0ATWOrEhwND38dESJjLWOUWHR0c=
+			zDWDytdOEXKGsmCHPZqG5P00ec0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Qkgfq02A7djZWcrj9APN7dWWrHC+vBYURuq/BrRIFE=
+			f9cPOo/1AVGzuHi0mWStKagUrPb6fbQ5oTRUJOB0Cw0=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -568,22 +568,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WNEF0+X+csJ8USk9Lj9uDPTj8wE=
+			w/8dnbjVw2lYYpzvoSnzTYPDNFs=
 			</data>
 			<key>hash2</key>
 			<data>
-			6BJ9M9wOxk9GDNCZv492cRXmnv4GJ02YJJbkNkolMek=
+			x3fSZRJFpBeg8NmOorj47bsnOlZvQM7OwAVQYPhsy/o=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0ATWOrEhwND38dESJjLWOUWHR0c=
+			zDWDytdOEXKGsmCHPZqG5P00ec0=
 			</data>
 			<key>hash2</key>
 			<data>
-			/Qkgfq02A7djZWcrj9APN7dWWrHC+vBYURuq/BrRIFE=
+			f9cPOo/1AVGzuHi0mWStKagUrPb6fbQ5oTRUJOB0Cw0=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -623,11 +623,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Tm2LaV5Qcn+rRj6PW3YnYxAOXjU=
+			JuA0DeZ/0OWsPx9zA1wd0+JZ6Zw=
 			</data>
 			<key>hash2</key>
 			<data>
-			MZgNekHvk4SR76MBvivIkPAO9n1LxBJGlfmlFCtfrfQ=
+			YYRgi9hJwQ/msts9x1Mtp7E769fb06sfQG5DDBxQzrQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -645,11 +645,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0QeGLda+bfpkZPuJyYx7pHqDJmM=
+			l/FzzFbTqAm2evomRYXyo2Hv8AA=
 			</data>
 			<key>hash2</key>
 			<data>
-			HnrHbGXwVmte56ukP+eantPhgUunv+mfjTpbUk2p7oc=
+			E4ycIveVF9N2s8zc/tcwg/4xc49ASP3QoujLUvSOrb8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -671,11 +671,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nOafW/Uqs0h773G3ivQnYzVOFDs=
+			y7MBGZqwPYMdhuYlGPl/GcpBqGM=
 			</data>
 			<key>hash2</key>
 			<data>
-			FUBZvDuvuai01jeOs5mdAPPNcneDTq5ksuYmOuJX/Po=
+			H1mZVBYv7RXSmUVdKJ2+jKV/1dvqKiC7gU94d3sOP1U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -684,11 +684,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gJtx0OieoFl1Qfhxow+8me+/aoU=
+			5e/efTuWwvr5qE3gFE26eKNm5vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			8+xtE953XLyC9cJb/jE4b0/kIi9TLoleq0kUjZKb9N4=
+			FM2Ei7J2c5KyEkZCVmG+Oa3ekFzrH1oqE1+gsjREfpY=
 			</data>
 		</dict>
 		<key>split_cache.momd/split_cache.mom</key>
@@ -750,11 +750,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bg4WuPPG7kaP52VhTB9fvZoMO58=
+			8Ghn7EaqKfMYlb3CwWBrET1V0+Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			bc+bhWjMkoQlzkMFgU//aS1h9EQJ4l+LaeBwPG89BWs=
+			7xZufennuXhN76morJepVtu+dKGqEfQSN1+mOJ5MyNc=
 			</data>
 			<key>optional</key>
 			<true/>
