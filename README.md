@@ -57,6 +57,7 @@ pod 'Fidel', '~>1.1.8'
 ```
 
 ### Step 2
+
 In order to allow scanning cards with the camera, make sure to add the key `NSCameraUsageDescription` to your app's `Info.plist` and set the value to a string describing why your app needs to use the camera (e.g. "To scan credit cards."). This string will be displayed when the app initially requests permission to access the camera.
 
 ##### Step 3 (skip if you have a Swift project)
@@ -64,17 +65,21 @@ In order to allow scanning cards with the camera, make sure to add the key `NSCa
 If you have an Objective-C project and did not add any Swift code yet, please set the `Always Embed Swift Standard Libraries` flag in Build Settings to `YES`. For more detailed information about this setting, please read this [Apple material](https://developer.apple.com/library/archive/qa/qa1881/_index.html).
 
 ##### Troubleshooting
+
 In case Cocoapods doesn't find the Fidel specs or it finds older specs, try updating with `pod update`. After updating, run `pod install`.
 
 ### Usage
 
 Import the SDK in your code:
+
 ##### Swift
+
 ```swift
 import Fidel
 ```
 
 ##### Objective-C
+
 ```objectivec
 #import <Fidel/Fidel-Swift.h>
 ```
@@ -82,12 +87,14 @@ import Fidel
 Set your public SDK Key (`pk_test` or `pk_live`) and the `programId` you want to link cards to:
 
 ##### Swift
+
 ```swift
 Fidel.apiKey = "pk_test_7ty6i7..."
 Fidel.programId = "3a7a169a-..."
 ```
 
 ##### Objective-C
+
 ```objectivec
 [FLFidel setApiKey:@"pk_test_7ty6i7..."];
 [FLFidel setProgramId:@"3a7a169a-..."];
@@ -96,11 +103,13 @@ Fidel.programId = "3a7a169a-..."
 To start card scanning automatically:
 
 ##### Swift
+
 ```swift
 Fidel.autoScan = true
 ```
 
 ##### Objective-C
+
 ```objectivec
 [FLFidel setAutoScan:YES];
 ```
@@ -108,11 +117,13 @@ Fidel.autoScan = true
 To customise the view with a custom banner:
 
 ##### Swift
+
 ```swift
 Fidel.bannerImage = UIImage(named: "some_image_asset.png")
 ```
 
 ##### Objective-C
+
 ```objectivec
 [FLFidel setBannerImage:[UIImage imageNamed:@"myImage"]];
 ```
@@ -146,6 +157,7 @@ Fidel.present(self, onCardLinkedCallback: { (linkResult: LinkResult) in
 ```
 
 ##### Objective-C
+
 ```objectivec
 [FLFidel present:self onCardLinkedCallback:^(FLLinkResult * _Nonnull result) {
     NSLog(@"%@", result);
@@ -178,7 +190,7 @@ Fidel.programName = "your program name"; // (Maximum 60 characters);
 Fidel.termsConditionsURL = "https://yourcompany.com/termsConditions"; // (cannot be nil, in this situation, and be a valid URL)
 ```
 
-The default replacement value for `programName` is `"our"` (in  English; for other languages, the words adjust to make sense).
+The default replacement value for `programName` is `"our"` (in English; for other languages, the words adjust to make sense).
 
 The `termsConditionsURL` is mandatory in this case.
 
@@ -186,11 +198,11 @@ If you don't set a privacy policy URL (which is different from the terms & condi
 
 For USA & Canada, the following would be an example Terms & Conditions text, for Cashback Inc (an example company name):
 
-*By submitting your card information and checking this box, you authorize Visa to monitor and share transaction data with Fidel (our service provider) to participate in  program. You also acknowledge and agree that Fidel may share certain details of your qualifying transactions with Cashback Inc to enable your participation in  program and for other purposes in accordance with the Cashback Inc Terms and Conditions, Cashback Inc privacy policy and Fidel’s Privacy Policy. You may opt-out of transaction monitoring on the linked card at any time by contacting support.*
+_By submitting your card information and checking this box, you authorize Visa to monitor and share transaction data with Fidel (our service provider) to participate in program. You also acknowledge and agree that Fidel may share certain details of your qualifying transactions with Cashback Inc to enable your participation in program and for other purposes in accordance with the Cashback Inc Terms and Conditions, Cashback Inc privacy policy and Fidel’s Privacy Policy. You may opt-out of transaction monitoring on the linked card at any time by contacting support._
 
 For the rest of the world:
 
-*I authorise Visa to monitor my payment card to identify transactions that qualify for a reward and for Visa to share such information with Cashback Inc, to enable my card linked offers and target offers that may be of interest to me. For information about Cashback Inc privacy practices, please see the privacy policy. You may opt-out of transaction monitoring on the payment card you entered at any time by contacting support.*
+_I authorise Visa to monitor my payment card to identify transactions that qualify for a reward and for Visa to share such information with Cashback Inc, to enable my card linked offers and target offers that may be of interest to me. For information about Cashback Inc privacy practices, please see the privacy policy. You may opt-out of transaction monitoring on the payment card you entered at any time by contacting support._
 
 ## Localisation
 
@@ -199,6 +211,7 @@ The SDK's default language is English, but it's also localised for French and Sw
 Please make sure that your project also supports localisation for the languages that you want to support.
 
 #### Supported card schemes
+
 We currently support _Visa_, _Mastercard_ and _AmericanExpress_, but you can choose to support only one, two or all three. You can do that by using `supportedCardSchemes`. Please note that the value of this set cannot be an empty set.
 
 Check the example below:
@@ -250,16 +263,15 @@ Use this parameter to set the country that will be selected by default when open
 
 The default value is `.unitedKingdom`.
 
-
 ### Documentation
 
 In test environment use our VISA, Mastercard or American Express test card numbers:
 
-VISA: _4444000000004***_ (the last 3 numbers can be anything)
+VISA: _4444000000004\*\*\*_ (the last 3 numbers can be anything)
 
-Mastercard: _5555000000005***_ (the last 3 numbers can be anything)
+Mastercard: _5555000000005\*\*\*_ (the last 3 numbers can be anything)
 
-American Express: _3400000000003**_ or _3700000000003**_ (the last 2 numbers can be anything)
+American Express: _3400000000003\*\*_ or _3700000000003\*\*_ (the last 2 numbers can be anything)
 
 #### Detect when user canceled card linking
 
@@ -271,5 +283,3 @@ The Fidel iOS SDK is in active development, we welcome your feedback!
 
 Get in touch:
 GitHub Issues - For SDK issues
-
-Fidel Developers Forum - [https://community.fidel.uk](https://community.fidel.uk) - for personal support at any phase of integration
