@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		C0S+WbB1KMXZOWzhfyRfGxIuiJk=
+		dRQkZnetOsjNzB/6TeItGxJq95g=
 		</data>
 		<key>CardView.nib</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		04LpNfEpFeRomtCfg7IwerEy2Js=
+		y78Eeoa3Va+xLQ2FVhHhrjYSjQ4=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0uGsxUEGmFVgepraTHsV56S2BAc=
+		nwXscFqJQ2wKlUnfTJJ2WNXlwrs=
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -142,11 +142,11 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vAaraJJOQIiRPVpMun59wXIdehI=
+		0D74C/wc76UZnsqBVRqCt15FlBg=
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		0uGsxUEGmFVgepraTHsV56S2BAc=
+		nwXscFqJQ2wKlUnfTJJ2WNXlwrs=
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KC9OH/9znN/JM1paukpHrNmUAPw=
+		AeTcEmh8zNlv5h7xXV+tVR0I584=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -201,7 +201,7 @@
 		</dict>
 		<key>split_cache.momd/VersionInfo.plist</key>
 		<data>
-		gJtx0OieoFl1Qfhxow+8me+/aoU=
+		5e/efTuWwvr5qE3gFE26eKNm5vY=
 		</data>
 		<key>split_cache.momd/split_cache.mom</key>
 		<data>
@@ -250,11 +250,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			C0S+WbB1KMXZOWzhfyRfGxIuiJk=
+			dRQkZnetOsjNzB/6TeItGxJq95g=
 			</data>
 			<key>hash2</key>
 			<data>
-			j8A5syAszR29yCYSZVRDWuVR8t9V2CzVwSovMLjq+mE=
+			JHaEk74UxvypL5tzmT8xLwd1KFPJBzAsEC5mo4aEuMY=
 			</data>
 		</dict>
 		<key>CardView.nib</key>
@@ -558,11 +558,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0uGsxUEGmFVgepraTHsV56S2BAc=
+			nwXscFqJQ2wKlUnfTJJ2WNXlwrs=
 			</data>
 			<key>hash2</key>
 			<data>
-			l8/CTX6mg/0+ztzpV0DwJFq0f4uUr0AnY6IPUaMQ0+E=
+			PuX2Xs/uUg1GnwFE38JyswZmYLTm7/IGmlVwgFyb6ps=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -602,22 +602,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vAaraJJOQIiRPVpMun59wXIdehI=
+			0D74C/wc76UZnsqBVRqCt15FlBg=
 			</data>
 			<key>hash2</key>
 			<data>
-			oYoabob8irViK2BLMCQ2XUKkOjqXAUPLOZ4Qzbq5HAM=
+			d4ssSgpt5Exxo//R/l2FtQnZSgd9eQ8AWUKwsr70/Ok=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0uGsxUEGmFVgepraTHsV56S2BAc=
+			nwXscFqJQ2wKlUnfTJJ2WNXlwrs=
 			</data>
 			<key>hash2</key>
 			<data>
-			l8/CTX6mg/0+ztzpV0DwJFq0f4uUr0AnY6IPUaMQ0+E=
+			PuX2Xs/uUg1GnwFE38JyswZmYLTm7/IGmlVwgFyb6ps=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -657,11 +657,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KC9OH/9znN/JM1paukpHrNmUAPw=
+			AeTcEmh8zNlv5h7xXV+tVR0I584=
 			</data>
 			<key>hash2</key>
 			<data>
-			vLcuF6Sv7O88TWsZjRUSImv04DghyfsOxuMz1PrpnpA=
+			Dx3Q79W1YZl2hwbRsgVtVs9CBBh6+AZOsflImeuAmwA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -729,11 +729,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gJtx0OieoFl1Qfhxow+8me+/aoU=
+			5e/efTuWwvr5qE3gFE26eKNm5vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			8+xtE953XLyC9cJb/jE4b0/kIi9TLoleq0kUjZKb9N4=
+			FM2Ei7J2c5KyEkZCVmG+Oa3ekFzrH1oqE1+gsjREfpY=
 			</data>
 		</dict>
 		<key>split_cache.momd/split_cache.mom</key>
