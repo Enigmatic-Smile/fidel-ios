@@ -297,8 +297,6 @@ public struct EnrollmentResult : Swift.Equatable, Swift.Decodable {
   public static var thirdPartyVerificationChoice: Swift.Bool
   public static var programType: ProgramType
   public static var bannerImage: UIKit.UIImage?
-  public static var shouldAutoScanCard: Swift.Bool
-  public static var enableCardScanner: Swift.Bool
   public static var metaData: [Swift.String : Any]?
   public static var allowedCountries: Swift.Set<Country>
   public static var defaultSelectedCountry: Country
