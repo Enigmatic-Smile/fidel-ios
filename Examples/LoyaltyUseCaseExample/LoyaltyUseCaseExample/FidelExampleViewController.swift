@@ -1,6 +1,5 @@
 //
 //  FidelExampleViewController.swift
-//  SwiftExample
 //
 //  Created by Corneliu on 13.05.2021.
 //
@@ -13,8 +12,10 @@ class FidelExampleViewController: UIViewController {
 
     /// Called when the card linking button is tapped
     @IBAction private func onTouchUpInsideTheLinkButton() {
-        Fidel.programId = "Your program ID. Please copy it from your Fidel dashboard."
-        Fidel.apiKey = "pk_test_your_sdk_key"
+        // We advise to not store the SDK Key in the codebase or in your repo,
+        // but retrieve it from your servers, via one of your endpoints
+        Fidel.sdkKey = "Your SDK Key"
+        Fidel.programID = "Your Program ID"
 
         // Show your banner image on top of the card linking UI
         Fidel.bannerImage = UIImage(named: "fdl_test_banner")
@@ -26,10 +27,10 @@ class FidelExampleViewController: UIViewController {
         // The company name will be mentioned in the card linking consent text
         Fidel.companyName = "Cashback Inc."
         // The privacy URL used in the card linking consent text
-        Fidel.privacyURL = "https://www.fidel.uk/"
+        Fidel.privacyPolicyURL = "https://www.fidel.uk/"
         // If a north american country is part of the `allowedCountries` Set,
         // then this Terms & Conditions URL is mandatory
-        Fidel.termsConditionsURL = "https://fidel.uk/docs/"
+        Fidel.termsAndConditionsURL = "https://fidel.uk/docs/"
         // The program name will be mentioned in the card linking consent text
         Fidel.programName = "Fidélité"
         // The card schemes that you are supporting (use Fidel.defaultSupportedCardSchemes to allow all Fidel supported card schemes)
@@ -40,13 +41,19 @@ class FidelExampleViewController: UIViewController {
         Fidel.metaData = ["id": "esdgfhgjg123", "custom0": "custom0key", "custom1": "firstKey"]
 
         // This code will present the Fidel card linking UI
-        Fidel.present(self, onCardLinkedCallback: { (card: LinkResult) in
-            // Here you can handle a succesful card linking result
-            print(card.id)
-        }, onCardLinkFailedCallback: { (err: LinkError) in
-            // Here you can handle a card linking error
-            print(err.message)
-        })
+        Fidel.start(from: self)
+        
+        Fidel.onResult = {
+            switch $0 {
+            case .enrollmentResult(let enrollmentResult):
+                print("Enrolled card ID: \(enrollmentResult.cardID)")
+            case .error(let error):
+                print("Enrollment error: \(error.message)")
+            default:
+                // No other type of result should be returned for your Loyalty use case
+                return
+            }
+        }
     }
 
 }
