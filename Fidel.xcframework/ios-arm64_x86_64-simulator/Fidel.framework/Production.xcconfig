@@ -1,0 +1,6 @@
+BASE_URL=api.fidel.uk/v1
+
+// This should be the key of the same Split.io environment used by the API the base URL that is set above
+// No need to set it yourself here; Will be set by a script, based on the value that you set in the .env file.
+// Details in this doc: https://fidelapi.atlassian.net/wiki/spaces/CL1/pages/2352087154/Getting+started+with+development+for+the+iOS+SDK
+SPLIT_CLIENT_KEY=tNWNypmbxljZwQDM1RnMmJ2Zh5WdqVGOwV2NwZDbtV3asVma
