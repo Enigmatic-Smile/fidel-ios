@@ -1,0 +1,6 @@
+target 'SwiftUIExpenseManagementExample' do
+  use_frameworks!
+
+  pod 'Fidel', :path => '../../'
+
+end
