@@ -62,7 +62,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Fidel.programName = "Fidélité"
         
         // The card schemes that you are supporting (use Fidel.defaultSupportedCardSchemes to allow all Fidel supported card schemes)
-        Fidel.supportedCardSchemes = [.visa, .mastercard]
+        Fidel.supportedCardSchemes = [.visa]
         
         // The delete instructions which will be written in the card linking consent text
         Fidel.deleteInstructions = "going to your account settings"
