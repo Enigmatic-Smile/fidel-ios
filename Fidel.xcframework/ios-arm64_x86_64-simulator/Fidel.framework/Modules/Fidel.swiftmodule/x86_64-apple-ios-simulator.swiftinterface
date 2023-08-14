@@ -1,0 +1,628 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios9.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Fidel
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVKit
+import BackgroundTasks
+import Compression
+import CoreData
+@_exported import Fidel
+import Foundation
+import Swift
+import SystemConfiguration
+import UIKit
+import _Concurrency
+import _StringProcessing
+public enum ProgramType : Swift.Equatable {
+  case transactionSelect
+  case transactionStream
+  public static func == (a: ProgramType, b: ProgramType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers final public class DefaultSplitClient : ObjectiveC.NSObject, SplitClient {
+  @objc deinit
+}
+extension DefaultSplitClient {
+  @objc final public func on(event: SplitEvent, execute action: @escaping SplitAction)
+}
+extension DefaultSplitClient {
+  @objc final public func getTreatmentWithConfig(_ split: Swift.String) -> SplitResult
+  @objc final public func getTreatmentWithConfig(_ split: Swift.String, attributes: [Swift.String : Any]?) -> SplitResult
+  @objc final public func getTreatment(_ split: Swift.String) -> Swift.String
+  @objc final public func getTreatment(_ split: Swift.String, attributes: [Swift.String : Any]?) -> Swift.String
+  @objc final public func getTreatments(splits: [Swift.String], attributes: [Swift.String : Any]?) -> [Swift.String : Swift.String]
+  @objc final public func getTreatmentsWithConfig(splits: [Swift.String], attributes: [Swift.String : Any]?) -> [Swift.String : SplitResult]
+}
+extension DefaultSplitClient {
+  @objc final public func track(trafficType: Swift.String, eventType: Swift.String) -> Swift.Bool
+  @objc final public func track(trafficType: Swift.String, eventType: Swift.String, value: Swift.Double) -> Swift.Bool
+  @objc final public func track(eventType: Swift.String) -> Swift.Bool
+  @objc final public func track(eventType: Swift.String, value: Swift.Double) -> Swift.Bool
+  @objc final public func track(trafficType: Swift.String, eventType: Swift.String, properties: [Swift.String : Any]?) -> Swift.Bool
+  @objc final public func track(trafficType: Swift.String, eventType: Swift.String, value: Swift.Double, properties: [Swift.String : Any]?) -> Swift.Bool
+  @objc final public func track(eventType: Swift.String, properties: [Swift.String : Any]?) -> Swift.Bool
+  @objc final public func track(eventType: Swift.String, value: Swift.Double, properties: [Swift.String : Any]?) -> Swift.Bool
+}
+extension DefaultSplitClient {
+  @objc final public func setAttribute(name: Swift.String, value: Any) -> Swift.Bool
+  @objc final public func getAttribute(name: Swift.String) -> Any?
+  @objc final public func setAttributes(_ values: [Swift.String : Any]) -> Swift.Bool
+  @objc final public func getAttributes() -> [Swift.String : Any]?
+  @objc final public func removeAttribute(name: Swift.String) -> Swift.Bool
+  @objc final public func clearAttributes() -> Swift.Bool
+}
+extension DefaultSplitClient {
+  @objc final public func flush()
+  @objc final public func destroy()
+  @objc final public func destroy(completion: (() -> Swift.Void)?)
+}
+@objc @_inheritsConvenienceInitializers open class SplitEventTask : ObjectiveC.NSObject {
+  @objc open func onPostExecute(client: any SplitClient)
+  @objc open func onPostExecuteView(client: any SplitClient)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class Partition : ObjectiveC.NSObject, Swift.Codable {
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_hasMissingDesignatedInitializers public class LocalhostSplitFactory : ObjectiveC.NSObject, SplitFactory {
+  @objc public static var sdkVersion: Swift.String {
+    @objc get
+  }
+  @objc public var client: any SplitClient {
+    @objc get
+  }
+  @objc public var manager: any SplitManager {
+    @objc get
+  }
+  @objc public var version: Swift.String {
+    @objc get
+  }
+  @objc public func client(key: Key) -> any SplitClient
+  @objc public func client(matchingKey: Swift.String) -> any SplitClient
+  @objc public func client(matchingKey: Swift.String, bucketingKey: Swift.String?) -> any SplitClient
+  @objc deinit
+}
+public typealias SplitAction = () -> Swift.Void
+@objc public protocol SplitClient {
+  @objc func getTreatment(_ split: Swift.String, attributes: [Swift.String : Any]?) -> Swift.String
+  @objc func getTreatment(_ split: Swift.String) -> Swift.String
+  @objc(getTreatmentsForSplits:attributes:) func getTreatments(splits: [Swift.String], attributes: [Swift.String : Any]?) -> [Swift.String : Swift.String]
+  @objc func getTreatmentWithConfig(_ split: Swift.String) -> SplitResult
+  @objc func getTreatmentWithConfig(_ split: Swift.String, attributes: [Swift.String : Any]?) -> SplitResult
+  @objc(getTreatmentsWithConfigForSplits:attributes:) func getTreatmentsWithConfig(splits: [Swift.String], attributes: [Swift.String : Any]?) -> [Swift.String : SplitResult]
+  @objc func on(event: SplitEvent, execute action: @escaping SplitAction)
+  @objc func track(trafficType: Swift.String, eventType: Swift.String) -> Swift.Bool
+  @objc func track(trafficType: Swift.String, eventType: Swift.String, value: Swift.Double) -> Swift.Bool
+  @objc func track(eventType: Swift.String) -> Swift.Bool
+  @objc func track(eventType: Swift.String, value: Swift.Double) -> Swift.Bool
+  @objc func setAttribute(name: Swift.String, value: Any) -> Swift.Bool
+  @objc func getAttribute(name: Swift.String) -> Any?
+  @objc func setAttributes(_ values: [Swift.String : Any]) -> Swift.Bool
+  @objc func getAttributes() -> [Swift.String : Any]?
+  @objc func removeAttribute(name: Swift.String) -> Swift.Bool
+  @objc func clearAttributes() -> Swift.Bool
+  @objc func flush()
+  @objc func destroy()
+  @objc func destroy(completion: (() -> Swift.Void)?)
+  @objc(trackWithTrafficType:eventType:properties:) func track(trafficType: Swift.String, eventType: Swift.String, properties: [Swift.String : Any]?) -> Swift.Bool
+  @objc(trackWithTrafficType:eventType:value:properties:) func track(trafficType: Swift.String, eventType: Swift.String, value: Swift.Double, properties: [Swift.String : Any]?) -> Swift.Bool
+  @objc(trackWithEventType:properties:) func track(eventType: Swift.String, properties: [Swift.String : Any]?) -> Swift.Bool
+  @objc(trackWithEventType:value:properties:) func track(eventType: Swift.String, value: Swift.Double, properties: [Swift.String : Any]?) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers @objc public class SyncConfig : ObjectiveC.NSObject {
+  @objc(builder) public static func builder() -> SyncConfig.Builder
+  @_inheritsConvenienceInitializers @objc(SyncConfigBuilder) public class Builder : ObjectiveC.NSObject {
+    @objc(build) public func build() -> SyncConfig
+    @discardableResult
+    @objc(addSplitFilter:) public func addSplitFilter(_ filter: SplitFilter) -> SyncConfig.Builder
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  @objc deinit
+}
+public struct FidelError : Swift.Equatable, Swift.Decodable {
+  public let message: Swift.String
+  public let date: Foundation.Date
+  public let type: FidelErrorType
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (a: FidelError, b: FidelError) -> Swift.Bool
+}
+@objc public protocol SplitManager {
+  @objc var splits: [SplitView] { get }
+  @objc var splitNames: [Swift.String] { get }
+  @objc func split(featureName: Swift.String) -> SplitView?
+}
+public enum CardScheme : Swift.Equatable {
+  case visa
+  case mastercard
+  case americanExpress
+  public static var allSupportedCardSchemes: Swift.Set<CardScheme> {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: CardScheme, b: CardScheme) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct VerificationResult : Swift.Equatable {
+  public let cardID: Swift.String
+  public static func == (a: VerificationResult, b: VerificationResult) -> Swift.Bool
+}
+@objc public protocol SplitFactoryBuilder {
+  @objc @discardableResult
+  func setApiKey(_ apiKey: Swift.String) -> any SplitFactoryBuilder
+  @objc @discardableResult
+  func setMatchingKey(_ matchingKey: Swift.String) -> any SplitFactoryBuilder
+  @objc @discardableResult
+  func setBucketingKey(_ bucketingKey: Swift.String) -> any SplitFactoryBuilder
+  @objc @discardableResult
+  func setKey(_ key: Key) -> any SplitFactoryBuilder
+  @objc @discardableResult
+  func setConfig(_ config: SplitClientConfig) -> any SplitFactoryBuilder
+  @objc func build() -> (any SplitFactory)?
+}
+public typealias SplitImpression = Impression
+@_inheritsConvenienceInitializers @objc public class Impression : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var feature: Swift.String?
+  @objc public var keyName: Swift.String?
+  @objc public var treatment: Swift.String?
+  public var time: Swift.Int64?
+  @objc public var timestamp: Foundation.NSNumber? {
+    @objc get
+  }
+  public var changeNumber: Swift.Int64?
+  @objc public var changeNum: Foundation.NSNumber? {
+    @objc get
+  }
+  @objc public var label: Swift.String?
+  @objc public var bucketingKey: Swift.String?
+  @objc public var attributes: [Swift.String : Any]?
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public enum SplitLogLevel : Swift.String {
+  case verbose
+  case debug
+  case info
+  case warning
+  case error
+  case none
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum FidelErrorType : Swift.Error, Swift.Equatable {
+  case sdkConfigurationError
+  case userCanceled
+  case enrollmentError(EnrollmentError)
+  case verificationError(VerificationError)
+  case deviceNotSecure
+  public static func == (a: FidelErrorType, b: FidelErrorType) -> Swift.Bool
+}
+@objc @_hasMissingDesignatedInitializers final public class LocalhostSplitClient : ObjectiveC.NSObject, SplitClient {
+  @objc final public func getTreatment(_ split: Swift.String, attributes: [Swift.String : Any]?) -> Swift.String
+  @objc final public func getTreatment(_ split: Swift.String) -> Swift.String
+  @objc final public func getTreatments(splits: [Swift.String], attributes: [Swift.String : Any]?) -> [Swift.String : Swift.String]
+  @objc final public func getTreatmentWithConfig(_ split: Swift.String) -> SplitResult
+  @objc final public func getTreatmentWithConfig(_ split: Swift.String, attributes: [Swift.String : Any]?) -> SplitResult
+  @objc final public func getTreatmentsWithConfig(splits: [Swift.String], attributes: [Swift.String : Any]?) -> [Swift.String : SplitResult]
+  final public func on(_ event: SplitEvent, _ task: SplitEventTask)
+  @objc final public func on(event: SplitEvent, execute action: @escaping SplitAction)
+  @objc final public func track(trafficType: Swift.String, eventType: Swift.String) -> Swift.Bool
+  @objc final public func track(trafficType: Swift.String, eventType: Swift.String, value: Swift.Double) -> Swift.Bool
+  @objc final public func track(eventType: Swift.String) -> Swift.Bool
+  @objc final public func track(eventType: Swift.String, value: Swift.Double) -> Swift.Bool
+  @objc final public func track(trafficType: Swift.String, eventType: Swift.String, properties: [Swift.String : Any]?) -> Swift.Bool
+  @objc final public func track(trafficType: Swift.String, eventType: Swift.String, value: Swift.Double, properties: [Swift.String : Any]?) -> Swift.Bool
+  @objc final public func track(eventType: Swift.String, properties: [Swift.String : Any]?) -> Swift.Bool
+  @objc final public func track(eventType: Swift.String, value: Swift.Double, properties: [Swift.String : Any]?) -> Swift.Bool
+  @objc final public func flush()
+  @objc final public func destroy()
+  @objc final public func destroy(completion: (() -> Swift.Void)?)
+  @objc deinit
+}
+extension LocalhostSplitClient {
+  @objc final public func setAttribute(name: Swift.String, value: Any) -> Swift.Bool
+  @objc final public func getAttribute(name: Swift.String) -> Any?
+  @objc final public func setAttributes(_ values: [Swift.String : Any]) -> Swift.Bool
+  @objc final public func getAttributes() -> [Swift.String : Any]?
+  @objc final public func removeAttribute(name: Swift.String) -> Swift.Bool
+  @objc final public func clearAttributes() -> Swift.Bool
+}
+@objc public protocol SplitBase {
+}
+public enum EnrollmentError : Swift.String, Swift.Equatable, Swift.Error, Swift.Decodable {
+  case cardAlreadyExists
+  case invalidProgramID
+  case invalidSDKKey
+  case inexistentProgram
+  case unexpected
+  case unauthorized
+  case issuerProcessingError
+  case duplicateTransactionError
+  case insufficientFundsError
+  case processingChargeError
+  case cardDetailsError
+  case cardLimitExceededError
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public protocol SplitFactory {
+  @objc var client: any SplitClient { get }
+  @objc func client(key: Key) -> any SplitClient
+  @objc(clientWithMatchingKey:) func client(matchingKey: Swift.String) -> any SplitClient
+  @objc(clientWithMatchingKey:bucketingKey:) func client(matchingKey: Swift.String, bucketingKey: Swift.String?) -> any SplitClient
+  @objc var manager: any SplitManager { get }
+  @objc var version: Swift.String { get }
+}
+public struct EnrollmentResult : Swift.Equatable, Swift.Decodable {
+  public let cardID: Swift.String
+  public let accountID: Swift.String
+  public let programID: Swift.String
+  public let enrollmentDate: Foundation.Date
+  public let scheme: CardScheme
+  public let isLive: Swift.Bool
+  public let cardFirstNumbers: Swift.String?
+  public let cardLastNumbers: Swift.String?
+  public let cardExpirationYear: Swift.Int
+  public let cardExpirationMonth: Swift.Int
+  public let cardIssuingCountry: Country
+  public let metaData: [Swift.String : Any]?
+  public init(from decoder: any Swift.Decoder) throws
+  public static func == (lhs: EnrollmentResult, rhs: EnrollmentResult) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers public class Fidel {
+  public typealias OnFidelResult = (_ result: FidelResult) -> Swift.Void
+  public static var sdkKey: Swift.String! {
+    get
+    set
+  }
+  public static var programID: Swift.String!
+  public static var thirdPartyVerificationChoice: Swift.Bool
+  public static var programType: ProgramType
+  public static var bannerImage: UIKit.UIImage?
+  public static var metaData: [Swift.String : Any]?
+  public static var allowedCountries: Swift.Set<Country>
+  public static var defaultSelectedCountry: Country
+  public static var supportedCardSchemes: Swift.Set<CardScheme>
+  public static var companyName: Swift.String!
+  public static var programName: Swift.String
+  public static var termsAndConditionsURL: Swift.String?
+  public static var privacyPolicyURL: Swift.String?
+  public static var deleteInstructions: Swift.String
+  public static var onResult: OnFidelResult?
+  public static var onCardVerificationChoiceSelected: OnCardVerificationChoiceSelected?
+  public static var onCardVerificationStarted: OnCardVerificationStarted?
+  public static func start(from startingViewController: UIKit.UIViewController)
+  public static func verifyCard(from startingViewController: UIKit.UIViewController, cardVerificationConfiguration: CardVerificationConfiguration)
+  @objc deinit
+}
+public struct ConsentDetails : Swift.Equatable {
+  public let cardID: Swift.String
+  public let consentID: Swift.String
+  public let programID: Swift.String
+  public static func == (a: ConsentDetails, b: ConsentDetails) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers @objc public class DefaultSplitManager : ObjectiveC.NSObject, SplitManager {
+  @objc public var splits: [SplitView] {
+    @objc get
+  }
+  @objc public var splitNames: [Swift.String] {
+    @objc get
+  }
+  @objc public func split(featureName: Swift.String) -> SplitView?
+  @objc deinit
+}
+extension SplitView {
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+}
+@objc public class Key : ObjectiveC.NSObject {
+  @objc(initWithMatchingKey:bucketingKey:) public init(matchingKey: Swift.String, bucketingKey: Swift.String? = nil)
+  @objc override dynamic public var hash: Swift.Int {
+    @objc get
+  }
+  @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
+  @objc override dynamic public var description: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class SplitFilter : ObjectiveC.NSObject {
+  @objc(byName:) public static func byName(_ values: [Swift.String]) -> SplitFilter
+  @objc(byPrefix:) public static func byPrefix(_ values: [Swift.String]) -> SplitFilter
+  @objc deinit
+}
+infix operator |> : Functional
+extension Swift.KeyedDecodingContainer {
+  public func decode(_ type: [Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Any]
+  public func decode(_ type: [Swift.String : Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Swift.String : Any]
+  public func decodeIfPresent(_ type: [Swift.String : Any].Type, forKey key: Swift.KeyedDecodingContainer<K>.Key) throws -> [Swift.String : Any]?
+}
+@objc @_inheritsConvenienceInitializers public class SplitView : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var name: Swift.String?
+  @objc public var trafficType: Swift.String?
+  public var killed: Swift.Bool?
+  @objc public var isKilled: Swift.Bool {
+    @objc get
+  }
+  @objc public var treatments: [Swift.String]?
+  public var changeNumber: Swift.Int64?
+  @objc public var changeNum: Foundation.NSNumber? {
+    @objc get
+  }
+  @objc public var configs: [Swift.String : Swift.String]?
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers public class JKBCrypt : ObjectiveC.NSObject {
+  public class func generateSaltWithNumberOfRounds(rounds: Swift.UInt) -> Swift.String
+  public class func generateSalt() -> Swift.String
+  public class func hashPassword(password: Swift.String, withSalt salt: Swift.String) -> Swift.String?
+  public class func verifyPassword(password: Swift.String, matchesHash hash: Swift.String) -> Swift.Bool?
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Partition {
+  @objc override dynamic public var debugDescription: Swift.String {
+    @objc get
+  }
+}
+public enum FidelResult : Swift.Equatable {
+  case enrollmentResult(EnrollmentResult)
+  case verificationResult(VerificationResult)
+  case error(FidelError)
+  public static func == (a: FidelResult, b: FidelResult) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers @objc public class ServiceEndpoints : ObjectiveC.NSObject {
+  @objc public static func builder() -> ServiceEndpoints.Builder
+  @_inheritsConvenienceInitializers @objc(ServiceEndpointsBuilder) public class Builder : ObjectiveC.NSObject {
+    @objc(setSdkEndpoint:) public func set(sdkEndpoint: Swift.String) -> Self
+    @objc(setEventsEndpoint:) public func set(eventsEndpoint: Swift.String) -> Self
+    @objc(setAuthServiceEndpoint:) public func set(authServiceEndpoint: Swift.String) -> Self
+    @objc(setStreamingServiceEndpoint:) public func set(streamingServiceEndpoint: Swift.String) -> Self
+    @objc(setTelemetryServiceEndpoint:) public func set(telemetryServiceEndpoint: Swift.String) -> Self
+    @objc public func build() -> ServiceEndpoints
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  @objc deinit
+}
+public typealias OnCardVerificationChoiceSelected = (_ cardVerificationChoice: CardVerificationChoice) -> Swift.Void
+public typealias OnCardVerificationStarted = (_ consentDetails: ConsentDetails) -> Swift.Void
+public func += <K, V>(left: inout [K : V], right: [K : V]) where K : Swift.Hashable
+public enum VerificationError : Swift.String, Swift.Equatable, Swift.Error, Swift.Decodable {
+  case unexpected
+  case unauthorized
+  case invalidSDKKey
+  case incorrectAmount
+  case incorrectAmountCode
+  case maximumAttemptsReached
+  case cardAlreadyVerified
+  case cardNotFound
+  case verificationNotFound
+  case genericError
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Country {
+  case canada
+  case ireland
+  case japan
+  case sweden
+  case unitedArabEmirates
+  case unitedKingdom
+  case unitedStates
+  case norway
+  public static var allCountries: Swift.Set<Country> {
+    get
+  }
+  public static func == (a: Country, b: Country) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers public class DefaultSplitFactory : ObjectiveC.NSObject, SplitFactory {
+  @objc public static var sdkVersion: Swift.String {
+    @objc get
+  }
+  @objc public var client: any SplitClient {
+    @objc get
+  }
+  @objc public var manager: any SplitManager {
+    @objc get
+  }
+  @objc public var version: Swift.String {
+    @objc get
+  }
+  @objc public func client(key: Key) -> any SplitClient
+  @objc public func client(matchingKey: Swift.String) -> any SplitClient
+  @objc public func client(matchingKey: Swift.String, bucketingKey: Swift.String?) -> any SplitClient
+  @objc deinit
+}
+extension Swift.String {
+  public func isEmpty() -> Swift.Bool
+  public func hasUpperCaseChar() -> Swift.Bool
+}
+public enum CardVerificationChoice {
+  case onTheSpot
+  case delegatedToThirdParty
+  public static func == (a: CardVerificationChoice, b: CardVerificationChoice) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class DefaultSplitFactoryBuilder : ObjectiveC.NSObject, SplitFactoryBuilder {
+  @objc override dynamic public init()
+  @objc public func setApiKey(_ apiKey: Swift.String) -> any SplitFactoryBuilder
+  @objc public func setMatchingKey(_ matchingKey: Swift.String) -> any SplitFactoryBuilder
+  @objc public func setBucketingKey(_ bucketingKey: Swift.String) -> any SplitFactoryBuilder
+  @objc public func setKey(_ key: Key) -> any SplitFactoryBuilder
+  @objc public func setConfig(_ config: SplitClientConfig) -> any SplitFactoryBuilder
+  @objc public func build() -> (any SplitFactory)?
+  @objc deinit
+}
+public enum ConditionType : Swift.Int, Swift.Codable {
+  case whitelist
+  case rollout
+  public typealias RawValue = Swift.Int
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public typealias SplitImpressionListener = (SplitImpression) -> Swift.Void
+@objc @_inheritsConvenienceInitializers public class SplitClientConfig : ObjectiveC.NSObject {
+  @objc public var sdkReadyTimeOut: Swift.Int
+  @objc public var featuresRefreshRate: Swift.Int
+  @objc public var impressionRefreshRate: Swift.Int
+  @objc public var impressionsChunkSize: Swift.Int64
+  @objc public var segmentsRefreshRate: Swift.Int
+  @objc public var impressionsQueueSize: Swift.Int
+  @objc public var connectionTimeout: Swift.Int
+  @objc public var trafficType: Swift.String?
+  @objc public var eventsFirstPushWindow: Swift.Int
+  @objc public var eventsPushRate: Swift.Int
+  @objc public var eventsQueueSize: Swift.Int64
+  @objc public var eventsPerPush: Swift.Int
+  @objc public var metricsPushRate: Swift.Int
+  @objc public var apiKey: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public var serviceEndpoints: ServiceEndpoints
+  @available(*, deprecated, message: "Use logLevel instead")
+  @objc public var isDebugModeEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @available(*, deprecated, message: "Use logLevel instead")
+  @objc public var isVerboseModeEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  public var logLevel: SplitLogLevel {
+    get
+    set
+  }
+  @objc public func set(logLevel: Swift.String)
+  @objc public var impressionListener: SplitImpressionListener?
+  @objc public var localhostDataFolder: Swift.String
+  @objc public var splitFile: Swift.String
+  @objc public var isLabelsEnabled: Swift.Bool
+  @objc public var sync: SyncConfig
+  @objc public var streamingEnabled: Swift.Bool
+  @objc public var impressionsMode: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public var pushRetryBackoffBase: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc public var offlineRefreshRate: Swift.Int
+  @objc public var synchronizeInBackground: Swift.Bool
+  @objc public var telemetryRefreshRate: Swift.Int {
+    @objc get
+    @objc set
+  }
+  @objc public var persistentAttributesEnabled: Swift.Bool
+  @objc public var syncEnabled: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc open class SplitResult : ObjectiveC.NSObject {
+  @objc public var treatment: Swift.String
+  @objc public var config: Swift.String?
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class DateTime : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Foundation.Date {
+  public func isBetweeen(date date1: Foundation.Date, andDate date2: Foundation.Date) -> Swift.Bool
+  public static func dateFromInt(number: Swift.Int64) -> Foundation.Date
+}
+@objc public enum SplitEvent : Swift.Int {
+  case sdkReady
+  case sdkReadyTimedOut
+  case sdkReadyFromCache
+  case sdkUpdated
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct CardVerificationConfiguration : Swift.Equatable {
+  public let cardID: Swift.String
+  public let consentID: Swift.String
+  public let last4Digits: Swift.String?
+  public init(cardID: Swift.String, consentID: Swift.String, last4Digits: Swift.String?)
+  public static func == (a: CardVerificationConfiguration, b: CardVerificationConfiguration) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @objc public class SplitBgSynchronizer : ObjectiveC.NSObject {
+  @objc public static let shared: SplitBgSynchronizer
+  @objc public func register(apiKey: Swift.String, userKey: Swift.String)
+  @objc public func unregister(apiKey: Swift.String, userKey: Swift.String)
+  @objc public func unregisterAll()
+  @objc public func schedule(serviceEndpoints: ServiceEndpoints? = nil)
+  @objc override dynamic public init()
+  @objc deinit
+}
+precedencegroup Functional {
+  associativity: left
+  higherThan: DefaultPrecedence
+}
+infix operator <*> : Functional
+infix operator <^> : Functional
+infix operator >>- : Functional
+infix operator >>=- : Functional
+infix operator >>| : Functional
+extension ProgramType : Swift.Hashable {}
+extension CardScheme : Swift.Hashable {}
+extension SplitLogLevel : Swift.Equatable {}
+extension SplitLogLevel : Swift.Hashable {}
+extension SplitLogLevel : Swift.RawRepresentable {}
+extension EnrollmentError : Swift.Hashable {}
+extension EnrollmentError : Swift.RawRepresentable {}
+extension VerificationError : Swift.Hashable {}
+extension VerificationError : Swift.RawRepresentable {}
+extension Country : Swift.Equatable {}
+extension Country : Swift.Hashable {}
+extension CardVerificationChoice : Swift.Equatable {}
+extension CardVerificationChoice : Swift.Hashable {}
+extension ConditionType : Swift.Equatable {}
+extension ConditionType : Swift.Hashable {}
+extension ConditionType : Swift.RawRepresentable {}
+extension SplitEvent : Swift.Equatable {}
+extension SplitEvent : Swift.Hashable {}
+extension SplitEvent : Swift.RawRepresentable {}
