@@ -3,17 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57DED9F12AE2CFF1003FC1AC /* analytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DED9F02AE2CFF1003FC1AC /* analytics.xcframework */; };
+		57DED9F22AE2CFF1003FC1AC /* analytics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57DED9F02AE2CFF1003FC1AC /* analytics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		57DED9F92AE2D09B003FC1AC /* Fidel.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DED9F82AE2D09B003FC1AC /* Fidel.xcframework */; };
+		57DED9FA2AE2D09B003FC1AC /* Fidel.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57DED9F82AE2D09B003FC1AC /* Fidel.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1BE731F264D12AC00D60764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE731E264D12AC00D60764 /* AppDelegate.swift */; };
 		A1BE7323264D12AC00D60764 /* FidelExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BE7322264D12AC00D60764 /* FidelExampleViewController.swift */; };
 		A1BE7326264D12AC00D60764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BE7324264D12AC00D60764 /* Main.storyboard */; };
 		A1BE7328264D12AD00D60764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BE7327264D12AD00D60764 /* Assets.xcassets */; };
 		A1BE732B264D12AD00D60764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BE7329264D12AD00D60764 /* LaunchScreen.storyboard */; };
-		A1BE7335264D138E00D60764 /* Fidel.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BE7333264D138000D60764 /* Fidel.xcframework */; };
-		A1BE7336264D138E00D60764 /* Fidel.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1BE7333264D138000D60764 /* Fidel.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +25,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A1BE7336264D138E00D60764 /* Fidel.xcframework in Embed Frameworks */,
+				57DED9FA2AE2D09B003FC1AC /* Fidel.xcframework in Embed Frameworks */,
+				57DED9F22AE2CFF1003FC1AC /* analytics.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		57DED9F02AE2CFF1003FC1AC /* analytics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = analytics.xcframework; path = ../../../analytics.xcframework; sourceTree = "<group>"; };
+		57DED9F82AE2D09B003FC1AC /* Fidel.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Fidel.xcframework; path = ../../../Fidel.xcframework; sourceTree = "<group>"; };
 		A1BE731B264D12AC00D60764 /* LoyaltyUseCaseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoyaltyUseCaseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BE731E264D12AC00D60764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1BE7322264D12AC00D60764 /* FidelExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FidelExampleViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +43,6 @@
 		A1BE7327264D12AD00D60764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1BE732A264D12AD00D60764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1BE732C264D12AD00D60764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1BE7333264D138000D60764 /* Fidel.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Fidel.xcframework; path = ../../../Fidel.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1BE7335264D138E00D60764 /* Fidel.xcframework in Frameworks */,
+				57DED9F92AE2D09B003FC1AC /* Fidel.xcframework in Frameworks */,
+				57DED9F12AE2CFF1003FC1AC /* analytics.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +91,8 @@
 		A1BE7332264D135300D60764 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A1BE7333264D138000D60764 /* Fidel.xcframework */,
+				57DED9F82AE2D09B003FC1AC /* Fidel.xcframework */,
+				57DED9F02AE2CFF1003FC1AC /* analytics.xcframework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
