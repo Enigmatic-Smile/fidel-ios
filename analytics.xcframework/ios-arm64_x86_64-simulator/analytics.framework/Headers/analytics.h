@@ -149,6 +149,7 @@ __attribute__((swift_name("Analytics")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (void)identifyDataSourceAnalyticsApiKey:(NSString *)analyticsApiKey sdkDetails:(AnalyticsSdkDetails *)sdkDetails __attribute__((swift_name("identifyDataSource(analyticsApiKey:sdkDetails:)")));
+- (void)identifyMultiplatformDataSourceSdkDetails:(AnalyticsSdkDetails *)sdkDetails __attribute__((swift_name("identifyMultiplatformDataSource(sdkDetails:)")));
 - (void)identifyUserUserId:(NSString *)userId __attribute__((swift_name("identifyUser(userId:)")));
 - (void)trackEvent:(NSString *)event properties:(NSDictionary<NSString *, id<AnalyticsAnalyticsValue>> * _Nullable)properties __attribute__((swift_name("track(event:properties:)")));
 @end
