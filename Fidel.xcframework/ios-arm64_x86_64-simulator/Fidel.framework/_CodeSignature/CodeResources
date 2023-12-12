@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		YkA9o3GU4S3ueq+K9Dj/SkrkHFM=
+		yobtZ1Yh8SPsWjagcjMoeeN+Ixo=
 		</data>
 		<key>CardView.nib</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6Jv1uLwVYtDbOU87Qlc+muc/fxY=
+		xnKpeN2K2OEOPUmAwJTCW0mpu2k=
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AW2n56q+u13Q9I1aIoKfugf5gzg=
+		d7o1L+Xc95vSTG7w3+PDRM71iwk=
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6Jv1uLwVYtDbOU87Qlc+muc/fxY=
+		xnKpeN2K2OEOPUmAwJTCW0mpu2k=
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AVfiDItSMJEcnOtmK75pQxf+RVU=
+		QOkA0ckzR0N7QMh6HreyInLmyl0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l/FzzFbTqAm2evomRYXyo2Hv8AA=
+			UZlZ8QABcCGMqW88whzGb11SdLc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -162,7 +162,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y7MBGZqwPYMdhuYlGPl/GcpBqGM=
+			zxpRl1vQoZVK0Xrrdw7xS83Ehn8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -195,7 +195,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8Ghn7EaqKfMYlb3CwWBrET1V0+Q=
+			Eu/+LSulzO01fpWZ2s43cfcdPR8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -218,11 +218,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YkA9o3GU4S3ueq+K9Dj/SkrkHFM=
+			yobtZ1Yh8SPsWjagcjMoeeN+Ixo=
 			</data>
 			<key>hash2</key>
 			<data>
-			59UI9C9aQsi0E7gMud/ElxuVMrLLHiRrvCJMX9JMKvw=
+			Vy+vj4sj+nYehAyVMNYVOZhlm1z/EwZO7T6wkQI7udU=
 			</data>
 		</dict>
 		<key>CardView.nib</key>
@@ -438,11 +438,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6Jv1uLwVYtDbOU87Qlc+muc/fxY=
+			xnKpeN2K2OEOPUmAwJTCW0mpu2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			dvlE27JPv1prriXbqC6n8ZkbKWKFph5uoiDr+Wh9eUQ=
+			AV4Q+SQv8NZ4mMQEAI1JzVUQSFWV1HhGsQ0miJhP2CU=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -482,22 +482,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AW2n56q+u13Q9I1aIoKfugf5gzg=
+			d7o1L+Xc95vSTG7w3+PDRM71iwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			sQBaoQjdCt1pybk7gmziWRz2FrAwi3Z1tDP2IrWF/xs=
+			J8FoxEFavmrHW5RiacES0wvQ1+13+E1C5L27LNdbb6E=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6Jv1uLwVYtDbOU87Qlc+muc/fxY=
+			xnKpeN2K2OEOPUmAwJTCW0mpu2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			dvlE27JPv1prriXbqC6n8ZkbKWKFph5uoiDr+Wh9eUQ=
+			AV4Q+SQv8NZ4mMQEAI1JzVUQSFWV1HhGsQ0miJhP2CU=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -537,11 +537,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AVfiDItSMJEcnOtmK75pQxf+RVU=
+			QOkA0ckzR0N7QMh6HreyInLmyl0=
 			</data>
 			<key>hash2</key>
 			<data>
-			aGV49aRmUtYDqaa6QFFrwzLtnIODKseYYhBwWa9/RCA=
+			vowNfhUbEnU+q50ngwcX8w7vZQ1mBJiBiF9NnCR8QPw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -570,11 +570,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l/FzzFbTqAm2evomRYXyo2Hv8AA=
+			UZlZ8QABcCGMqW88whzGb11SdLc=
 			</data>
 			<key>hash2</key>
 			<data>
-			E4ycIveVF9N2s8zc/tcwg/4xc49ASP3QoujLUvSOrb8=
+			ifL4uScd5Wi7aAHjg1OtA9U+Q4VHhW5qdyxFbEN4aUw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -596,11 +596,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y7MBGZqwPYMdhuYlGPl/GcpBqGM=
+			zxpRl1vQoZVK0Xrrdw7xS83Ehn8=
 			</data>
 			<key>hash2</key>
 			<data>
-			H1mZVBYv7RXSmUVdKJ2+jKV/1dvqKiC7gU94d3sOP1U=
+			ocsQIhK1x6rpKPkH7Twj0T/zw0UYAoDE5YvyQq9P5Fg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -675,11 +675,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8Ghn7EaqKfMYlb3CwWBrET1V0+Q=
+			Eu/+LSulzO01fpWZ2s43cfcdPR8=
 			</data>
 			<key>hash2</key>
 			<data>
-			7xZufennuXhN76morJepVtu+dKGqEfQSN1+mOJ5MyNc=
+			VVRSnqx2bMCn+7TIBOxv/opovF8h/6aKrJ8wt0aBih0=
 			</data>
 			<key>optional</key>
 			<true/>
