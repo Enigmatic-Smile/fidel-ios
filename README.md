@@ -7,7 +7,7 @@ Our SDK helps you add card linking technology to your iOS apps in minutes. It ca
 ## Installation and Documentation
 
 Please see the iOS SDK's documentation on our website:
-- [For Expense Management applications / Transaction Stream API](https://fidelapi.com/docs/stream/sdks/ios/guide)
+- [For Expense Management applications / Transaction Stream API](https://fidelapi.com/docs/stream/sdks/ios/guide-v2)
 - [For Loyalty applications / Select Transactions API](https://fidelapi.com/docs/select/sdks/ios/guide-v2)
 
 ## Feedback
