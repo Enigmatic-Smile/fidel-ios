@@ -18885,6 +18885,726 @@
           },
           {
             "kind": "Var",
+            "name": "australia",
+            "printedName": "australia",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO9australiayA2CmF",
+            "mangledName": "$s5Fidel7CountryO9australiayA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "newZealand",
+            "printedName": "newZealand",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO10newZealandyA2CmF",
+            "mangledName": "$s5Fidel7CountryO10newZealandyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hongKong",
+            "printedName": "hongKong",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO8hongKongyA2CmF",
+            "mangledName": "$s5Fidel7CountryO8hongKongyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "philippines",
+            "printedName": "philippines",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO11philippinesyA2CmF",
+            "mangledName": "$s5Fidel7CountryO11philippinesyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "singapore",
+            "printedName": "singapore",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO9singaporeyA2CmF",
+            "mangledName": "$s5Fidel7CountryO9singaporeyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vietnam",
+            "printedName": "vietnam",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO7vietnamyA2CmF",
+            "mangledName": "$s5Fidel7CountryO7vietnamyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "switzerland",
+            "printedName": "switzerland",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO11switzerlandyA2CmF",
+            "mangledName": "$s5Fidel7CountryO11switzerlandyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "finland",
+            "printedName": "finland",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO7finlandyA2CmF",
+            "mangledName": "$s5Fidel7CountryO7finlandyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "denmark",
+            "printedName": "denmark",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO7denmarkyA2CmF",
+            "mangledName": "$s5Fidel7CountryO7denmarkyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brazil",
+            "printedName": "brazil",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO6brazilyA2CmF",
+            "mangledName": "$s5Fidel7CountryO6brazilyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "egypt",
+            "printedName": "egypt",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO5egyptyA2CmF",
+            "mangledName": "$s5Fidel7CountryO5egyptyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "oman",
+            "printedName": "oman",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO4omanyA2CmF",
+            "mangledName": "$s5Fidel7CountryO4omanyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "qatar",
+            "printedName": "qatar",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO5qataryA2CmF",
+            "mangledName": "$s5Fidel7CountryO5qataryA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bahrain",
+            "printedName": "bahrain",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO7bahrainyA2CmF",
+            "mangledName": "$s5Fidel7CountryO7bahrainyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "kuwait",
+            "printedName": "kuwait",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO6kuwaityA2CmF",
+            "mangledName": "$s5Fidel7CountryO6kuwaityA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "saudiArabia",
+            "printedName": "saudiArabia",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO11saudiArabiayA2CmF",
+            "mangledName": "$s5Fidel7CountryO11saudiArabiayA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jordan",
+            "printedName": "jordan",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO6jordanyA2CmF",
+            "mangledName": "$s5Fidel7CountryO6jordanyA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "southAfrica",
+            "printedName": "southAfrica",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fidel.Country.Type) -> Fidel.Country",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fidel.Country.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5Fidel7CountryO11southAfricayA2CmF",
+            "mangledName": "$s5Fidel7CountryO11southAfricayA2CmF",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "allCountries",
             "printedName": "allCountries",
             "children": [
@@ -18940,6 +19660,69 @@
                 "declKind": "Accessor",
                 "usr": "s:5Fidel7CountryO12allCountriesShyACGvgZ",
                 "mangledName": "$s5Fidel7CountryO12allCountriesShyACGvgZ",
+                "moduleName": "Fidel",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultCountries",
+            "printedName": "defaultCountries",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Fidel.Country>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Country",
+                    "printedName": "Fidel.Country",
+                    "usr": "s:5Fidel7CountryO"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Fidel7CountryO16defaultCountriesShyACGvpZ",
+            "mangledName": "$s5Fidel7CountryO16defaultCountriesShyACGvpZ",
+            "moduleName": "Fidel",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Fidel.Country>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Country",
+                        "printedName": "Fidel.Country",
+                        "usr": "s:5Fidel7CountryO"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Fidel7CountryO16defaultCountriesShyACGvgZ",
+                "mangledName": "$s5Fidel7CountryO16defaultCountriesShyACGvgZ",
                 "moduleName": "Fidel",
                 "static": true,
                 "implicit": true,
@@ -38535,14 +39318,14 @@
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Fidel.swift",
       "kind": "BooleanLiteral",
-      "offset": 16733,
+      "offset": 16757,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Fidel.swift",
       "kind": "StringLiteral",
-      "offset": 19239,
+      "offset": 19263,
       "length": 28,
       "value": "\"User canceled the process.\""
     },
@@ -56595,128 +57378,380 @@
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "BooleanLiteral",
-      "offset": 1984,
+      "offset": 4892,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "BooleanLiteral",
-      "offset": 2013,
+      "offset": 4921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2111,
+      "offset": 5019,
       "length": 5,
       "value": "\"USA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2152,
+      "offset": 5060,
       "length": 5,
       "value": "\"IRL\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2188,
+      "offset": 5096,
       "length": 5,
       "value": "\"GBR\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2230,
+      "offset": 5138,
       "length": 5,
       "value": "\"SWE\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2265,
+      "offset": 5173,
       "length": 5,
       "value": "\"JPN\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2299,
+      "offset": 5207,
       "length": 5,
       "value": "\"CAN\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2334,
+      "offset": 5242,
       "length": 5,
       "value": "\"ARE\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2381,
+      "offset": 5289,
       "length": 5,
       "value": "\"NOR\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2547,
+      "offset": 5324,
+      "length": 5,
+      "value": "\"AUS\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5362,
+      "length": 5,
+      "value": "\"NZL\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5401,
+      "length": 5,
+      "value": "\"HKG\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5438,
+      "length": 5,
+      "value": "\"PHL\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5478,
+      "length": 5,
+      "value": "\"SGP\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5516,
+      "length": 5,
+      "value": "\"VNM\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5552,
+      "length": 5,
+      "value": "\"CHE\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5592,
+      "length": 5,
+      "value": "\"FIN\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5628,
+      "length": 5,
+      "value": "\"DNK\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5664,
+      "length": 5,
+      "value": "\"BRA\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5699,
+      "length": 5,
+      "value": "\"EGY\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5733,
+      "length": 5,
+      "value": "\"OMN\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5766,
+      "length": 5,
+      "value": "\"QAT\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5800,
+      "length": 5,
+      "value": "\"BHR\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5836,
+      "length": 5,
+      "value": "\"KWT\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5871,
+      "length": 5,
+      "value": "\"SAU\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5911,
+      "length": 5,
+      "value": "\"JOR\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 5946,
+      "length": 5,
+      "value": "\"ZAF\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6117,
       "length": 5,
       "value": "\"USA\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2583,
+      "offset": 6153,
       "length": 5,
       "value": "\"IRL\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2625,
+      "offset": 6195,
       "length": 5,
       "value": "\"GBR\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2660,
+      "offset": 6230,
       "length": 5,
       "value": "\"SWE\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2694,
+      "offset": 6264,
       "length": 5,
       "value": "\"JPN\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2729,
+      "offset": 6299,
       "length": 5,
       "value": "\"CAN\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2776,
+      "offset": 6346,
       "length": 5,
       "value": "\"ARE\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
       "kind": "StringLiteral",
-      "offset": 2811,
+      "offset": 6381,
       "length": 5,
       "value": "\"NOR\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6419,
+      "length": 5,
+      "value": "\"AUS\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6458,
+      "length": 5,
+      "value": "\"NZL\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6495,
+      "length": 5,
+      "value": "\"HKG\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6535,
+      "length": 5,
+      "value": "\"PHL\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6573,
+      "length": 5,
+      "value": "\"SGP\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6609,
+      "length": 5,
+      "value": "\"VNM\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6649,
+      "length": 5,
+      "value": "\"CHE\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6685,
+      "length": 5,
+      "value": "\"FIN\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6721,
+      "length": 5,
+      "value": "\"DNK\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6756,
+      "length": 5,
+      "value": "\"BRA\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6790,
+      "length": 5,
+      "value": "\"EGY\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6823,
+      "length": 5,
+      "value": "\"OMN\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6857,
+      "length": 5,
+      "value": "\"QAT\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6893,
+      "length": 5,
+      "value": "\"BHR\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6928,
+      "length": 5,
+      "value": "\"KWT\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 6968,
+      "length": 5,
+      "value": "\"SAU\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 7003,
+      "length": 5,
+      "value": "\"JOR\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/Countries.swift",
+      "kind": "StringLiteral",
+      "offset": 7043,
+      "length": 5,
+      "value": "\"ZAF\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/ProgramType+AnalyticsValueConvertable.swift",

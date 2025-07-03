@@ -437,7 +437,28 @@ public enum Country {
   case unitedKingdom
   case unitedStates
   case norway
+  case australia
+  case newZealand
+  case hongKong
+  case philippines
+  case singapore
+  case vietnam
+  case switzerland
+  case finland
+  case denmark
+  case brazil
+  case egypt
+  case oman
+  case qatar
+  case bahrain
+  case kuwait
+  case saudiArabia
+  case jordan
+  case southAfrica
   public static var allCountries: Swift.Set<Country> {
+    get
+  }
+  public static var defaultCountries: Swift.Set<Country> {
     get
   }
   public static func == (a: Country, b: Country) -> Swift.Bool
