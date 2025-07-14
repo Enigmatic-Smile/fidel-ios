@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		yobtZ1Yh8SPsWjagcjMoeeN+Ixo=
+		T7DDGOW9kk6/DNIYm8TYKSLB6jo=
 		</data>
 		<key>CardView.nib</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0YG78sdJpYQwgDkMCfsPW3b/X1w=
+		oU1TmFH43pIliIdglzIev/7sSZw=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		KrN/Ex1/Z1IOTcRfh+zVRgxLOlM=
+		z5Keki4Px4ez1tKbMxUJyRVbXHA=
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		KrN/Ex1/Z1IOTcRfh+zVRgxLOlM=
+		z5Keki4Px4ez1tKbMxUJyRVbXHA=
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -218,11 +218,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yobtZ1Yh8SPsWjagcjMoeeN+Ixo=
+			T7DDGOW9kk6/DNIYm8TYKSLB6jo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vy+vj4sj+nYehAyVMNYVOZhlm1z/EwZO7T6wkQI7udU=
+			f/O9+Jf+kpij1CTpMS12/SIKw5qxm81MYxisnugodbY=
 			</data>
 		</dict>
 		<key>CardView.nib</key>
@@ -438,11 +438,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KrN/Ex1/Z1IOTcRfh+zVRgxLOlM=
+			z5Keki4Px4ez1tKbMxUJyRVbXHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			gt3JWRojGHK9kAib8RMonvVXU96wqiJe9zzzHX4nVKM=
+			l6r+eGdyeOb+/fIsvijyfCwVMoW0c83p8p+6/NieZNE=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -493,11 +493,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KrN/Ex1/Z1IOTcRfh+zVRgxLOlM=
+			z5Keki4Px4ez1tKbMxUJyRVbXHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			gt3JWRojGHK9kAib8RMonvVXU96wqiJe9zzzHX4nVKM=
+			l6r+eGdyeOb+/fIsvijyfCwVMoW0c83p8p+6/NieZNE=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
