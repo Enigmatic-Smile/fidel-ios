@@ -56251,105 +56251,105 @@
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 6300,
+      "offset": 6237,
       "length": 4,
       "value": "\"fr\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 8646,
+      "offset": 8583,
       "length": 4,
       "value": "\"à\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 8653,
+      "offset": 8590,
       "length": 4,
       "value": "\"au\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 8726,
+      "offset": 8663,
       "length": 8,
       "value": "\"notre \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 8737,
+      "offset": 8674,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 8797,
+      "offset": 8734,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 8802,
+      "offset": 8739,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 8919,
+      "offset": 8856,
       "length": 5,
       "value": "\"le \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 12323,
+      "offset": 12260,
       "length": 4,
       "value": "\"sv\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 12539,
+      "offset": 12476,
       "length": 4,
       "value": "\"fr\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 12783,
+      "offset": 12720,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 13461,
+      "offset": 13398,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "FloatLiteral",
-      "offset": 13740,
+      "offset": 13677,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 14247,
+      "offset": 14184,
       "length": 4,
       "value": "\"fr\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "BooleanLiteral",
-      "offset": 14256,
+      "offset": 14193,
       "length": 4,
       "value": "true"
     },
