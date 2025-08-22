@@ -29343,7 +29343,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelSDKConfigurationErrorDetector.swift",
       "kind": "StringLiteral",
-      "offset": 1693,
+      "offset": 1681,
       "length": 4,
       "value": "\"fr\""
     },
@@ -33612,631 +33612,624 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11094,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11608,
+      "offset": 11532,
       "length": 21,
       "value": "\"cardNumberTextField\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11679,
+      "offset": 11603,
       "length": 30,
       "value": "\"cardExpirationMonthTextField\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11758,
+      "offset": 11682,
       "length": 29,
       "value": "\"cardExpirationYearTextField\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11831,
+      "offset": 11755,
       "length": 18,
       "value": "\"consentTextLabel\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11900,
+      "offset": 11824,
       "length": 19,
       "value": "\"countryPickerView\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11969,
+      "offset": 11893,
       "length": 21,
       "value": "\"consentTextCheckbox\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12792,
+      "offset": 12716,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12815,
+      "offset": 12739,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12879,
+      "offset": 12803,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13687,
+      "offset": 13611,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13919,
+      "offset": 13843,
       "length": 47,
       "value": "\"Month text is nil. How did you even get here?\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14078,
+      "offset": 14002,
       "length": 46,
       "value": "\"Year text is nil. How did you even get here?\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14255,
+      "offset": 14179,
       "length": 48,
       "value": "\"Card expiry is nil. How did you even get here?\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14528,
+      "offset": 14452,
       "length": 52,
       "value": "\"Invalid country selected. How is it even possible?\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15450,
+      "offset": 15374,
       "length": 20,
       "value": "\"enrollment-attempt\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15708,
+      "offset": 15632,
       "length": 23,
       "value": "\"enrollment-successful\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15908,
+      "offset": 15832,
       "length": 19,
       "value": "\"enrollment-failed\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16076,
+      "offset": 16000,
       "length": 22,
       "value": "\"verification-pending\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17824,
+      "offset": 17748,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17887,
+      "offset": 17811,
       "length": 10,
       "value": "\"expMonth\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17978,
+      "offset": 17902,
       "length": 9,
       "value": "\"expYear\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18067,
+      "offset": 17991,
       "length": 13,
       "value": "\"countryCode\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18828,
+      "offset": 18752,
       "length": 18,
       "value": "\"Unexpected error\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20373,
+      "offset": 20297,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20505,
+      "offset": 20429,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20575,
+      "offset": 20499,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20623,
+      "offset": 20547,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20824,
+      "offset": 20748,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21211,
+      "offset": 21135,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21602,
+      "offset": 21526,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21641,
+      "offset": 21565,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21689,
+      "offset": 21613,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21788,
+      "offset": 21712,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23293,
+      "offset": 23217,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23868,
+      "offset": 23792,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23921,
+      "offset": 23845,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24007,
+      "offset": 23931,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24048,
+      "offset": 23972,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24132,
+      "offset": 24056,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24174,
+      "offset": 24098,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24809,
+      "offset": 24733,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25047,
+      "offset": 24971,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25051,
+      "offset": 24975,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 25107,
+      "offset": 25031,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25299,
+      "offset": 25223,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 25362,
+      "offset": 25286,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26255,
+      "offset": 26179,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26295,
+      "offset": 26219,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26488,
+      "offset": 26412,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26527,
+      "offset": 26451,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26671,
+      "offset": 26595,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26712,
+      "offset": 26636,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26769,
+      "offset": 26693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26858,
+      "offset": 26782,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26923,
+      "offset": 26847,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26973,
+      "offset": 26897,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 27025,
+      "offset": 26949,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27192,
+      "offset": 27116,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27243,
+      "offset": 27167,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 27369,
+      "offset": 27293,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27533,
+      "offset": 27457,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27586,
+      "offset": 27510,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28104,
+      "offset": 28028,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28478,
+      "offset": 28402,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28527,
+      "offset": 28451,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28583,
+      "offset": 28507,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28985,
+      "offset": 28909,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29024,
+      "offset": 28948,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29149,
+      "offset": 29073,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29196,
+      "offset": 29120,
       "length": 9,
       "value": "\"pk_test\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30329,
+      "offset": 30253,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 30406,
+      "offset": 30330,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 30456,
+      "offset": 30380,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31085,
+      "offset": 31009,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31681,
+      "offset": 31605,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31725,
+      "offset": 31649,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 31933,
+      "offset": 31857,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 31981,
+      "offset": 31905,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32158,
+      "offset": 32082,
       "length": 43,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32175,
+      "offset": 32099,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32200,
+      "offset": 32124,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32257,
+      "offset": 32181,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32300,
+      "offset": 32224,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32800,
+      "offset": 32724,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33234,
+      "offset": 33158,
       "length": 57,
       "value": "\"(5|4)\\1{3}(00000000)\\1\\d{3}|3[47](00000000003)\\d{2}\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33345,
+      "offset": 33269,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33391,
+      "offset": 33315,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33545,
+      "offset": 33469,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/EnterCardDetailsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 34141,
+      "offset": 34065,
       "length": 1,
       "value": "1"
     },
@@ -56223,135 +56216,37 @@
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1072,
-      "length": 33,
-      "value": "\"https:\/\/fidel.uk\/legal\/privacy\/\""
+      "offset": 993,
+      "length": 36,
+      "value": "\"https:\/\/fidelapi.com\/legal\/privacy\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 1151,
+      "offset": 1075,
       "length": 95,
       "value": "\"https:\/\/www.mastercard.us\/en-us\/vision\/corp-responsibility\/commitment-to-privacy\/privacy.html\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 5699,
-      "length": 4,
-      "value": "\"en\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 5735,
-      "length": 4,
-      "value": "\"sv\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 6237,
-      "length": 4,
-      "value": "\"fr\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 8583,
-      "length": 4,
-      "value": "\"à\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 8590,
-      "length": 4,
-      "value": "\"au\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 8663,
-      "length": 8,
-      "value": "\"notre \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 8674,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 8734,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 8739,
+      "offset": 3434,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 8856,
-      "length": 5,
-      "value": "\"le \""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 12260,
-      "length": 4,
-      "value": "\"sv\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 12476,
-      "length": 4,
-      "value": "\"fr\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 12720,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 13398,
-      "length": 2,
-      "value": "\"\""
+      "offset": 7490,
+      "length": 3,
+      "value": "\" \""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
       "kind": "FloatLiteral",
-      "offset": 13677,
+      "offset": 7869,
       "length": 4,
       "value": "12.0"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 14184,
-      "length": 4,
-      "value": "\"fr\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/Fidel\/LocalizedConsentTextBuilder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14193,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Vendor\/Split\/Network\/HttpClient\/HttpClient.swift",
@@ -57854,728 +57749,742 @@
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 462,
+      "offset": 450,
       "length": 10,
       "value": "\"uk.fidel\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 532,
+      "offset": 512,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 677,
+      "offset": 649,
       "length": 12,
       "value": "\"navigation\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 722,
+      "offset": 694,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 764,
+      "offset": 736,
       "length": 9,
       "value": "\"consent\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 812,
+      "offset": 784,
       "length": 13,
       "value": "\"cardnetwork\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 864,
+      "offset": 836,
       "length": 13,
       "value": "\"carddetails\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 912,
+      "offset": 884,
       "length": 9,
       "value": "\"country\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 961,
+      "offset": 933,
       "length": 14,
       "value": "\"introduction\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 1019,
+      "offset": 991,
       "length": 18,
       "value": "\"cardverification\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 1079,
+      "offset": 1051,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 1153,
+      "offset": 1125,
       "length": 25,
       "value": "\"cardverificationoptions\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 1247,
+      "offset": 1219,
       "length": 27,
       "value": "\"cardverificationrequested\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 1418,
+      "offset": 1382,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 1428,
+      "offset": 1392,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 1440,
+      "offset": 1404,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 1447,
+      "offset": 1411,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 2467,
+      "offset": 2415,
       "length": 37,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 2480,
+      "offset": 2428,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 2492,
+      "offset": 2440,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 2503,
+      "offset": 2451,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 3120,
+      "offset": 3036,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 3165,
+      "offset": 3081,
       "length": 8,
       "value": "\"cancel\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 3209,
+      "offset": 3125,
       "length": 6,
       "value": "\"done\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 4424,
+      "offset": 4236,
       "length": 19,
       "value": "\"cardalreadylinked\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 4501,
+      "offset": 4313,
       "length": 25,
       "value": "\"cardlinkinggenericerror\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 4636,
+      "offset": 4448,
       "length": 23,
       "value": "\"invalidtestcardnumber\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 4662,
+      "offset": 4474,
       "length": 19,
       "value": "\"invalidcardnumber\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 4732,
+      "offset": 4544,
       "length": 24,
       "value": "\"cardschemenotsupported\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 4813,
+      "offset": 4625,
       "length": 30,
       "value": "\"cardschemenotsupportedsuffix\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 4892,
+      "offset": 4704,
       "length": 19,
       "value": "\"expirydateinvalid\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 4954,
+      "offset": 4766,
       "length": 7,
       "value": "\"close\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 8418,
+      "offset": 8148,
       "length": 11,
       "value": "\"base.text\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 8496,
+      "offset": 8226,
       "length": 24,
       "value": "\"base.privacypolicytext\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 8574,
+      "offset": 8304,
       "length": 21,
       "value": "\"default.cardnetwork\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 8645,
+      "offset": 8375,
       "length": 21,
       "value": "\"default.companyname\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 8723,
+      "offset": 8453,
       "length": 28,
       "value": "\"default.deleteinstructions\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 8801,
+      "offset": 8531,
       "length": 21,
       "value": "\"default.programname\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 8885,
+      "offset": 8615,
       "length": 19,
       "value": "\"privacypolicytext\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 8971,
+      "offset": 8695,
+      "length": 24,
+      "value": "\"termsandconditionstext\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 8773,
+      "length": 24,
+      "value": "\"fidelprivacypolicytext\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 8864,
       "length": 38,
       "value": "\"northamerican.fidelprivacypolicytext\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 9083,
+      "offset": 8976,
       "length": 38,
       "value": "\"northamerican.termsandconditionstext\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 9192,
+      "offset": 9085,
       "length": 42,
       "value": "\"transactionstream.fidelprivacypolicytext\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 9312,
+      "offset": 9205,
       "length": 42,
       "value": "\"transactionstream.termsandconditionstext\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 9414,
+      "offset": 9307,
       "length": 25,
       "value": "\"base.northamerican.text\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 9503,
+      "offset": 9396,
       "length": 29,
       "value": "\"base.transactionstream.text\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 9602,
+      "offset": 9495,
       "length": 35,
       "value": "\"mastercard.transactionstream.text\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 9703,
+      "offset": 9596,
       "length": 38,
       "value": "\"base.northamerican.privacypolicytext\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 9811,
+      "offset": 9704,
       "length": 42,
       "value": "\"base.transactionstream.privacypolicytext\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 9922,
+      "offset": 9815,
       "length": 33,
       "value": "\"northamerican.privacypolicytext\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 10021,
+      "offset": 9914,
       "length": 37,
       "value": "\"transactionstream.privacypolicytext\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 10118,
+      "offset": 10011,
       "length": 35,
       "value": "\"default.northamerican.cardnetwork\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 10217,
+      "offset": 10110,
       "length": 39,
       "value": "\"default.transactionstream.cardnetwork\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 10315,
+      "offset": 10208,
       "length": 19,
       "value": "\"mastercard.policy\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 10718,
+      "offset": 10591,
       "length": 6,
       "value": "\"visa\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 10766,
+      "offset": 10639,
       "length": 12,
       "value": "\"mastercard\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 10825,
+      "offset": 10698,
       "length": 17,
       "value": "\"americanexpress\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 11403,
+      "offset": 11256,
       "length": 8,
       "value": "\"number\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 11464,
+      "offset": 11317,
       "length": 19,
       "value": "\"numberplaceholder\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 11530,
+      "offset": 11383,
       "length": 8,
       "value": "\"expiry\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 11591,
+      "offset": 11444,
       "length": 23,
       "value": "\"expiryyearplaceholder\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 11668,
+      "offset": 11521,
       "length": 24,
       "value": "\"expirymonthplaceholder\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 11743,
+      "offset": 11596,
       "length": 17,
       "value": "\"expiryseparator\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 11804,
+      "offset": 11657,
       "length": 9,
       "value": "\"country\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 11864,
+      "offset": 11717,
       "length": 15,
       "value": "\"countryselect\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 12287,
+      "offset": 12120,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 12343,
+      "offset": 12176,
       "length": 19,
       "value": "\"cancelButtonTitle\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 12402,
+      "offset": 12235,
       "length": 10,
       "value": "\"bodyText\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 12463,
+      "offset": 12296,
       "length": 18,
       "value": "\"step\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 12480,
+      "offset": 12313,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 12527,
+      "offset": 12360,
       "length": 16,
       "value": "\"ctaButtonTitle\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 13010,
+      "offset": 12823,
       "length": 15,
       "value": "\"toptextformat\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 13067,
+      "offset": 12880,
       "length": 12,
       "value": "\"bottomtext\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 13131,
+      "offset": 12944,
       "length": 22,
       "value": "\"reconnectbuttontitle\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 13199,
+      "offset": 13012,
       "length": 16,
       "value": "\"ctabuttontitle\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 13405,
+      "offset": 13218,
       "length": 12,
       "value": "\"unexpected\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 13494,
+      "offset": 13307,
       "length": 12,
       "value": "\"unexpected\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 13582,
+      "offset": 13395,
       "length": 14,
       "value": "\"unauthorized\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 13679,
+      "offset": 13492,
       "length": 21,
       "value": "\"cardalreadyverified\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 13776,
+      "offset": 13589,
       "length": 14,
       "value": "\"cardnotfound\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 13866,
+      "offset": 13679,
       "length": 14,
       "value": "\"genericerror\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 13981,
+      "offset": 13794,
       "length": 17,
       "value": "\"incorrectamount\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 14084,
+      "offset": 13897,
       "length": 24,
       "value": "\"maximumattemptsreached\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 14192,
+      "offset": 14005,
       "length": 22,
       "value": "\"verificationnotfound\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 14264,
+      "offset": 14077,
       "length": 19,
       "value": "\"error.\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 14282,
+      "offset": 14095,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 14673,
+      "offset": 14446,
       "length": 19,
       "value": "\"cardalreadylinked\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 14944,
+      "offset": 14717,
       "length": 25,
       "value": "\"cardlinkinggenericerror\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 15050,
+      "offset": 14823,
       "length": 23,
       "value": "\"issuerprocessingerror\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 15158,
+      "offset": 14931,
       "length": 28,
       "value": "\"duplicatetransactionterror\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 15268,
+      "offset": 15041,
       "length": 24,
       "value": "\"insufficientfundserror\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 15373,
+      "offset": 15146,
       "length": 23,
       "value": "\"processingchargeerror\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 15472,
+      "offset": 15245,
       "length": 18,
       "value": "\"carddetailserror\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 15572,
+      "offset": 15345,
       "length": 24,
       "value": "\"cardlimitexceedederror\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 15956,
+      "offset": 15685,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 16012,
+      "offset": 15741,
       "length": 19,
       "value": "\"cancelButtonTitle\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 16070,
+      "offset": 15799,
       "length": 9,
       "value": "\"topText\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 16121,
+      "offset": 15850,
       "length": 12,
       "value": "\"bottomText\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 16174,
+      "offset": 15903,
       "length": 11,
       "value": "\"topButton\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 16229,
+      "offset": 15958,
       "length": 14,
       "value": "\"bottomButton\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 16521,
+      "offset": 16230,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 16567,
+      "offset": 16276,
       "length": 9,
       "value": "\"topText\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 16618,
+      "offset": 16327,
       "length": 12,
       "value": "\"bottomText\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 16677,
+      "offset": 16386,
       "length": 17,
       "value": "\"doneButtonTitle\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/FidelStringKeys.swift",
       "kind": "StringLiteral",
-      "offset": 16730,
+      "offset": 16439,
       "length": 6,
       "value": "\"card\""
     },

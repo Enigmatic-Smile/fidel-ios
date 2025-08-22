@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		T7DDGOW9kk6/DNIYm8TYKSLB6jo=
+		UPCnA+rojsch3ZUwwD0nPGqNg7g=
 		</data>
 		<key>CardView.nib</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oU1TmFH43pIliIdglzIev/7sSZw=
+		zT/QJ2LSyWEex1KDC2MFgxD0jOU=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		z5Keki4Px4ez1tKbMxUJyRVbXHA=
+		+9meMgeU+05LoIQzmRyZS7mgo1U=
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pnT5tcirWMtl7kfn4s4mb06CeWs=
+		Qhws6E5GrFxyGhce+e1kzIFxir8=
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		z5Keki4Px4ez1tKbMxUJyRVbXHA=
+		+9meMgeU+05LoIQzmRyZS7mgo1U=
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9i9BiBLjZIBTkUBBmpfP3+mNxlU=
+		lXIUdt7TLdBRI7H2Dn/+PMDTOOI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SfwJ1+9GYciAyrwPbry0iE/9u4c=
+			AUD3LdRWT+Kw8gNp7Cg0f7cPp04=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -162,7 +162,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zOQ6KHwrY3IVUQ54IHVIoBjIcgk=
+			Dy1o89uaGc8z6+wIbLKn8FKIqKg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -195,7 +195,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uukJy+jwZZL6Y1MHLL+qDiY2lL4=
+			Rl3u98ShZlRAiDuSPj9smLftmqY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -218,11 +218,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T7DDGOW9kk6/DNIYm8TYKSLB6jo=
+			UPCnA+rojsch3ZUwwD0nPGqNg7g=
 			</data>
 			<key>hash2</key>
 			<data>
-			f/O9+Jf+kpij1CTpMS12/SIKw5qxm81MYxisnugodbY=
+			pf0NTrwYzwwn6pRfgvrDRDcan/HYS1oTcVxXHbmKE8E=
 			</data>
 		</dict>
 		<key>CardView.nib</key>
@@ -438,11 +438,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z5Keki4Px4ez1tKbMxUJyRVbXHA=
+			+9meMgeU+05LoIQzmRyZS7mgo1U=
 			</data>
 			<key>hash2</key>
 			<data>
-			l6r+eGdyeOb+/fIsvijyfCwVMoW0c83p8p+6/NieZNE=
+			qVD+jSXFZm/ag51cBFOgG178OOpRtE1KqFcKw+fCXCg=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -482,22 +482,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pnT5tcirWMtl7kfn4s4mb06CeWs=
+			Qhws6E5GrFxyGhce+e1kzIFxir8=
 			</data>
 			<key>hash2</key>
 			<data>
-			OIQOpkZTlLnaPSt7AtU6xDkAiEe8CsWJ1ycl60oLCbw=
+			UVTi4djSP3/B/DlgNC4aHpCtCCwOrOpmwsAmzAluE7g=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z5Keki4Px4ez1tKbMxUJyRVbXHA=
+			+9meMgeU+05LoIQzmRyZS7mgo1U=
 			</data>
 			<key>hash2</key>
 			<data>
-			l6r+eGdyeOb+/fIsvijyfCwVMoW0c83p8p+6/NieZNE=
+			qVD+jSXFZm/ag51cBFOgG178OOpRtE1KqFcKw+fCXCg=
 			</data>
 		</dict>
 		<key>Modules/Fidel.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -537,11 +537,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9i9BiBLjZIBTkUBBmpfP3+mNxlU=
+			lXIUdt7TLdBRI7H2Dn/+PMDTOOI=
 			</data>
 			<key>hash2</key>
 			<data>
-			iLonGQPaIZUvZkX2PwCB12k3KIO9hHoKbrODbjpRcD0=
+			p0jNIhBacTF9js3vl+Mt3X0c3CwFZmD0OlM8hYupzGs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -570,11 +570,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SfwJ1+9GYciAyrwPbry0iE/9u4c=
+			AUD3LdRWT+Kw8gNp7Cg0f7cPp04=
 			</data>
 			<key>hash2</key>
 			<data>
-			CJxUmcG4hyCvm5zkYaR9DojT8zCkClxYDiKZKGPJfvI=
+			Z8pvK/3FmRwrjQ4I/FWF7QFGuoH/S4RWy/UW0hiJSjQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -596,11 +596,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zOQ6KHwrY3IVUQ54IHVIoBjIcgk=
+			Dy1o89uaGc8z6+wIbLKn8FKIqKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			M6uh7I+qiD4NXOVCA93uWhIQIhEhy15aE5XfcYwBavw=
+			5tFmemuctRYBwUMegVH4wugwSV6K6khR0XdlbGhHnA0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -675,11 +675,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uukJy+jwZZL6Y1MHLL+qDiY2lL4=
+			Rl3u98ShZlRAiDuSPj9smLftmqY=
 			</data>
 			<key>hash2</key>
 			<data>
-			O7w7NYK8rFzWSoLgxnJrZ+1co3Detm7CrgyikTjsVV0=
+			H1OQLG8krkBJ3pZtPLIiaa8eH4sBtj2oTwTEW7GKqHc=
 			</data>
 			<key>optional</key>
 			<true/>
