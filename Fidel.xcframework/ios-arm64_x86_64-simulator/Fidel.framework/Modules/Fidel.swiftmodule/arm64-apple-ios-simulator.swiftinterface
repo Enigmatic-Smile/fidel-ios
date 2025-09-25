@@ -1,21 +1,23 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios9.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Fidel
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios9.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Fidel
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import BackgroundTasks
 import Compression
 import CoreData
+import DeveloperToolsSupport
 @_exported import Fidel
 import Foundation
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import analytics
 public enum ProgramType : Swift.Equatable {
   case transactionSelect
-  case transactionStream
   public static func == (a: ProgramType, b: ProgramType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -146,15 +148,11 @@ public enum CardScheme : Swift.Equatable {
   public static var allSupportedCardSchemes: Swift.Set<CardScheme> {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: CardScheme, b: CardScheme) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-}
-public struct VerificationResult : Swift.Equatable {
-  public let cardID: Swift.String
-  public static func == (a: VerificationResult, b: VerificationResult) -> Swift.Bool
 }
 @objc public protocol SplitFactoryBuilder {
   @objc @discardableResult
@@ -207,8 +205,8 @@ public enum FidelErrorType : Swift.Error, Swift.Equatable {
   case sdkConfigurationError
   case userCanceled
   case enrollmentError(EnrollmentError)
-  case verificationError(VerificationError)
   case deviceNotSecure
+  case genericError
   public static func == (a: FidelErrorType, b: FidelErrorType) -> Swift.Bool
 }
 @objc @_hasMissingDesignatedInitializers final public class LocalhostSplitClient : ObjectiveC.NSObject, SplitClient {
@@ -294,7 +292,6 @@ public struct EnrollmentResult : Swift.Equatable, Swift.Decodable {
     set
   }
   public static var programID: Swift.String!
-  public static var thirdPartyVerificationChoice: Swift.Bool
   public static var programType: ProgramType
   public static var bannerImage: UIKit.UIImage?
   public static var metaData: [Swift.String : Any]?
@@ -307,17 +304,8 @@ public struct EnrollmentResult : Swift.Equatable, Swift.Decodable {
   public static var privacyPolicyURL: Swift.String?
   public static var deleteInstructions: Swift.String
   public static var onResult: OnFidelResult?
-  public static var onCardVerificationChoiceSelected: OnCardVerificationChoiceSelected?
-  public static var onCardVerificationStarted: OnCardVerificationStarted?
   public static func start(from startingViewController: UIKit.UIViewController)
-  public static func verifyCard(from startingViewController: UIKit.UIViewController, cardVerificationConfiguration: CardVerificationConfiguration)
   @objc deinit
-}
-public struct ConsentDetails : Swift.Equatable {
-  public let cardID: Swift.String
-  public let consentID: Swift.String
-  public let programID: Swift.String
-  public static func == (a: ConsentDetails, b: ConsentDetails) -> Swift.Bool
 }
 @_hasMissingDesignatedInitializers @objc public class DefaultSplitManager : ObjectiveC.NSObject, SplitManager {
   @objc public var splits: [SplitView] {
@@ -389,7 +377,6 @@ extension Partition {
 }
 public enum FidelResult : Swift.Equatable {
   case enrollmentResult(EnrollmentResult)
-  case verificationResult(VerificationResult)
   case error(FidelError)
   public static func == (a: FidelResult, b: FidelResult) -> Swift.Bool
 }
@@ -407,27 +394,7 @@ public enum FidelResult : Swift.Equatable {
   }
   @objc deinit
 }
-public typealias OnCardVerificationChoiceSelected = (_ cardVerificationChoice: CardVerificationChoice) -> Swift.Void
-public typealias OnCardVerificationStarted = (_ consentDetails: ConsentDetails) -> Swift.Void
 public func += <K, V>(left: inout [K : V], right: [K : V]) where K : Swift.Hashable
-public enum VerificationError : Swift.String, Swift.Equatable, Swift.Error, Swift.Decodable {
-  case unexpected
-  case unauthorized
-  case invalidSDKKey
-  case incorrectAmount
-  case incorrectAmountCode
-  case maximumAttemptsReached
-  case cardAlreadyVerified
-  case cardNotFound
-  case verificationNotFound
-  case genericError
-  public init(from decoder: any Swift.Decoder) throws
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 public enum Country {
   case canada
   case ireland
@@ -488,15 +455,6 @@ public enum Country {
 extension Swift.String {
   public func isEmpty() -> Swift.Bool
   public func hasUpperCaseChar() -> Swift.Bool
-}
-public enum CardVerificationChoice {
-  case onTheSpot
-  case delegatedToThirdParty
-  public static func == (a: CardVerificationChoice, b: CardVerificationChoice) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
 }
 @_inheritsConvenienceInitializers @objc public class DefaultSplitFactoryBuilder : ObjectiveC.NSObject, SplitFactoryBuilder {
   @objc override dynamic public init()
@@ -603,13 +561,6 @@ extension Foundation.Date {
     get
   }
 }
-public struct CardVerificationConfiguration : Swift.Equatable {
-  public let cardID: Swift.String
-  public let consentID: Swift.String
-  public let last4Digits: Swift.String?
-  public init(cardID: Swift.String, consentID: Swift.String, last4Digits: Swift.String?)
-  public static func == (a: CardVerificationConfiguration, b: CardVerificationConfiguration) -> Swift.Bool
-}
 @_inheritsConvenienceInitializers @objc public class SplitBgSynchronizer : ObjectiveC.NSObject {
   @objc public static let shared: SplitBgSynchronizer
   @objc public func register(apiKey: Swift.String, userKey: Swift.String)
@@ -635,12 +586,8 @@ extension SplitLogLevel : Swift.Hashable {}
 extension SplitLogLevel : Swift.RawRepresentable {}
 extension EnrollmentError : Swift.Hashable {}
 extension EnrollmentError : Swift.RawRepresentable {}
-extension VerificationError : Swift.Hashable {}
-extension VerificationError : Swift.RawRepresentable {}
 extension Country : Swift.Equatable {}
 extension Country : Swift.Hashable {}
-extension CardVerificationChoice : Swift.Equatable {}
-extension CardVerificationChoice : Swift.Hashable {}
 extension ConditionType : Swift.Equatable {}
 extension ConditionType : Swift.Hashable {}
 extension ConditionType : Swift.RawRepresentable {}
