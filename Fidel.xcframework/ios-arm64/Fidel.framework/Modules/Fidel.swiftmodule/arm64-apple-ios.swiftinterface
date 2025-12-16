@@ -133,6 +133,7 @@ public struct FidelError : Swift.Equatable, Swift.Decodable {
   public let message: Swift.String
   public let date: Foundation.Date
   public let type: FidelErrorType
+  public let resource: Swift.String
   public init(from decoder: any Swift.Decoder) throws
   public static func == (a: FidelError, b: FidelError) -> Swift.Bool
 }
