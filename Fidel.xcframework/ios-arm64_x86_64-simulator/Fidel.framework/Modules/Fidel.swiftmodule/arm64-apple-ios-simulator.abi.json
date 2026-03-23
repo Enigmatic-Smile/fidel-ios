@@ -4326,6 +4326,51 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "resource",
+            "printedName": "resource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5Fidel0A5ErrorV8resourceSSvp",
+            "mangledName": "$s5Fidel0A5ErrorV8resourceSSvp",
+            "moduleName": "Fidel",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5Fidel0A5ErrorV8resourceSSvg",
+                "mangledName": "$s5Fidel0A5ErrorV8resourceSSvg",
+                "moduleName": "Fidel",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -16668,6 +16713,13 @@
       },
       {
         "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Fidel"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -27991,6 +28043,13 @@
       "offset": 907,
       "length": 11,
       "value": "\"CARD_TYPE\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/FidelError.swift",
+      "kind": "StringLiteral",
+      "offset": 2153,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/Fidel\/Code\/CustomCards.swift",
