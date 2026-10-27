@@ -4,7 +4,29 @@ Our SDK helps you add card linking technology to your iOS apps in minutes. It ca
 
 ![Demo GIF](https://cl.ly/84d481392da6/Screen%252520Recording%2525202018-09-18%252520at%25252004.49%252520PM.gif)
 
-## Installation and Documentation
+## Installation
+
+### Swift Package Manager (recommended)
+
+In Xcode, choose **File > Add Package Dependencies…**, enter `https://github.com/Enigmatic-Smile/fidel-ios`, and add the `Fidel` library to your app target.
+
+Or add it to your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/Enigmatic-Smile/fidel-ios", from: "3.1.1")
+]
+```
+
+### CocoaPods
+
+CocoaPods trunk is becoming read-only, so new versions of the SDK will only be published through Swift Package Manager. Existing versions remain available:
+
+```ruby
+pod 'Fidel'
+```
+
+## Documentation
 
 Please see the iOS SDK's documentation on our website:
 - [For Expense Management applications / Transaction Stream API](https://fidelapi.com/docs/stream/sdks/ios/guide-v2)
